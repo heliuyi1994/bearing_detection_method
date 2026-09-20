@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.eggs/
+
+# 虚拟环境 / conda（环境用根目录 environment.yml 重建，不入库）
+.venv/
+.conda/
+
+# 测试与覆盖率缓存
+.pytest_cache/
+.coverage
+coverage.xml
+htmlcov/
+.tox/
+
+# IDE / 工作区工具
+.idea/
+.vscode/
+.zcode/
+.zcodeignore
+
+# 项目生成产物（可随时重新训练/生成，统一不入库）
+models/
+models_*/
+report/
+out_sim*/
+out_diag*/
+sim_*.csv
+*.joblib
+*.npz
+demo_output/
