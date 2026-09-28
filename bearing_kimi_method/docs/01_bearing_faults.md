@@ -268,8 +268,7 @@ $$r = \frac{d}{D}\cos\alpha = \frac{7.94}{39.04} \times 1 = 0.203381$$
 
 $$\mathrm{FTF} = \frac{29.95}{2}\times(1 - 0.203381) = 14.975 \times 0.796619 = 11.93\ \text{Hz}$$
 
-**BPFO**（式 1-4）：轴每转一圈，$n \cdot \mathrm{FTF}/f_r = 9 \times 0.3983
-\approx 3.585$ 个滚动体碾过外圈固定点：
+**BPFO**（式 1-4）：轴每转一圈，$n \cdot \mathrm{FTF}/f_r = 9 \times 0.3983 \approx 3.585$ 个滚动体碾过外圈固定点：
 
 $$\mathrm{BPFO} = 9 \times 11.9294 = 107.36\ \text{Hz}$$
 
@@ -278,14 +277,11 @@ $$\mathrm{BPFO} = 9 \times 11.9294 = 107.36\ \text{Hz}$$
 
 $$\mathrm{BPFI} = 9 \times (29.95 - 11.9294) = 9 \times 18.0206 = 162.19\ \text{Hz}$$
 
-**BSF**（式 1-3）：$D/(2d) = 39.04/15.88 = 2.4584$，$1 - r^2 = 1 - 0.041364
-= 0.958636$：
+**BSF**（式 1-3）：$D/(2d) = 39.04/15.88 = 2.4584$，$1 - r^2 = 1 - 0.041364 = 0.958636$：
 
 $$\mathrm{BSF} = 2.4584 \times 29.95 \times 0.958636 = 70.58\ \text{Hz}$$
 
-自洽性校验：$\mathrm{BPFI} + \mathrm{BPFO} = 162.19 + 107.36 = 269.55
-= 9 \times 29.95$ ✓（即 $n f_r$）；$\mathrm{BPFI} - \mathrm{BPFO} = 54.82
-= n f_r r$ ✓。
+自洽性校验：$\mathrm{BPFI} + \mathrm{BPFO} = 162.19 + 107.36 = 269.55 = 9 \times 29.95$ ✓（即 $n f_r$）；$\mathrm{BPFI} - \mathrm{BPFO} = 54.82 = n f_r r$ ✓。
 
 ### 1.4.3 结果汇总与阶次比
 
@@ -329,8 +325,7 @@ $\alpha$，与转速无关：
 
 滑差带来两层后果：
 
-1. **中心频率的系统性偏移**：实际频率 $f_{\text{实际}} \approx
-   (1 \pm \delta)\, f_{\text{名义}}$，$\delta \in [1\%,\, 2\%]$。
+1. **中心频率的系统性偏移**：实际频率 $f_{\text{实际}} \approx (1 \pm \delta)\, f_{\text{名义}}$，$\delta \in [1\%,\, 2\%]$。
    算例：BPFO 名义值 107.36 Hz，1% 滑差即偏移约 1.07 Hz，实际可能落在
    106.3–108.4 Hz 之间；
 2. **逐周期的随机抖动**：冲击间隔不再是严格周期而是准周期，谱线被

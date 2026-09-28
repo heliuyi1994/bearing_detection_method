@@ -1,0 +1,435 @@
+{
+  "A_main_1150": {
+    "glm": {
+      "accuracy": 0.19753086419753085,
+      "confusion": [
+        [
+          10,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          8,
+          4,
+          6,
+          2,
+          0
+        ],
+        [
+          26,
+          1,
+          2,
+          0,
+          0
+        ],
+        [
+          18,
+          0,
+          4,
+          0,
+          0
+        ]
+      ],
+      "confusion_labels": {
+        "rows": [
+          "正常",
+          "外圈",
+          "内圈",
+          "滚珠"
+        ],
+        "cols": [
+          "正常",
+          "外圈",
+          "内圈",
+          "滚珠",
+          "其他"
+        ]
+      },
+      "by_class": {
+        "正常": 1.0,
+        "外圈": 0.2,
+        "内圈": 0.06896551724137931,
+        "滚珠": 0.0
+      },
+      "by_session": {
+        "morning": {
+          "n": 31,
+          "acc": 0.06451612903225806
+        },
+        "afternoon": {
+          "n": 50,
+          "acc": 0.28
+        }
+      },
+      "by_batch": {
+        "9-16": {
+          "n": 30,
+          "acc": 0.4666666666666667
+        },
+        "9-17": {
+          "n": 22,
+          "acc": 0.0
+        },
+        "9-18": {
+          "n": 29,
+          "acc": 0.06896551724137931
+        }
+      },
+      "n_verdict_normal": 62,
+      "n_verdict_other_FTF_cage": 0,
+      "fault_missed_as_normal": 52,
+      "healthy_false_alarmed": 0,
+      "wrong_fault_type": 13
+    },
+    "kimi": {
+      "accuracy": 0.14814814814814814,
+      "confusion": [
+        [
+          0,
+          3,
+          1,
+          4,
+          2
+        ],
+        [
+          0,
+          2,
+          13,
+          5,
+          0
+        ],
+        [
+          0,
+          12,
+          6,
+          7,
+          4
+        ],
+        [
+          0,
+          10,
+          3,
+          4,
+          5
+        ]
+      ],
+      "confusion_labels": {
+        "rows": [
+          "正常",
+          "外圈",
+          "内圈",
+          "滚珠"
+        ],
+        "cols": [
+          "正常",
+          "外圈",
+          "内圈",
+          "滚珠",
+          "其他"
+        ]
+      },
+      "by_class": {
+        "正常": 0.0,
+        "外圈": 0.1,
+        "内圈": 0.20689655172413793,
+        "滚珠": 0.18181818181818182
+      },
+      "by_session": {
+        "morning": {
+          "n": 31,
+          "acc": 0.25806451612903225
+        },
+        "afternoon": {
+          "n": 50,
+          "acc": 0.08
+        }
+      },
+      "by_batch": {
+        "9-16": {
+          "n": 30,
+          "acc": 0.06666666666666667
+        },
+        "9-17": {
+          "n": 22,
+          "acc": 0.18181818181818182
+        },
+        "9-18": {
+          "n": 29,
+          "acc": 0.20689655172413793
+        }
+      },
+      "n_verdict_normal": 0,
+      "n_verdict_other_FTF_cage": 11,
+      "fault_missed_as_normal": 0,
+      "healthy_false_alarmed": 10,
+      "wrong_fault_type": 59
+    },
+    "agreement": {
+      "n_agree": 16,
+      "n_total": 81,
+      "rate": 0.19753086419753085,
+      "kappa": 0.13829787234042554,
+      "confusion_glm_vs_kimi": null
+    },
+    "glm_confidence": {
+      "correct_median": 0.0,
+      "error_median": 0.0603
+    },
+    "agree_both_wrong_vs_label": [
+      {
+        "file_id": "003",
+        "class": "外圈",
+        "verdict": "内圈"
+      },
+      {
+        "file_id": "004",
+        "class": "外圈",
+        "verdict": "内圈"
+      },
+      {
+        "file_id": "007",
+        "class": "外圈",
+        "verdict": "内圈"
+      },
+      {
+        "file_id": "008",
+        "class": "外圈",
+        "verdict": "内圈"
+      },
+      {
+        "file_id": "011",
+        "class": "外圈",
+        "verdict": "滚珠"
+      },
+      {
+        "file_id": "012",
+        "class": "外圈",
+        "verdict": "滚珠"
+      },
+      {
+        "file_id": "019",
+        "class": "外圈",
+        "verdict": "内圈"
+      },
+      {
+        "file_id": "020",
+        "class": "外圈",
+        "verdict": "内圈"
+      },
+      {
+        "file_id": "039",
+        "class": "滚珠",
+        "verdict": "内圈"
+      },
+      {
+        "file_id": "041",
+        "class": "滚珠",
+        "verdict": "内圈"
+      },
+      {
+        "file_id": "042",
+        "class": "滚珠",
+        "verdict": "内圈"
+      },
+      {
+        "file_id": "057",
+        "class": "内圈",
+        "verdict": "外圈"
+      }
+    ],
+    "agree_both_correct": 4
+  },
+  "B_fr_est": {
+    "glm": {
+      "accuracy": 0.25925925925925924,
+      "confusion": [
+        [
+          10,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          5,
+          7,
+          8,
+          0,
+          0
+        ],
+        [
+          22,
+          1,
+          2,
+          4,
+          0
+        ],
+        [
+          18,
+          0,
+          2,
+          2,
+          0
+        ]
+      ],
+      "confusion_labels": {
+        "rows": [
+          "正常",
+          "外圈",
+          "内圈",
+          "滚珠"
+        ],
+        "cols": [
+          "正常",
+          "外圈",
+          "内圈",
+          "滚珠",
+          "其他"
+        ]
+      },
+      "by_class": {
+        "正常": 1.0,
+        "外圈": 0.35,
+        "内圈": 0.06896551724137931,
+        "滚珠": 0.09090909090909091
+      },
+      "by_session": {
+        "morning": {
+          "n": 31,
+          "acc": 0.12903225806451613
+        },
+        "afternoon": {
+          "n": 50,
+          "acc": 0.34
+        }
+      },
+      "by_batch": {
+        "9-16": {
+          "n": 30,
+          "acc": 0.5666666666666667
+        },
+        "9-17": {
+          "n": 22,
+          "acc": 0.09090909090909091
+        },
+        "9-18": {
+          "n": 29,
+          "acc": 0.06896551724137931
+        }
+      },
+      "n_verdict_normal": 55,
+      "n_verdict_other_FTF_cage": 0,
+      "fault_missed_as_normal": 45,
+      "healthy_false_alarmed": 0,
+      "wrong_fault_type": 15
+    },
+    "kimi": {
+      "accuracy": 0.20987654320987653,
+      "confusion": [
+        [
+          0,
+          3,
+          3,
+          3,
+          1
+        ],
+        [
+          0,
+          4,
+          14,
+          2,
+          0
+        ],
+        [
+          0,
+          9,
+          7,
+          10,
+          3
+        ],
+        [
+          0,
+          2,
+          10,
+          6,
+          4
+        ]
+      ],
+      "confusion_labels": {
+        "rows": [
+          "正常",
+          "外圈",
+          "内圈",
+          "滚珠"
+        ],
+        "cols": [
+          "正常",
+          "外圈",
+          "内圈",
+          "滚珠",
+          "其他"
+        ]
+      },
+      "by_class": {
+        "正常": 0.0,
+        "外圈": 0.2,
+        "内圈": 0.2413793103448276,
+        "滚珠": 0.2727272727272727
+      },
+      "by_session": {
+        "morning": {
+          "n": 31,
+          "acc": 0.3225806451612903
+        },
+        "afternoon": {
+          "n": 50,
+          "acc": 0.14
+        }
+      },
+      "by_batch": {
+        "9-16": {
+          "n": 30,
+          "acc": 0.13333333333333333
+        },
+        "9-17": {
+          "n": 22,
+          "acc": 0.2727272727272727
+        },
+        "9-18": {
+          "n": 29,
+          "acc": 0.2413793103448276
+        }
+      },
+      "n_verdict_normal": 0,
+      "n_verdict_other_FTF_cage": 8,
+      "fault_missed_as_normal": 0,
+      "healthy_false_alarmed": 10,
+      "wrong_fault_type": 54
+    },
+    "agreement": {
+      "n_agree": 23,
+      "n_total": 81,
+      "rate": 0.2839506172839506,
+      "kappa": 0.2014278429372769,
+      "confusion_glm_vs_kimi": null
+    },
+    "glm_confidence": {
+      "correct_median": 0.1831,
+      "error_median": 0.04765
+    }
+  },
+  "kimi_score_scale": {
+    "healthy_top_scores_A": {
+      "min": 1591.93,
+      "median": 2332.295,
+      "max": 11316.96
+    },
+    "health_threshold_calibrated": 15.0,
+    "sim_calibrated_healthy_range": [
+      5.97,
+      12.4
+    ]
+  }
+}

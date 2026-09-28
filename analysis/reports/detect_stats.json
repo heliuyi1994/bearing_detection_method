@@ -1,0 +1,782 @@
+{
+  "rounds": {
+    "A_1150rpm": {
+      "glm": {
+        "n_detected": 19,
+        "detect_rate": 0.2345679012345679,
+        "type_distribution": {
+          "内圈": 12,
+          "滚珠": 2,
+          "外圈": 5
+        },
+        "by_recorded_group": {
+          "外圈": 12,
+          "滚珠": 4,
+          "内圈": 3
+        }
+      },
+      "kimi": {
+        "n_detected": 81,
+        "detect_rate": 1.0,
+        "type_distribution": {
+          "内圈": 23,
+          "滚珠": 20,
+          "外圈": 27,
+          "其他": 11
+        },
+        "by_recorded_group": {
+          "外圈": 20,
+          "正常": 10,
+          "滚珠": 22,
+          "内圈": 29
+        }
+      },
+      "type_agreement_on_glm_detections": {
+        "agree": 16,
+        "n_glm_det": 19
+      }
+    },
+    "B_fr_est": {
+      "glm": {
+        "n_detected": 26,
+        "detect_rate": 0.32098765432098764,
+        "type_distribution": {
+          "内圈": 12,
+          "外圈": 8,
+          "滚珠": 6
+        },
+        "by_recorded_group": {
+          "外圈": 15,
+          "滚珠": 4,
+          "内圈": 7
+        }
+      },
+      "kimi": {
+        "n_detected": 81,
+        "detect_rate": 1.0,
+        "type_distribution": {
+          "内圈": 34,
+          "滚珠": 21,
+          "外圈": 18,
+          "其他": 8
+        },
+        "by_recorded_group": {
+          "外圈": 20,
+          "正常": 10,
+          "滚珠": 22,
+          "内圈": 29
+        }
+      },
+      "type_agreement_on_glm_detections": {
+        "agree": 23,
+        "n_glm_det": 26
+      }
+    }
+  },
+  "glm_top10_B": [
+    {
+      "file_id": "007",
+      "group": "外圈",
+      "verdict": "内圈",
+      "confidence": 0.6904,
+      "verdict_A": "内圈"
+    },
+    {
+      "file_id": "008",
+      "group": "外圈",
+      "verdict": "内圈",
+      "confidence": 0.599,
+      "verdict_A": "内圈"
+    },
+    {
+      "file_id": "061",
+      "group": "内圈",
+      "verdict": "内圈",
+      "confidence": 0.5571,
+      "verdict_A": "内圈"
+    },
+    {
+      "file_id": "003",
+      "group": "外圈",
+      "verdict": "内圈",
+      "confidence": 0.5318,
+      "verdict_A": "内圈"
+    },
+    {
+      "file_id": "020",
+      "group": "外圈",
+      "verdict": "内圈",
+      "confidence": 0.4666,
+      "verdict_A": "内圈"
+    },
+    {
+      "file_id": "060",
+      "group": "内圈",
+      "verdict": "内圈",
+      "confidence": 0.4226,
+      "verdict_A": "内圈"
+    },
+    {
+      "file_id": "041",
+      "group": "滚珠",
+      "verdict": "内圈",
+      "confidence": 0.4171,
+      "verdict_A": "内圈"
+    },
+    {
+      "file_id": "012",
+      "group": "外圈",
+      "verdict": "内圈",
+      "confidence": 0.397,
+      "verdict_A": "滚珠"
+    },
+    {
+      "file_id": "016",
+      "group": "外圈",
+      "verdict": "内圈",
+      "confidence": 0.3939,
+      "verdict_A": "正常"
+    },
+    {
+      "file_id": "042",
+      "group": "滚珠",
+      "verdict": "内圈",
+      "confidence": 0.3831,
+      "verdict_A": "内圈"
+    }
+  ],
+  "kimi_top10_B_by_margin": [
+    {
+      "file_id": "044",
+      "group": "滚珠",
+      "verdict": "滚珠",
+      "top_score": 41810.58,
+      "margin": 5.94,
+      "verdict_A": "其他"
+    },
+    {
+      "file_id": "007",
+      "group": "外圈",
+      "verdict": "内圈",
+      "top_score": 3221.52,
+      "margin": 5.52,
+      "verdict_A": "内圈"
+    },
+    {
+      "file_id": "008",
+      "group": "外圈",
+      "verdict": "内圈",
+      "top_score": 2740.13,
+      "margin": 4.02,
+      "verdict_A": "内圈"
+    },
+    {
+      "file_id": "003",
+      "group": "外圈",
+      "verdict": "内圈",
+      "top_score": 2965.69,
+      "margin": 3.99,
+      "verdict_A": "内圈"
+    },
+    {
+      "file_id": "061",
+      "group": "内圈",
+      "verdict": "内圈",
+      "top_score": 12641.41,
+      "margin": 3.6,
+      "verdict_A": "内圈"
+    },
+    {
+      "file_id": "043",
+      "group": "滚珠",
+      "verdict": "滚珠",
+      "top_score": 3016.42,
+      "margin": 3.41,
+      "verdict_A": "其他"
+    },
+    {
+      "file_id": "080",
+      "group": "内圈",
+      "verdict": "滚珠",
+      "top_score": 33892.56,
+      "margin": 3.13,
+      "verdict_A": "滚珠"
+    },
+    {
+      "file_id": "006",
+      "group": "外圈",
+      "verdict": "外圈",
+      "top_score": 4949.65,
+      "margin": 3.07,
+      "verdict_A": "内圈"
+    },
+    {
+      "file_id": "016",
+      "group": "外圈",
+      "verdict": "内圈",
+      "top_score": 6556.85,
+      "margin": 3.03,
+      "verdict_A": "滚珠"
+    },
+    {
+      "file_id": "015",
+      "group": "外圈",
+      "verdict": "内圈",
+      "top_score": 2836.77,
+      "margin": 2.91,
+      "verdict_A": "滚珠"
+    }
+  ],
+  "kimi_top10_B_by_score": [
+    {
+      "file_id": "044",
+      "group": "滚珠",
+      "verdict": "滚珠",
+      "top_score": 41810.58
+    },
+    {
+      "file_id": "081",
+      "group": "内圈",
+      "verdict": "滚珠",
+      "top_score": 39172.84
+    },
+    {
+      "file_id": "080",
+      "group": "内圈",
+      "verdict": "滚珠",
+      "top_score": 33892.56
+    },
+    {
+      "file_id": "068",
+      "group": "内圈",
+      "verdict": "滚珠",
+      "top_score": 28178.58
+    },
+    {
+      "file_id": "069",
+      "group": "内圈",
+      "verdict": "滚珠",
+      "top_score": 25525.46
+    },
+    {
+      "file_id": "032",
+      "group": "滚珠",
+      "verdict": "其他",
+      "top_score": 20364.93
+    },
+    {
+      "file_id": "035",
+      "group": "滚珠",
+      "verdict": "内圈",
+      "top_score": 15334.67
+    },
+    {
+      "file_id": "076",
+      "group": "内圈",
+      "verdict": "外圈",
+      "top_score": 13873.85
+    },
+    {
+      "file_id": "058",
+      "group": "内圈",
+      "verdict": "滚珠",
+      "top_score": 13656.51
+    },
+    {
+      "file_id": "030",
+      "group": "正常",
+      "verdict": "滚珠",
+      "top_score": 12905.43
+    }
+  ],
+  "evidence": {
+    "glm_007": {
+      "verdict": "BPFI",
+      "confidence": 0.690361276906902,
+      "band": [
+        7000.0,
+        8000.0
+      ],
+      "best_kurtosis": 6.086085166569857,
+      "harmonics": [
+        {
+          "k": 1,
+          "target_hz": 85.22,
+          "found_hz": 85.0,
+          "prominence": 25.9
+        },
+        {
+          "k": 2,
+          "target_hz": 170.44,
+          "found_hz": 170.33,
+          "prominence": 18.9
+        },
+        {
+          "k": 3,
+          "target_hz": 255.66,
+          "found_hz": 255.33,
+          "prominence": 14.0
+        }
+      ],
+      "fault": "BPFI",
+      "score": 0.7473649300487879,
+      "hits": 3,
+      "confounded": false
+    },
+    "glm_008": {
+      "verdict": "BPFI",
+      "confidence": 0.5989511538139107,
+      "band": [
+        7000.0,
+        8000.0
+      ],
+      "best_kurtosis": 6.887348005973789,
+      "harmonics": [
+        {
+          "k": 1,
+          "target_hz": 85.22,
+          "found_hz": 84.66,
+          "prominence": 26.6
+        },
+        {
+          "k": 2,
+          "target_hz": 170.44,
+          "found_hz": 169.33,
+          "prominence": 13.3
+        },
+        {
+          "k": 3,
+          "target_hz": 255.66,
+          "found_hz": 253.99,
+          "prominence": 9.5
+        }
+      ],
+      "fault": "BPFI",
+      "score": 0.6529100273665968,
+      "hits": 3,
+      "confounded": false
+    },
+    "glm_061": {
+      "verdict": "BPFI",
+      "confidence": 0.5570577356654053,
+      "band": [
+        1000.0,
+        1500.0
+      ],
+      "best_kurtosis": 5.867550375398672,
+      "harmonics": [
+        {
+          "k": 1,
+          "target_hz": 84.75,
+          "found_hz": 86.0,
+          "prominence": 16.2
+        },
+        {
+          "k": 2,
+          "target_hz": 169.5,
+          "found_hz": 172.0,
+          "prominence": 13.8
+        },
+        {
+          "k": 3,
+          "target_hz": 254.25,
+          "found_hz": 257.99,
+          "prominence": 7.8
+        },
+        {
+          "k": 4,
+          "target_hz": 339.0,
+          "found_hz": 344.33,
+          "prominence": 5.3
+        }
+      ],
+      "fault": "BPFI",
+      "score": 0.5909277695835826,
+      "hits": 4,
+      "confounded": false
+    },
+    "glm_003": {
+      "verdict": "BPFI",
+      "confidence": 0.5317967797403284,
+      "band": [
+        7333.333333333331,
+        7999.999999999998
+      ],
+      "best_kurtosis": 4.3479611072229245,
+      "harmonics": [
+        {
+          "k": 1,
+          "target_hz": 85.93,
+          "found_hz": 86.0,
+          "prominence": 18.5
+        },
+        {
+          "k": 2,
+          "target_hz": 171.86,
+          "found_hz": 172.0,
+          "prominence": 7.9
+        },
+        {
+          "k": 3,
+          "target_hz": 257.78,
+          "found_hz": 258.33,
+          "prominence": 8.0
+        }
+      ],
+      "fault": "BPFI",
+      "score": 0.5497544562067164,
+      "hits": 3,
+      "confounded": false
+    },
+    "glm_020": {
+      "verdict": "BPFI",
+      "confidence": 0.466588870722112,
+      "band": [
+        6500.0,
+        7000.0
+      ],
+      "best_kurtosis": 7.3395425202124125,
+      "harmonics": [
+        {
+          "k": 1,
+          "target_hz": 82.74,
+          "found_hz": 83.0,
+          "prominence": 25.3
+        },
+        {
+          "k": 2,
+          "target_hz": 165.49,
+          "found_hz": 166.33,
+          "prominence": 16.2
+        },
+        {
+          "k": 3,
+          "target_hz": 248.23,
+          "found_hz": 249.33,
+          "prominence": 9.1
+        },
+        {
+          "k": 4,
+          "target_hz": 330.98,
+          "found_hz": 332.33,
+          "prominence": 14.3
+        }
+      ],
+      "fault": "BPFI",
+      "score": 0.7598808346224305,
+      "hits": 4,
+      "confounded": false
+    },
+    "glm_060": {
+      "verdict": "BPFI",
+      "confidence": 0.4225760179372932,
+      "band": [
+        1000.0,
+        1500.0
+      ],
+      "best_kurtosis": 6.102071218662358,
+      "harmonics": [
+        {
+          "k": 1,
+          "target_hz": 84.75,
+          "found_hz": 86.33,
+          "prominence": 16.0
+        },
+        {
+          "k": 2,
+          "target_hz": 169.5,
+          "found_hz": 172.66,
+          "prominence": 7.6
+        },
+        {
+          "k": 3,
+          "target_hz": 254.25,
+          "found_hz": 259.33,
+          "prominence": 6.4
+        }
+      ],
+      "fault": "BPFI",
+      "score": 0.4807634127392154,
+      "hits": 3,
+      "confounded": false
+    },
+    "glm_041": {
+      "verdict": "BPFI",
+      "confidence": 0.41707975698436744,
+      "band": [
+        666.6666666666666,
+        1333.3333333333333
+      ],
+      "best_kurtosis": 8.517258840848427,
+      "harmonics": [
+        {
+          "k": 1,
+          "target_hz": 84.42,
+          "found_hz": 84.0,
+          "prominence": 14.8
+        },
+        {
+          "k": 2,
+          "target_hz": 168.85,
+          "found_hz": 168.33,
+          "prominence": 8.9
+        },
+        {
+          "k": 3,
+          "target_hz": 253.27,
+          "found_hz": 252.33,
+          "prominence": 5.6
+        }
+      ],
+      "fault": "BPFI",
+      "score": 0.4622902136898716,
+      "hits": 3,
+      "confounded": false
+    },
+    "glm_012": {
+      "verdict": "BPFI",
+      "confidence": 0.3970498517862781,
+      "band": [
+        7000.0,
+        8000.0
+      ],
+      "best_kurtosis": 22.086071556250857,
+      "harmonics": [
+        {
+          "k": 1,
+          "target_hz": 87.43,
+          "found_hz": 87.33,
+          "prominence": 11.0
+        },
+        {
+          "k": 2,
+          "target_hz": 174.86,
+          "found_hz": 174.66,
+          "prominence": 9.8
+        },
+        {
+          "k": 3,
+          "target_hz": 262.29,
+          "found_hz": 261.99,
+          "prominence": 8.9
+        },
+        {
+          "k": 4,
+          "target_hz": 349.73,
+          "found_hz": 349.33,
+          "prominence": 5.0
+        },
+        {
+          "k": 5,
+          "target_hz": 437.16,
+          "found_hz": 436.32,
+          "prominence": 6.0
+        }
+      ],
+      "fault": "BPFI",
+      "score": 0.46537456391828746,
+      "hits": 5,
+      "confounded": false
+    },
+    "kimi_044": {
+      "verdict": "ball",
+      "score": 41810.58198875711,
+      "global_median": 0.0,
+      "peaks": [
+        {
+          "k": 1,
+          "freq_hz": 31.67,
+          "amp": 0.0,
+          "ratio": 20626.9
+        },
+        {
+          "k": 2,
+          "freq_hz": 63.33,
+          "amp": 0.01,
+          "ratio": 98012.8
+        },
+        {
+          "k": 3,
+          "freq_hz": 95.0,
+          "amp": 0.0,
+          "ratio": 6792.1
+        }
+      ]
+    },
+    "kimi_007": {
+      "verdict": "inner",
+      "score": 3221.5223905923153,
+      "global_median": 3e-06,
+      "peaks": [
+        {
+          "k": 1,
+          "freq_hz": 85.0,
+          "amp": 0.01,
+          "ratio": 4757.4
+        },
+        {
+          "k": 2,
+          "freq_hz": 170.33,
+          "amp": 0.01,
+          "ratio": 3132.6
+        },
+        {
+          "k": 3,
+          "freq_hz": 255.33,
+          "amp": 0.0,
+          "ratio": 1774.6
+        }
+      ]
+    },
+    "kimi_008": {
+      "verdict": "inner",
+      "score": 2740.1329109033213,
+      "global_median": 3e-06,
+      "peaks": [
+        {
+          "k": 1,
+          "freq_hz": 84.66,
+          "amp": 0.01,
+          "ratio": 4491.7
+        },
+        {
+          "k": 2,
+          "freq_hz": 169.33,
+          "amp": 0.01,
+          "ratio": 2619.6
+        },
+        {
+          "k": 3,
+          "freq_hz": 253.99,
+          "amp": 0.0,
+          "ratio": 1109.1
+        }
+      ]
+    },
+    "kimi_003": {
+      "verdict": "inner",
+      "score": 2965.6906234727917,
+      "global_median": 2e-06,
+      "peaks": [
+        {
+          "k": 1,
+          "freq_hz": 86.0,
+          "amp": 0.01,
+          "ratio": 4679.6
+        },
+        {
+          "k": 2,
+          "freq_hz": 172.0,
+          "amp": 0.0,
+          "ratio": 2313.2
+        },
+        {
+          "k": 3,
+          "freq_hz": 258.33,
+          "amp": 0.0,
+          "ratio": 1904.2
+        }
+      ]
+    },
+    "kimi_061": {
+      "verdict": "inner",
+      "score": 12641.409810144805,
+      "global_median": 0.0,
+      "peaks": [
+        {
+          "k": 1,
+          "freq_hz": 86.0,
+          "amp": 0.0,
+          "ratio": 20180.4
+        },
+        {
+          "k": 2,
+          "freq_hz": 172.0,
+          "amp": 0.0,
+          "ratio": 12106.2
+        },
+        {
+          "k": 3,
+          "freq_hz": 257.99,
+          "amp": 0.0,
+          "ratio": 5637.7
+        }
+      ]
+    },
+    "kimi_043": {
+      "verdict": "ball",
+      "score": 3016.424272400915,
+      "global_median": 2e-06,
+      "peaks": [
+        {
+          "k": 1,
+          "freq_hz": 32.67,
+          "amp": 0.0,
+          "ratio": 1867.3
+        },
+        {
+          "k": 2,
+          "freq_hz": 64.0,
+          "amp": 0.01,
+          "ratio": 6271.9
+        },
+        {
+          "k": 3,
+          "freq_hz": 96.66,
+          "amp": 0.0,
+          "ratio": 910.0
+        }
+      ]
+    },
+    "kimi_080": {
+      "verdict": "ball",
+      "score": 33892.564830492316,
+      "global_median": 0.0,
+      "peaks": [
+        {
+          "k": 1,
+          "freq_hz": 35.0,
+          "amp": 0.01,
+          "ratio": 39683.0
+        },
+        {
+          "k": 2,
+          "freq_hz": 70.0,
+          "amp": 0.0,
+          "ratio": 35431.2
+        },
+        {
+          "k": 3,
+          "freq_hz": 105.0,
+          "amp": 0.0,
+          "ratio": 26563.5
+        }
+      ]
+    },
+    "kimi_006": {
+      "verdict": "outer",
+      "score": 4949.65025399588,
+      "global_median": 4e-06,
+      "peaks": [
+        {
+          "k": 1,
+          "freq_hz": 48.0,
+          "amp": 0.01,
+          "ratio": 1696.0
+        },
+        {
+          "k": 2,
+          "freq_hz": 95.33,
+          "amp": 0.05,
+          "ratio": 11390.1
+        },
+        {
+          "k": 3,
+          "freq_hz": 144.33,
+          "amp": 0.01,
+          "ratio": 1762.8
+        }
+      ]
+    }
+  }
+}

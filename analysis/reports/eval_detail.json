@@ -1,0 +1,9146 @@
+[
+ {
+  "file_id": "001",
+  "relpath": "wav/外圈/9-16__外圈1__record_98_1789455815.wav",
+  "class": "外圈",
+  "remark": "外圈1",
+  "batch": "9-16",
+  "session": "afternoon",
+  "clip_ratio": "0.00797",
+  "best_kurtosis": "23.54",
+  "band_low": "4667",
+  "band_high": "6000",
+  "round": "A_main_1150",
+  "rpm_used": "1150.0",
+  "fr_source": "fixed_1150",
+  "glm": {
+   "verdict": "normal",
+   "confidence": 0.0,
+   "level": "未见故障特征",
+   "candidates": [
+    [
+     "FTF",
+     0.0
+    ],
+    [
+     "BSF",
+     0.0
+    ],
+    [
+     "BPFO",
+     0.0
+    ],
+    [
+     "BPFI",
+     0.0
+    ]
+   ],
+   "notes": [
+    "各候选频率谐波得分均低于判据阈值；注意这不能证明轴承健康——早期故障、强噪声或采集时长不足都可能掩盖特征，建议结合峭度与人工读谱"
+   ]
+  },
+  "kimi": {
+   "verdict": "inner",
+   "scores": {
+    "cage": 288.39,
+    "ball": 332.96,
+    "inner": 457.33,
+    "outer": 448.06
+   },
+   "band": [
+    4666.666666666666,
+    5999.999999999999
+   ],
+   "band_clamped": false,
+   "peak_error": 0.019941011306204563
+  }
+ },
+ {
+  "file_id": "001",
+  "relpath": "wav/外圈/9-16__外圈1__record_98_1789455815.wav",
+  "class": "外圈",
+  "remark": "外圈1",
+  "batch": "9-16",
+  "session": "afternoon",
+  "clip_ratio": "0.00797",
+  "best_kurtosis": "23.54",
+  "band_low": "4667",
+  "band_high": "6000",
+  "round": "B_fr_est",
+  "rpm_used": "1179.2",
+  "fr_source": "fr_est",
+  "glm": {
+   "verdict": "BPFI",
+   "confidence": 0.28836996470224896,
+   "level": "疑似（建议人工复核包络谱）",
+   "candidates": [
+    [
+     "BPFI",
+     0.3019
+    ],
+    [
+     "BSF",
+     0.0271
+    ],
+    [
+     "FTF",
+     0.0
+    ],
+    [
+     "BPFO",
+     0.0
+    ]
+   ],
+   "notes": [
+    "判定为 内圈故障（特征频率 86.90 Hz，置信度 0.29），请在包络谱图上人工核对谐波族",
+    "注意：时域峭度 2.67 接近 3（无明显冲击），但包络谱匹配到谐波族；可能为轻度早期故障或干扰峰，建议人工复核"
+   ]
+  },
+  "kimi": {
+   "verdict": "inner",
+   "scores": {
+    "cage": 391.69,
+    "ball": 338.81,
+    "inner": 1071.82,
+    "outer": 497.93
+   },
+   "band": [
+    4666.666666666666,
+    5999.999999999999
+   ],
+   "band_clamped": false,
+   "peak_error": 0.0025031216160809606
+  }
+ },
+ {
+  "file_id": "002",
+  "relpath": "wav/外圈/9-16__外圈1__record_98_1789455843.wav",
+  "class": "外圈",
+  "remark": "外圈1",
+  "batch": "9-16",
+  "session": "afternoon",
+  "clip_ratio": "0.00542",
+  "best_kurtosis": "29.06",
+  "band_low": "6000",
+  "band_high": "8000",
+  "round": "A_main_1150",
+  "rpm_used": "1150.0",
+  "fr_source": "fixed_1150",
+  "glm": {
+   "verdict": "normal",
+   "confidence": 0.08538337265034025,
+   "level": "未见故障特征",
+   "candidates": [
+    [
+     "BPFI",
+     0.0854
+    ],
+    [
+     "FTF",
+     0.0
+    ],
+    [
+     "BSF",
+     0.0
+    ],
+    [
+     "BPFO",
+     0.0
+    ]
+   ],
+   "notes": [
+    "各候选频率谐波得分均低于判据阈值；注意这不能证明轴承健康——早期故障、强噪声或采集时长不足都可能掩盖特征，建议结合峭度与人工读谱"
+   ]
+  },
+  "kimi": {
+   "verdict": "inner",
+   "scores": {
+    "cage": 183.3,
+    "ball": 392.03,
+    "inner": 747.01,
+    "outer": 429.96
+   },
+   "band": [
+    6000.0,
+    7984.0
+   ],
+   "band_clamped": true,
+   "peak_error": 0.018674777587396618
+  }
+ },
+ {
+  "file_id": "002",
+  "relpath": "wav/外圈/9-16__外圈1__record_98_1789455843.wav",
+  "class": "外圈",
+  "remark": "外圈1",
+  "batch": "9-16",
+  "session": "afternoon",
+  "clip_ratio": "0.00542",
+  "best_kurtosis": "29.06",
+  "band_low": "6000",
+  "band_high": "8000",
+  "round": "B_fr_est",
+  "rpm_used": "1179.2",
+  "fr_source": "fr_est",
+  "glm": {
+   "verdict": "normal",
+   "confidence": 0.11940114913804717,
+   "level": "未见故障特征",
+   "candidates": [
+    [
+     "BPFI",
+     0.1194
+    ],
+    [
+     "BSF",
+     0.0241
+    ],
+    [
+     "FTF",
+     0.0
+    ],
+    [
+     "BPFO",
+     0.0
+    ]
+   ],
+   "notes": [
+    "各候选频率谐波得分均低于判据阈值；注意这不能证明轴承健康——早期故障、强噪声或采集时长不足都可能掩盖特征，建议结合峭度与人工读谱"
+   ]
+  },
+  "kimi": {
+   "verdict": "inner",
+   "scores": {
+    "cage": 234.75,
+    "ball": 292.94,
+    "inner": 762.68,
+    "outer": 356.46
+   },
+   "band": [
+    6000.0,
+    7984.0
+   ],
+   "band_clamped": true,
+   "peak_error": 0.0065333585835018575
+  }
+ },
+ {
+  "file_id": "003",
+  "relpath": "wav/外圈/9-16__外圈2__record_98_1789455909.wav",
+  "class": "外圈",
+  "remark": "外圈2",
+  "batch": "9-16",
+  "session": "afternoon",
+  "clip_ratio": "0.06708",
+  "best_kurtosis": "4.35",
+  "band_low": "7333",
+  "band_high": "8000",
+  "round": "A_main_1150",
+  "rpm_used": "1150.0",
+  "fr_source": "fixed_1150",
+  "glm": {
+   "verdict": "BPFI",
+   "confidence": 0.5376982502855233,
+   "level": "明确",
+   "candidates": [
+    [
+     "BPFI",
+     0.5517
+    ],
+    [
+     "BSF",
+     0.028
+    ],
+    [
+     "FTF",
+     0.0
+    ],
+    [
+     "BPFO",
+     0.0
+    ]
+   ],
+   "notes": [
+    "判定为 内圈故障（特征频率 84.75 Hz，置信度 0.54），请在包络谱图上人工核对谐波族",
+    "注意：时域峭度 1.83 接近 3（无明显冲击），但包络谱匹配到谐波族；可能为轻度早期故障或干扰峰，建议人工复核"
+   ]
+  },
+  "kimi": {
+   "verdict": "inner",
+   "scores": {
+    "cage": 449.62,
+    "ball": 542.05,
+    "inner": 2965.69,
+    "outer": 602.39
+   },
+   "band": [
+    7185.6,
+    7984.0
+   ],
+   "band_clamped": true,
+   "peak_error": 0.0147416703380243
+  }
+ },
+ {
+  "file_id": "003",
+  "relpath": "wav/外圈/9-16__外圈2__record_98_1789455909.wav",
+  "class": "外圈",
+  "remark": "外圈2",
+  "batch": "9-16",
+  "session": "afternoon",
+  "clip_ratio": "0.06708",
+  "best_kurtosis": "4.35",
+  "band_low": "7333",
+  "band_high": "8000",
+  "round": "B_fr_est",
+  "rpm_used": "1166.0",
+  "fr_source": "fr_est",
+  "glm": {
+   "verdict": "BPFI",
+   "confidence": 0.5317967797403284,
+   "level": "明确",
+   "candidates": [
+    [
+     "BPFI",
+     0.5498
+    ],
+    [
+     "BSF",
+     0.0359
+    ],
+    [
+     "FTF",
+     0.0
+    ],
+    [
+     "BPFO",
+     0.0
+    ]
+   ],
+   "notes": [
+    "判定为 内圈故障（特征频率 85.93 Hz，置信度 0.53），请在包络谱图上人工核对谐波族",
+    "注意：时域峭度 1.83 接近 3（无明显冲击），但包络谱匹配到谐波族；可能为轻度早期故障或干扰峰，建议人工复核"
+   ]
+  },
+  "kimi": {
+   "verdict": "inner",
+   "scores": {
+    "cage": 212.98,
+    "ball": 567.72,
+    "inner": 2965.69,
+    "outer": 743.32
+   },
+   "band": [
+    7185.6,
+    7984.0
+   ],
+   "band_clamped": true,
+   "peak_error": 0.0008344233080568127
+  }
+ },
+ {
+  "file_id": "004",
+  "relpath": "wav/外圈/9-16__外圈2__record_98_1789455921.wav",
+  "class": "外圈",
+  "remark": "外圈2",
+  "batch": "9-16",
+  "session": "afternoon",
+  "clip_ratio": "0.07273",
+  "best_kurtosis": "4.41",
+  "band_low": "7333",
+  "band_high": "8000",
+  "round": "A_main_1150",
+  "rpm_used": "1150.0",
+  "fr_source": "fixed_1150",
+  "glm": {
+   "verdict": "BPFI",
+   "confidence": 0.3046487917183949,
+   "level": "疑似（建议人工复核包络谱）",
+   "candidates": [
+    [
+     "BPFI",
+     0.3183
+    ],
+    [
+     "BSF",
+     0.0273
+    ],
+    [
+     "FTF",
+     0.0259
+    ],
+    [
+     "BPFO",
+     0.0241
+    ]
+   ],
+   "notes": [
+    "判定为 内圈故障（特征频率 84.75 Hz，置信度 0.30），请在包络谱图上人工核对谐波族",
+    "注意：时域峭度 1.79 接近 3（无明显冲击），但包络谱匹配到谐波族；可能为轻度早期故障或干扰峰，建议人工复核"
+   ]
+  },
+  "kimi": {
+   "verdict": "inner",
+   "scores": {
+    "cage": 357.03,
+    "ball": 549.46,
+    "inner": 1878.94,
+    "outer": 674.39
+   },
+   "band": [
+    7185.6,
+    7984.0
+   ],
+   "band_clamped": true,
+   "peak_error": 0.008856973158208773
+  }
+ },
+ {
+  "file_id": "004",
+  "relpath": "wav/外圈/9-16__外圈2__record_98_1789455921.wav",
+  "class": "外圈",
+  "remark": "外圈2",
+  "batch": "9-16",
+  "session": "afternoon",
+  "clip_ratio": "0.07273",
+  "best_kurtosis": "4.41",
+  "band_low": "7333",
+  "band_high": "8000",
+  "round": "B_fr_est",
+  "rpm_used": "1166.0",
+  "fr_source": "fr_est",
+  "glm": {
+   "verdict": "normal",
+   "confidence": 0.20554983673736602,
+   "level": "未见故障特征",
+   "candidates": [
+    [
+     "BPFI",
+     0.2055
+    ],
+    [
+     "BSF",
+     0.0288
+    ],
+    [
+     "BPFO",
+     0.023
+    ],
+    [
+     "FTF",
+     0.0227
+    ]
+   ],
+   "notes": [
+    "各候选频率谐波得分均低于判据阈值；注意这不能证明轴承健康——早期故障、强噪声或采集时长不足都可能掩盖特征，建议结合峭度与人工读谱"
+   ]
+  },
+  "kimi": {
+   "verdict": "inner",
+   "scores": {
+    "cage": 425.01,
+    "ball": 549.46,
+    "inner": 1363.13,
+    "outer": 581.06
+   },
+   "band": [
+    7185.6,
+    7984.0
+   ],
+   "band_clamped": true,
+   "peak_error": 0.01856159264752567
+  }
+ },
+ {
+  "file_id": "005",
+  "relpath": "wav/外圈/9-16__外圈3__record_98_1789455947.wav",
+  "class": "外圈",
+  "remark": "外圈3",
+  "batch": "9-16",
+  "session": "afternoon",
+  "clip_ratio": "0.13423",
+  "best_kurtosis": "2.85",
+  "band_low": "1500",
+  "band_high": "2000",
+  "round": "A_main_1150",
+  "rpm_used": "1150.0",
+  "fr_source": "fixed_1150",
+  "glm": {
+   "verdict": "normal",
+   "confidence": 0.0,
+   "level": "未见故障特征",
+   "candidates": [
+    [
+     "FTF",
+     0.0
+    ],
+    [
+     "BSF",
+     0.0
+    ],
+    [
+     "BPFO",
+     0.0
+    ],
+    [
+     "BPFI",
+     0.0
+    ]
+   ],
+   "notes": [
+    "Kurtogram 最佳频带包络峭度仅 2.85（≈3 为无冲击），信号中瞬态冲击成分弱",
+    "各候选频率谐波得分均低于判据阈值；注意这不能证明轴承健康——早期故障、强噪声或采集时长不足都可能掩盖特征，建议结合峭度与人工读谱"
+   ]
+  },
+  "kimi": {
+   "verdict": "ball",
+   "scores": {
+    "cage": 1235.41,
+    "ball": 2548.18,
+    "inner": 2406.91,
+    "outer": 1851.07
+   },
+   "band": [
+    1500.0,
+    2000.0
+   ],
+   "band_clamped": false,
+   "peak_error": 0.0185729453818433
+  }
+ },
+ {
+  "file_id": "005",
+  "relpath": "wav/外圈/9-16__外圈3__record_98_1789455947.wav",
+  "class": "外圈",
+  "remark": "外圈3",
+  "batch": "9-16",
+  "session": "afternoon",
+  "clip_ratio": "0.13423",
+  "best_kurtosis": "2.85",
+  "band_low": "1500",
+  "band_high": "2000",
+  "round": "B_fr_est",
+  "rpm_used": "1112.0",
+  "fr_source": "fr_est",
+  "glm": {
+   "verdict": "BPFO",
+   "confidence": 0.1831024327190863,
+   "level": "疑似（建议人工复核包络谱）",
+   "candidates": [
+    [
+     "BPFO",
+     0.2416
+    ],
+    [
+     "BSF",
+     0.117
+    ],
+    [
+     "BPFI",
+     0.1102
+    ],
+    [
+     "FTF",
+     0.0
+    ]
+   ],
+   "notes": [
+    "Kurtogram 最佳频带包络峭度仅 2.85（≈3 为无冲击），信号中瞬态冲击成分弱",
+    "判定为 外圈故障（特征频率 47.78 Hz，置信度 0.18），请在包络谱图上人工核对谐波族",
+    "注意：时域峭度 1.48 接近 3（无明显冲击），但包络谱匹配到谐波族；可能为轻度早期故障或干扰峰，建议人工复核"
+   ]
+  },
+  "kimi": {
+   "verdict": "ball",
+   "scores": {
+    "cage": 2215.15,
+    "ball": 6296.29,
+    "inner": 3330.68,
+    "outer": 6050.63
+   },
+   "band": [
+    1500.0,
+    2000.0
+   ],
+   "band_clamped": false,
+   "peak_error": 0.018190999365292716
+  }
+ },
+ {
+  "file_id": "006",
+  "relpath": "wav/外圈/9-16__外圈3__record_98_1789455959.wav",
+  "class": "外圈",
+  "remark": "外圈3",
+  "batch": "9-16",
+  "session": "afternoon",
+  "clip_ratio": "0.13652",
+  "best_kurtosis": "2.73",
+  "band_low": "1500",
+  "band_high": "2000",
+  "round": "A_main_1150",
+  "rpm_used": "1150.0",
+  "fr_source": "fixed_1150",
+  "glm": {
+   "verdict": "normal",
+   "confidence": 0.06461887809286129,
+   "level": "未见故障特征",
+   "candidates": [
+    [
+     "BPFI",
+     0.0646
+    ],
+    [
+     "BSF",
+     0.0256
+    ],
+    [
+     "FTF",
+     0.0
+    ],
+    [
+     "BPFO",
+     0.0
+    ]
+   ],
+   "notes": [
+    "Kurtogram 最佳频带包络峭度仅 2.73（≈3 为无冲击），信号中瞬态冲击成分弱",
+    "各候选频率谐波得分均低于判据阈值；注意这不能证明轴承健康——早期故障、强噪声或采集时长不足都可能掩盖特征，建议结合峭度与人工读谱"
+   ]
+  },
+  "kimi": {
+   "verdict": "inner",
+   "scores": {
+    "cage": 1049.85,
+    "ball": 1775.75,
+    "inner": 2333.17,
+    "outer": 1956.77
+   },
+   "band": [
+    1500.0,
+    2000.0
+   ],
+   "band_clamped": false,
+   "peak_error": 0.006890419533522613
+  }
+ },
+ {
+  "file_id": "006",
+  "relpath": "wav/外圈/9-16__外圈3__record_98_1789455959.wav",
+  "class": "外圈",
+  "remark": "外圈3",
+  "batch": "9-16",
+  "session": "afternoon",
+  "clip_ratio": "0.13652",
+  "best_kurtosis": "2.73",
+  "band_low": "1500",
+  "band_high": "2000",
+  "round": "B_fr_est",
+  "rpm_used": "1112.0",
+  "fr_source": "fr_est",
+  "glm": {
+   "verdict": "BPFO",
+   "confidence": 0.2712858672644842,
+   "level": "疑似（建议人工复核包络谱）",
+   "candidates": [
+    [
+     "BPFO",
+     0.2713
+    ],
+    [
+     "FTF",
+     0.0
+    ],
+    [
+     "BSF",
+     0.0
+    ],
+    [
+     "BPFI",
+     0.0
+    ]
+   ],
+   "notes": [
+    "Kurtogram 最佳频带包络峭度仅 2.73（≈3 为无冲击），信号中瞬态冲击成分弱",
+    "判定为 外圈故障（特征频率 47.78 Hz，置信度 0.27），请在包络谱图上人工核对谐波族",
+    "注意：时域峭度 1.47 接近 3（无明显冲击），但包络谱匹配到谐波族；可能为轻度早期故障或干扰峰，建议人工复核"
+   ]
+  },
+  "kimi": {
+   "verdict": "outer",
+   "scores": {
+    "cage": 940.59,
+    "ball": 1577.42,
+    "inner": 1611.88,
+    "outer": 4949.65
+   },
+   "band": [
+    1500.0,
+    2000.0
+   ],
+   "band_clamped": false,
+   "peak_error": 0.0024763343034564333
+  }
+ },
+ {
+  "file_id": "007",
+  "relpath": "wav/外圈/9-16__外圈4__record_98_1789455993.wav",
+  "class": "外圈",
+  "remark": "外圈4",
+  "batch": "9-16",
+  "session": "afternoon",
+  "clip_ratio": "0.07827",
+  "best_kurtosis": "6.09",
+  "band_low": "7000",
+  "band_high": "8000",
+  "round": "A_main_1150",
+  "rpm_used": "1150.0",
+  "fr_source": "fixed_1150",
+  "glm": {
+   "verdict": "BPFI",
+   "confidence": 0.6875237549364808,
+   "level": "明确",
+   "candidates": [
+    [
+     "BPFI",
+     0.7432
+    ],
+    [
+     "BSF",
+     0.1113
+    ],
+    [
+     "BPFO",
+     0.0673
+    ],
+    [
+     "FTF",
+     0.0
+    ]
+   ],
+   "notes": [
+    "判定为 内圈故障（特征频率 84.75 Hz，置信度 0.69），请在包络谱图上人工核对谐波族",
+    "注意：时域峭度 1.74 接近 3（无明显冲击），但包络谱匹配到谐波族；可能为轻度早期故障或干扰峰，建议人工复核"
+   ]
+  },
+  "kimi": {
+   "verdict": "inner",
+   "scores": {
+    "cage": 190.21,
+    "ball": 433.48,
+    "inner": 3221.52,
+    "outer": 726.6
+   },
+   "band": [
+    7000.0,
+    7984.0
+   ],
+   "band_clamped": true,
+   "peak_error": 0.0029423485899078474
+  }
+ },
+ {
+  "file_id": "007",
+  "relpath": "wav/外圈/9-16__外圈4__record_98_1789455993.wav",
+  "class": "外圈",
+  "remark": "外圈4",
+  "batch": "9-16",
+  "session": "afternoon",
+  "clip_ratio": "0.07827",
+  "best_kurtosis": "6.09",
+  "band_low": "7000",
+  "band_high": "8000",
+  "round": "B_fr_est",
+  "rpm_used": "1156.4",
+  "fr_source": "fr_est",
+  "glm": {
+   "verdict": "BPFI",
+   "confidence": 0.690361276906902,
+   "level": "明确",
+   "candidates": [
+    [
+     "BPFI",
+     0.7474
+    ],
+    [
+     "BSF",
+     0.114
+    ],
+    [
+     "BPFO",
+     0.0274
+    ],
+    [
+     "FTF",
+     0.0
+    ]
+   ],
+   "notes": [
+    "判定为 内圈故障（特征频率 85.22 Hz，置信度 0.69），请在包络谱图上人工核对谐波族",
+    "注意：时域峭度 1.74 接近 3（无明显冲击），但包络谱匹配到谐波族；可能为轻度早期故障或干扰峰，建议人工复核"
+   ]
+  },
+  "kimi": {
+   "verdict": "inner",
+   "scores": {
+    "cage": 210.4,
+    "ball": 419.54,
+    "inner": 3221.52,
+    "outer": 583.26
+   },
+   "band": [
+    7000.0,
+    7984.0
+   ],
+   "band_clamped": true,
+   "peak_error": 0.0025911025109444704
+  }
+ },
+ {
+  "file_id": "008",
+  "relpath": "wav/外圈/9-16__外圈4__record_98_1789456004.wav",
+  "class": "外圈",
+  "remark": "外圈4",
+  "batch": "9-16",
+  "session": "afternoon",
+  "clip_ratio": "0.07871",
+  "best_kurtosis": "6.89",
+  "band_low": "7000",
+  "band_high": "8000",
+  "round": "A_main_1150",
+  "rpm_used": "1150.0",
+  "fr_source": "fixed_1150",
+  "glm": {
+   "verdict": "BPFI",
+   "confidence": 0.6230197539497553,
+   "level": "明确",
+   "candidates": [
+    [
+     "BPFI",
+     0.6521
+    ],
+    [
+     "BSF",
+     0.0581
+    ],
+    [
+     "BPFO",
+     0.0403
+    ],
+    [
+     "FTF",
+     0.0
+    ]
+   ],
+   "notes": [
+    "判定为 内圈故障（特征频率 84.75 Hz，置信度 0.62），请在包络谱图上人工核对谐波族",
+    "注意：时域峭度 1.72 接近 3（无明显冲击），但包络谱匹配到谐波族；可能为轻度早期故障或干扰峰，建议人工复核"
+   ]
+  },
+  "kimi": {
+   "verdict": "inner",
+   "scores": {
+    "cage": 242.92,
+    "ball": 376.71,
+    "inner": 2740.13,
+    "outer": 776.38
+   },
+   "band": [
+    7000.0,
+    7984.0
+   ],
+   "band_clamped": true,
+   "peak_error": 0.0009907586594643037
+  }
+ },
+ {
+  "file_id": "008",
+  "relpath": "wav/外圈/9-16__外圈4__record_98_1789456004.wav",
+  "class": "外圈",
+  "remark": "外圈4",
+  "batch": "9-16",
+  "session": "afternoon",
+  "clip_ratio": "0.07871",
+  "best_kurtosis": "6.89",
+  "band_low": "7000",
+  "band_high": "8000",
+  "round": "B_fr_est",
+  "rpm_used": "1156.4",
+  "fr_source": "fr_est",
+  "glm": {
+   "verdict": "BPFI",
+   "confidence": 0.5989511538139107,
+   "level": "明确",
+   "candidates": [
+    [
+     "BPFI",
+     0.6529
+    ],
+    [
+     "BSF",
+     0.1079
+    ],
+    [
+     "BPFO",
+     0.0683
+    ],
+    [
+     "FTF",
+     0.0
+    ]
+   ],
+   "notes": [
+    "判定为 内圈故障（特征频率 85.22 Hz，置信度 0.60），请在包络谱图上人工核对谐波族",
+    "注意：时域峭度 1.72 接近 3（无明显冲击），但包络谱匹配到谐波族；可能为轻度早期故障或干扰峰，建议人工复核"
+   ]
+  },
+  "kimi": {
+   "verdict": "inner",
+   "scores": {
+    "cage": 286.7,
+    "ball": 631.3,
+    "inner": 2740.13,
+    "outer": 681.68
+   },
+   "band": [
+    7000.0,
+    7984.0
+   ],
+   "band_clamped": true,
+   "peak_error": 0.006502509952077985
+  }
+ },
+ {
+  "file_id": "009",
+  "relpath": "wav/外圈/9-16__外圈5__record_98_1789456036.wav",
+  "class": "外圈",
+  "remark": "外圈5",
+  "batch": "9-16",
+  "session": "afternoon",
+  "clip_ratio": "0.02856",
+  "best_kurtosis": "10.59",
+  "band_low": "5333",
+  "band_high": "6667",
+  "round": "A_main_1150",
+  "rpm_used": "1150.0",
+  "fr_source": "fixed_1150",
+  "glm": {
+   "verdict": "normal",
+   "confidence": 0.05404395972406381,
+   "level": "未见故障特征",
+   "candidates": [
+    [
+     "BPFO",
+     0.054
+    ],
+    [
+     "FTF",
+     0.0
+    ],
+    [
+     "BSF",
+     0.0
+    ],
+    [
+     "BPFI",
+     0.0
+    ]
+   ],
+   "notes": [
+    "各候选频率谐波得分均低于判据阈值；注意这不能证明轴承健康——早期故障、强噪声或采集时长不足都可能掩盖特征，建议结合峭度与人工读谱"
+   ]
+  },
+  "kimi": {
+   "verdict": "inner",
+   "scores": {
+    "cage": 603.24,
+    "ball": 756.43,
+    "inner": 1004.88,
+    "outer": 816.75
+   },
+   "band": [
+    5333.333333333333,
+    6666.666666666666
+   ],
+   "band_clamped": false,
+   "peak_error": 0.004057600724529529
+  }
+ },
+ {
+  "file_id": "009",
+  "relpath": "wav/外圈/9-16__外圈5__record_98_1789456036.wav",
+  "class": "外圈",
+  "remark": "外圈5",
+  "batch": "9-16",
+  "session": "afternoon",
+  "clip_ratio": "0.02856",
+  "best_kurtosis": "10.59",
+  "band_low": "5333",
+  "band_high": "6667",
+  "round": "B_fr_est",
+  "rpm_used": "1130.0",
+  "fr_source": "fr_est",
+  "glm": {
+   "verdict": "normal",
+   "confidence": 0.05380136622149032,
+   "level": "未见故障特征",
+   "candidates": [
+    [
+     "BPFO",
+     0.0538
+    ],
+    [
+     "BSF",
+     0.0318
+    ],
+    [
+     "FTF",
+     0.0
+    ],
+    [
+     "BPFI",
+     0.0
+    ]
+   ],
+   "notes": [
+    "各候选频率谐波得分均低于判据阈值；注意这不能证明轴承健康——早期故障、强噪声或采集时长不足都可能掩盖特征，建议结合峭度与人工读谱"
+   ]
+  },
+  "kimi": {
+   "verdict": "inner",
+   "scores": {
+    "cage": 500.57,
+    "ball": 595.39,
+    "inner": 905.33,
+    "outer": 829.89
+   },
+   "band": [
+    5333.333333333333,
+    6666.666666666666
+   ],
+   "band_clamped": false,
+   "peak_error": 0.013587637981903206
+  }
+ },
+ {
+  "file_id": "010",
+  "relpath": "wav/外圈/9-16__外圈5__record_98_1789456046.wav",
+  "class": "外圈",
+  "remark": "外圈5",
+  "batch": "9-16",
+  "session": "afternoon",
+  "clip_ratio": "0.02875",
+  "best_kurtosis": "10.95",
+  "band_low": "5333",
+  "band_high": "6667",
+  "round": "A_main_1150",
+  "rpm_used": "1150.0",
+  "fr_source": "fixed_1150",
+  "glm": {
+   "verdict": "normal",
+   "confidence": 0.042543680778666125,
+   "level": "未见故障特征",
+   "candidates": [
+    [
+     "BPFO",
+     0.0425
+    ],
+    [
+     "FTF",
+     0.0
+    ],
+    [
+     "BSF",
+     0.0
+    ],
+    [
+     "BPFI",
+     0.0
+    ]
+   ],
+   "notes": [
+    "各候选频率谐波得分均低于判据阈值；注意这不能证明轴承健康——早期故障、强噪声或采集时长不足都可能掩盖特征，建议结合峭度与人工读谱"
+   ]
+  },
+  "kimi": {
+   "verdict": "inner",
+   "scores": {
+    "cage": 388.87,
+    "ball": 987.62,
+    "inner": 1121.93,
+    "outer": 792.68
+   },
+   "band": [
+    5333.333333333333,
+    6666.666666666666
+   ],
+   "band_clamped": false,
+   "peak_error": 0.008057369396318629
+  }
+ },
+ {
+  "file_id": "010",
+  "relpath": "wav/外圈/9-16__外圈5__record_98_1789456046.wav",
+  "class": "外圈",
+  "remark": "外圈5",
+  "batch": "9-16",
+  "session": "afternoon",
+  "clip_ratio": "0.02875",
+  "best_kurtosis": "10.95",
+  "band_low": "5333",
+  "band_high": "6667",
+  "round": "B_fr_est",
+  "rpm_used": "1130.0",
+  "fr_source": "fr_est",
+  "glm": {
+   "verdict": "normal",
+   "confidence": 0.04225814873695471,
+   "level": "未见故障特征",
+   "candidates": [
+    [
+     "BPFO",
+     0.0423
+    ],
+    [
+     "FTF",
+     0.0
+    ],
+    [
+     "BSF",
+     0.0
+    ],
+    [
+     "BPFI",
+     0.0
+    ]
+   ],
+   "notes": [
+    "各候选频率谐波得分均低于判据阈值；注意这不能证明轴承健康——早期故障、强噪声或采集时长不足都可能掩盖特征，建议结合峭度与人工读谱"
+   ]
+  },
+  "kimi": {
+   "verdict": "inner",
+   "scores": {
+    "cage": 616.56,
+    "ball": 567.49,
+    "inner": 1040.02,
+    "outer": 675.12
+   },
+   "band": [
+    5333.333333333333,
+    6666.666666666666
+   ],
+   "band_clamped": false,
+   "peak_error": 0.009517004897638473
+  }
+ },
+ {
+  "file_id": "011",
+  "relpath": "wav/外圈/9-16__外圈6__record_98_1789456087.wav",
+  "class": "外圈",
+  "remark": "外圈6",
+  "batch": "9-16",
+  "session": "afternoon",
+  "clip_ratio": "0.00915",
+  "best_kurtosis": "20.69",
+  "band_low": "7000",
+  "band_high": "8000",
+  "round": "A_main_1150",
+  "rpm_used": "1150.0",
+  "fr_source": "fixed_1150",
+  "glm": {
+   "verdict": "BSF",
+   "confidence": 0.15667916084516817,
+   "level": "疑似（建议人工复核包络谱）",
+   "candidates": [
+    [
+     "BSF",
+     0.1742
+    ],
+    [
+     "BPFO",
+     0.035
+    ],
+    [
+     "FTF",
+     0.0
+    ],
+    [
+     "BPFI",
+     0.0
+    ]
+   ],
+   "notes": [
+    "判定为 滚动体故障（特征频率 33.71 Hz，置信度 0.16），请在包络谱图上人工核对谐波族"
+   ]
+  },
+  "kimi": {
+   "verdict": "ball",
+   "scores": {
+    "cage": 347.14,
+    "ball": 1886.46,
+    "inner": 554.55,
+    "outer": 1005.38
+   },
+   "band": [
+    7000.0,
+    7984.0
+   ],
+   "band_clamped": true,
+   "peak_error": 0.008683887659689573
+  }
+ },
+ {
+  "file_id": "011",
+  "relpath": "wav/外圈/9-16__外圈6__record_98_1789456087.wav",
+  "class": "外圈",
+  "remark": "外圈6",
+  "batch": "9-16",
+  "session": "afternoon",
+  "clip_ratio": "0.00915",
+  "best_kurtosis": "20.69",
+  "band_low": "7000",
+  "band_high": "8000",
+  "round": "B_fr_est",
+  "rpm_used": "1186.4",
+  "fr_source": "fr_est",
+  "glm": {
+   "verdict": "BPFI",
+   "confidence": 0.2735836444022147,
+   "level": "疑似（建议人工复核包络谱）",
+   "candidates": [
+    [
+     "BPFI",
+     0.3299
+    ],
+    [
+     "BSF",
+     0.1126
+    ],
+    [
+     "FTF",
+     0.0
+    ],
+    [
+     "BPFO",
+     0.0
+    ]
+   ],
+   "notes": [
+    "判定为 内圈故障（特征频率 87.43 Hz，置信度 0.27），请在包络谱图上人工核对谐波族"
+   ]
+  },
+  "kimi": {
+   "verdict": "inner",
+   "scores": {
+    "cage": 1016.4,
+    "ball": 1594.7,
+    "inner": 2259.88,
+    "outer": 869.13
+   },
+   "band": [
+    7000.0,
+    7984.0
+   ],
+   "band_clamped": true,
+   "peak_error": 0.006499908047502775
+  }
+ },
+ {
+  "file_id": "012",
+  "relpath": "wav/外圈/9-16__外圈6__record_98_1789456099.wav",
+  "class": "外圈",
+  "remark": "外圈6",
+  "batch": "9-16",
+  "session": "afternoon",
+  "clip_ratio": "0.00806",
+  "best_kurtosis": "22.09",
+  "band_low": "7000",
+  "band_high": "8000",
+  "round": "A_main_1150",
+  "rpm_used": "1150.0",
+  "fr_source": "fixed_1150",
+  "glm": {
+   "verdict": "BSF",
+   "confidence": 0.14000215106119743,
+   "level": "疑似（建议人工复核包络谱）",
+   "candidates": [
+    [
+     "BSF",
+     0.1684
+    ],
+    [
+     "BPFO",
+     0.0567
+    ],
+    [
+     "BPFI",
+     0.0318
+    ],
+    [
+     "FTF",
+     0.0
+    ]
+   ],
+   "notes": [
+    "判定为 滚动体故障（特征频率 33.71 Hz，置信度 0.14），请在包络谱图上人工核对谐波族",
+    "注意：时域峭度 3.46 接近 3（无明显冲击），但包络谱匹配到谐波族；可能为轻度早期故障或干扰峰，建议人工复核"
+   ]
+  },
+  "kimi": {
+   "verdict": "ball",
+   "scores": {
+    "cage": 405.89,
+    "ball": 2187.81,
+    "inner": 936.53,
+    "outer": 955.37
+   },
+   "band": [
+    7000.0,
+    7984.0
+   ],
+   "band_clamped": true,
+   "peak_error": 0.0012051700624643635
+  }
+ },
+ {
+  "file_id": "012",
+  "relpath": "wav/外圈/9-16__外圈6__record_98_1789456099.wav",
+  "class": "外圈",
+  "remark": "外圈6",
+  "batch": "9-16",
+  "session": "afternoon",
+  "clip_ratio": "0.00806",
+  "best_kurtosis": "22.09",
+  "band_low": "7000",
+  "band_high": "8000",
+  "round": "B_fr_est",
+  "rpm_used": "1186.4",
+  "fr_source": "fr_est",
+  "glm": {
+   "verdict": "BPFI",
+   "confidence": 0.3970498517862781,
+   "level": "疑似（建议人工复核包络谱）",
+   "candidates": [
+    [
+     "BPFI",
+     0.4654
+    ],
+    [
+     "BPFO",
+     0.1366
+    ],
+    [
+     "BSF",
+     0.0446
+    ],
+    [
+     "FTF",
+     0.0
+    ]
+   ],
+   "notes": [
+    "判定为 内圈故障（特征频率 87.43 Hz，置信度 0.40），请在包络谱图上人工核对谐波族",
+    "注意：时域峭度 3.46 接近 3（无明显冲击），但包络谱匹配到谐波族；可能为轻度早期故障或干扰峰，建议人工复核"
+   ]
+  },
+  "kimi": {
+   "verdict": "inner",
+   "scores": {
+    "cage": 842.98,
+    "ball": 1320.72,
+    "inner": 2992.94,
+    "outer": 1481.15
+   },
+   "band": [
+    7000.0,
+    7984.0
+   ],
+   "band_clamped": true,
+   "peak_error": 0.0011250912558874887
+  }
+ },
+ {
+  "file_id": "013",
+  "relpath": "wav/外圈/9-16__外圈7__record_98_1789456162.wav",
+  "class": "外圈",
+  "remark": "外圈7",
+  "batch": "9-16",
+  "session": "afternoon",
+  "clip_ratio": "0.02167",
+  "best_kurtosis": "10.71",
+  "band_low": "6667",
+  "band_high": "8000",
+  "round": "A_main_1150",
+  "rpm_used": "1150.0",
+  "fr_source": "fixed_1150",
+  "glm": {
+   "verdict": "BPFO",
+   "confidence": 0.2861503825083005,
+   "level": "疑似（建议人工复核包络谱）",
+   "candidates": [
+    [
+     "BPFO",
+     0.3736
+    ],
+    [
+     "BPFI",
+     0.1749
+    ],
+    [
+     "FTF",
+     0.0
+    ],
+    [
+     "BSF",
+     0.0
+    ]
+   ],
+   "notes": [
+    "判定为 外圈故障（特征频率 49.42 Hz，置信度 0.29），请在包络谱图上人工核对谐波族",
+    "注意：时域峭度 3.24 接近 3（无明显冲击），但包络谱匹配到谐波族；可能为轻度早期故障或干扰峰，建议人工复核"
+   ]
+  },
+  "kimi": {
+   "verdict": "inner",
+   "scores": {
+    "cage": 326.45,
+    "ball": 367.21,
+    "inner": 1328.26,
+    "outer": 856.06
+   },
+   "band": [
+    6666.666666666667,
+    7984.0
+   ],
+   "band_clamped": true,
+   "peak_error": 0.01934525915653451
+  }
+ },
+ {
+  "file_id": "013",
+  "relpath": "wav/外圈/9-16__外圈7__record_98_1789456162.wav",
+  "class": "外圈",
+  "remark": "外圈7",
+  "batch": "9-16",
+  "session": "afternoon",
+  "clip_ratio": "0.02167",
+  "best_kurtosis": "10.71",
+  "band_low": "6667",
+  "band_high": "8000",
+  "round": "B_fr_est",
+  "rpm_used": "1162.4",
+  "fr_source": "fr_est",
+  "glm": {
+   "verdict": "BPFO",
+   "confidence": 0.27376620548734115,
+   "level": "疑似（建议人工复核包络谱）",
+   "candidates": [
+    [
+     "BPFO",
+     0.3754
+    ],
+    [
+     "BSF",
+     0.2032
+    ],
+    [
+     "BPFI",
+     0.0308
+    ],
+    [
+     "FTF",
+     0.0
+    ]
+   ],
+   "notes": [
+    "判定为 外圈故障（特征频率 49.95 Hz，置信度 0.27），请在包络谱图上人工核对谐波族",
+    "注意：时域峭度 3.24 接近 3（无明显冲击），但包络谱匹配到谐波族；可能为轻度早期故障或干扰峰，建议人工复核"
+   ]
+  },
+  "kimi": {
+   "verdict": "ball",
+   "scores": {
+    "cage": 326.45,
+    "ball": 1253.08,
+    "inner": 428.96,
+    "outer": 856.06
+   },
+   "band": [
+    6666.666666666667,
+    7984.0
+   ],
+   "band_clamped": true,
+   "peak_error": 0.01750830500318061
+  }
+ },
+ {
+  "file_id": "014",
+  "relpath": "wav/外圈/9-16__外圈7__record_98_1789456174.wav",
+  "class": "外圈",
+  "remark": "外圈7",
+  "batch": "9-16",
+  "session": "afternoon",
+  "clip_ratio": "0.02360",
+  "best_kurtosis": "10.53",
+  "band_low": "6667",
+  "band_high": "8000",
+  "round": "A_main_1150",
+  "rpm_used": "1150.0",
+  "fr_source": "fixed_1150",
+  "glm": {
+   "verdict": "BPFO",
+   "confidence": 0.1730357913125226,
+   "level": "疑似（建议人工复核包络谱）",
+   "candidates": [
+    [
+     "BPFO",
+     0.246
+    ],
+    [
+     "FTF",
+     0.146
+    ],
+    [
+     "BPFI",
+     0.1384
+    ],
+    [
+     "BSF",
+     0.0
+    ]
+   ],
+   "notes": [
+    "判定为 外圈故障（特征频率 49.42 Hz，置信度 0.17），请在包络谱图上人工核对谐波族",
+    "注意：时域峭度 3.15 接近 3（无明显冲击），但包络谱匹配到谐波族；可能为轻度早期故障或干扰峰，建议人工复核"
+   ]
+  },
+  "kimi": {
+   "verdict": "inner",
+   "scores": {
+    "cage": 1035.78,
+    "ball": 364.48,
+    "inner": 1369.49,
+    "outer": 655.35
+   },
+   "band": [
+    6666.666666666667,
+    7984.0
+   ],
+   "band_clamped": true,
+   "peak_error": 0.009390625620248217
+  }
+ },
+ {
+  "file_id": "014",
+  "relpath": "wav/外圈/9-16__外圈7__record_98_1789456174.wav",
+  "class": "外圈",
+  "remark": "外圈7",
+  "batch": "9-16",
+  "session": "afternoon",
+  "clip_ratio": "0.02360",
+  "best_kurtosis": "10.53",
+  "band_low": "6667",
+  "band_high": "8000",
+  "round": "B_fr_est",
+  "rpm_used": "1162.4",
+  "fr_source": "fr_est",
+  "glm": {
+   "verdict": "BPFO",
+   "confidence": 0.20623282467415327,
+   "level": "疑似（建议人工复核包络谱）",
+   "candidates": [
+    [
+     "BPFO",
+     0.2946
+    ],
+    [
+     "BPFI",
+     0.1768
+    ],
+    [
+     "FTF",
+     0.1069
+    ],
+    [
+     "BSF",
+     0.0
+    ]
+   ],
+   "notes": [
+    "判定为 外圈故障（特征频率 49.95 Hz，置信度 0.21），请在包络谱图上人工核对谐波族",
+    "注意：时域峭度 3.15 接近 3（无明显冲击），但包络谱匹配到谐波族；可能为轻度早期故障或干扰峰，建议人工复核"
+   ]
+  },
+  "kimi": {
+   "verdict": "inner",
+   "scores": {
+    "cage": 1015.12,
+    "ball": 368.66,
+    "inner": 1369.49,
+    "outer": 674.91
+   },
+   "band": [
+    6666.666666666667,
+    7984.0
+   ],
+   "band_clamped": true,
+   "peak_error": 0.019941171960361798
+  }
+ },
+ {
+  "file_id": "015",
+  "relpath": "wav/外圈/9-16__外圈8__record_98_1789456205.wav",
+  "class": "外圈",
+  "remark": "外圈8",
+  "batch": "9-16",
+  "session": "afternoon",
+  "clip_ratio": "0.11921",
+  "best_kurtosis": "2.90",
+  "band_low": "7500",
+  "band_high": "7833",
+  "round": "A_main_1150",
+  "rpm_used": "1150.0",
+  "fr_source": "fixed_1150",
+  "glm": {
+   "verdict": "normal",
+   "confidence": 0.06432822907329054,
+   "level": "未见故障特征",
+   "candidates": [
+    [
+     "BSF",
+     0.0643
+    ],
+    [
+     "FTF",
+     0.0
+    ],
+    [
+     "BPFO",
+     0.0
+    ],
+    [
+     "BPFI",
+     0.0
+    ]
+   ],
+   "notes": [
+    "Kurtogram 最佳频带包络峭度仅 2.90（≈3 为无冲击），信号中瞬态冲击成分弱",
+    "各候选频率谐波得分均低于判据阈值；注意这不能证明轴承健康——早期故障、强噪声或采集时长不足都可能掩盖特征，建议结合峭度与人工读谱"
+   ]
+  },
+  "kimi": {
+   "verdict": "ball",
+   "scores": {
+    "cage": 262.47,
+    "ball": 1425.48,
+    "inner": 738.1,
+    "outer": 811.16
+   },
+   "band": [
+    7050.000000000004,
+    7833.333333333338
+   ],
+   "band_clamped": true,
+   "peak_error": 0.013628416520766436
+  }
+ },
+ {
+  "file_id": "015",
+  "relpath": "wav/外圈/9-16__外圈8__record_98_1789456205.wav",
+  "class": "外圈",
+  "remark": "外圈8",
+  "batch": "9-16",
+  "session": "afternoon",
+  "clip_ratio": "0.11921",
+  "best_kurtosis": "2.90",
+  "band_low": "7500",
+  "band_high": "7833",
+  "round": "B_fr_est",
+  "rpm_used": "1199.6",
+  "fr_source": "fr_est",
+  "glm": {
+   "verdict": "normal",
+   "confidence": 0.0,
+   "level": "未见故障特征",
+   "candidates": [
+    [
+     "FTF",
+     0.0
+    ],
+    [
+     "BSF",
+     0.0
+    ],
+    [
+     "BPFO",
+     0.0
+    ],
+    [
+     "BPFI",
+     0.0
+    ]
+   ],
+   "notes": [
+    "Kurtogram 最佳频带包络峭度仅 2.90（≈3 为无冲击），信号中瞬态冲击成分弱",
+    "各候选频率谐波得分均低于判据阈值；注意这不能证明轴承健康——早期故障、强噪声或采集时长不足都可能掩盖特征，建议结合峭度与人工读谱"
+   ]
+  },
+  "kimi": {
+   "verdict": "inner",
+   "scores": {
+    "cage": 786.41,
+    "ball": 542.03,
+    "inner": 2836.77,
+    "outer": 974.45
+   },
+   "band": [
+    7050.000000000004,
+    7833.333333333338
+   ],
+   "band_clamped": true,
+   "peak_error": 0.000804919850135592
+  }
+ },
+ {
+  "file_id": "016",
+  "relpath": "wav/外圈/9-16__外圈8__record_98_1789456215.wav",
+  "class": "外圈",
+  "remark": "外圈8",
+  "batch": "9-16",
+  "session": "afternoon",
+  "clip_ratio": "0.11925",
+  "best_kurtosis": "3.01",
+  "band_low": "6667",
+  "band_high": "7333",
+  "round": "A_main_1150",
+  "rpm_used": "1150.0",
+  "fr_source": "fixed_1150",
+  "glm": {
+   "verdict": "normal",
+   "confidence": 0.10524204905853238,
+   "level": "未见故障特征",
+   "candidates": [
+    [
+     "BSF",
+     0.1052
+    ],
+    [
+     "FTF",
+     0.0
+    ],
+    [
+     "BPFO",
+     0.0
+    ],
+    [
+     "BPFI",
+     0.0
+    ]
+   ],
+   "notes": [
+    "Kurtogram 最佳频带包络峭度仅 3.01（≈3 为无冲击），信号中瞬态冲击成分弱",
+    "各候选频率谐波得分均低于判据阈值；注意这不能证明轴承健康——早期故障、强噪声或采集时长不足都可能掩盖特征，建议结合峭度与人工读谱"
+   ]
+  },
+  "kimi": {
+   "verdict": "ball",
+   "scores": {
+    "cage": 711.52,
+    "ball": 2803.8,
+    "inner": 1415.13,
+    "outer": 1659.09
+   },
+   "band": [
+    6599.999999999999,
+    7333.333333333332
+   ],
+   "band_clamped": true,
+   "peak_error": 0.008683887659689573
+  }
+ },
+ {
+  "file_id": "016",
+  "relpath": "wav/外圈/9-16__外圈8__record_98_1789456215.wav",
+  "class": "外圈",
+  "remark": "外圈8",
+  "batch": "9-16",
+  "session": "afternoon",
+  "clip_ratio": "0.11925",
+  "best_kurtosis": "3.01",
+  "band_low": "6667",
+  "band_high": "7333",
+  "round": "B_fr_est",
+  "rpm_used": "1199.6",
+  "fr_source": "fr_est",
+  "glm": {
+   "verdict": "BPFI",
+   "confidence": 0.39393581351472845,
+   "level": "疑似（建议人工复核包络谱）",
+   "candidates": [
+    [
+     "BPFI",
+     0.4137
+    ],
+    [
+     "BPFO",
+     0.0394
+    ],
+    [
+     "FTF",
+     0.0
+    ],
+    [
+     "BSF",
+     0.0
+    ]
+   ],
+   "notes": [
+    "Kurtogram 最佳频带包络峭度仅 3.01（≈3 为无冲击），信号中瞬态冲击成分弱",
+    "判定为 内圈故障（特征频率 88.40 Hz，置信度 0.39），请在包络谱图上人工核对谐波族",
+    "注意：时域峭度 1.53 接近 3（无明显冲击），但包络谱匹配到谐波族；可能为轻度早期故障或干扰峰，建议人工复核"
+   ]
+  },
+  "kimi": {
+   "verdict": "inner",
+   "scores": {
+    "cage": 1446.93,
+    "ball": 1457.12,
+    "inner": 6556.85,
+    "outer": 2163.17
+   },
+   "band": [
+    6599.999999999999,
+    7333.333333333332
+   ],
+   "band_clamped": true,
+   "peak_error": 0.0045754673223991965
+  }
+ },
+ {
+  "file_id": "017",
+  "relpath": "wav/外圈/9-16__外圈9__record_98_1789456252.wav",
+  "class": "外圈",
+  "remark": "外圈9",
+  "batch": "9-16",
+  "session": "afternoon",
+  "clip_ratio": "0.01537",
+  "best_kurtosis": "12.69",
+  "band_low": "6000",
+  "band_high": "8000",
+  "round": "A_main_1150",
+  "rpm_used": "1150.0",
+  "fr_source": "fixed_1150",
+  "glm": {
+   "verdict": "BPFO",
+   "confidence": 0.2758766237052837,
+   "level": "疑似（建议人工复核包络谱）",
+   "candidates": [
+    [
+     "BPFO",
+     0.3353
+    ],
+    [
+     "BSF",
+     0.1188
+    ],
+    [
+     "FTF",
+     0.0
+    ],
+    [
+     "BPFI",
+     0.0
+    ]
+   ],
+   "notes": [
+    "判定为 外圈故障（特征频率 49.42 Hz，置信度 0.28），请在包络谱图上人工核对谐波族",
+    "注意：时域峭度 2.45 接近 3（无明显冲击），但包络谱匹配到谐波族；可能为轻度早期故障或干扰峰，建议人工复核"
+   ]
+  },
+  "kimi": {
+   "verdict": "outer",
+   "scores": {
+    "cage": 273.43,
+    "ball": 691.38,
+    "inner": 407.24,
+    "outer": 1583.05
+   },
+   "band": [
+    6000.0,
+    7984.0
+   ],
+   "band_clamped": true,
+   "peak_error": 0.005015071458833056
+  }
+ },
+ {
+  "file_id": "017",
+  "relpath": "wav/外圈/9-16__外圈9__record_98_1789456252.wav",
+  "class": "外圈",
+  "remark": "外圈9",
+  "batch": "9-16",
+  "session": "afternoon",
+  "clip_ratio": "0.01537",
+  "best_kurtosis": "12.69",
+  "band_low": "6000",
+  "band_high": "8000",
+  "round": "B_fr_est",
+  "rpm_used": "1152.8",
+  "fr_source": "fr_est",
+  "glm": {
+   "verdict": "BPFO",
+   "confidence": 0.27750769405746006,
+   "level": "疑似（建议人工复核包络谱）",
+   "candidates": [
+    [
+     "BPFO",
+     0.3369
+    ],
+    [
+     "BSF",
+     0.1188
+    ],
+    [
+     "BPFI",
+     0.0838
+    ],
+    [
+     "FTF",
+     0.0
+    ]
+   ],
+   "notes": [
+    "判定为 外圈故障（特征频率 49.54 Hz，置信度 0.28），请在包络谱图上人工核对谐波族",
+    "注意：时域峭度 2.45 接近 3（无明显冲击），但包络谱匹配到谐波族；可能为轻度早期故障或干扰峰，建议人工复核"
+   ]
+  },
+  "kimi": {
+   "verdict": "outer",
+   "scores": {
+    "cage": 273.43,
+    "ball": 616.4,
+    "inner": 785.35,
+    "outer": 1583.05
+   },
+   "band": [
+    6000.0,
+    7984.0
+   ],
+   "band_clamped": true,
+   "peak_error": 0.0025914156887332815
+  }
+ },
+ {
+  "file_id": "018",
+  "relpath": "wav/外圈/9-16__外圈9__record_98_1789456261.wav",
+  "class": "外圈",
+  "remark": "外圈9",
+  "batch": "9-16",
+  "session": "afternoon",
+  "clip_ratio": "0.01222",
+  "best_kurtosis": "17.72",
+  "band_low": "7000",
+  "band_high": "8000",
+  "round": "A_main_1150",
+  "rpm_used": "1150.0",
+  "fr_source": "fixed_1150",
+  "glm": {
+   "verdict": "BPFO",
+   "confidence": 0.3224509050256095,
+   "level": "疑似（建议人工复核包络谱）",
+   "candidates": [
+    [
+     "BPFO",
+     0.3372
+    ],
+    [
+     "BSF",
+     0.0294
+    ],
+    [
+     "BPFI",
+     0.0249
+    ],
+    [
+     "FTF",
+     0.0
+    ]
+   ],
+   "notes": [
+    "判定为 外圈故障（特征频率 49.42 Hz，置信度 0.32），请在包络谱图上人工核对谐波族",
+    "注意：时域峭度 2.62 接近 3（无明显冲击），但包络谱匹配到谐波族；可能为轻度早期故障或干扰峰，建议人工复核"
+   ]
+  },
+  "kimi": {
+   "verdict": "outer",
+   "scores": {
+    "cage": 365.62,
+    "ball": 951.36,
+    "inner": 721.87,
+    "outer": 2012.43
+   },
+   "band": [
+    7000.0,
+    7984.0
+   ],
+   "band_clamped": true,
+   "peak_error": 0.0014706992733681723
+  }
+ },
+ {
+  "file_id": "018",
+  "relpath": "wav/外圈/9-16__外圈9__record_98_1789456261.wav",
+  "class": "外圈",
+  "remark": "外圈9",
+  "batch": "9-16",
+  "session": "afternoon",
+  "clip_ratio": "0.01222",
+  "best_kurtosis": "17.72",
+  "band_low": "7000",
+  "band_high": "8000",
+  "round": "B_fr_est",
+  "rpm_used": "1152.8",
+  "fr_source": "fr_est",
+  "glm": {
+   "verdict": "BPFO",
+   "confidence": 0.2615555817121567,
+   "level": "疑似（建议人工复核包络谱）",
+   "candidates": [
+    [
+     "BPFO",
+     0.3381
+    ],
+    [
+     "BPFI",
+     0.1531
+    ],
+    [
+     "BSF",
+     0.0297
+    ],
+    [
+     "FTF",
+     0.0
+    ]
+   ],
+   "notes": [
+    "判定为 外圈故障（特征频率 49.54 Hz，置信度 0.26），请在包络谱图上人工核对谐波族",
+    "注意：时域峭度 2.62 接近 3（无明显冲击），但包络谱匹配到谐波族；可能为轻度早期故障或干扰峰，建议人工复核"
+   ]
+  },
+  "kimi": {
+   "verdict": "outer",
+   "scores": {
+    "cage": 365.62,
+    "ball": 736.54,
+    "inner": 1413.23,
+    "outer": 2012.43
+   },
+   "band": [
+    7000.0,
+    7984.0
+   ],
+   "band_clamped": true,
+   "peak_error": 0.0009444090248153714
+  }
+ },
+ {
+  "file_id": "019",
+  "relpath": "wav/外圈/9-16__外圈10__record_98_1789456290.wav",
+  "class": "外圈",
+  "remark": "外圈10",
+  "batch": "9-16",
+  "session": "afternoon",
+  "clip_ratio": "0.06750",
+  "best_kurtosis": "6.16",
+  "band_low": "6500",
+  "band_high": "7000",
+  "round": "A_main_1150",
+  "rpm_used": "1150.0",
+  "fr_source": "fixed_1150",
+  "glm": {
+   "verdict": "BPFI",
+   "confidence": 0.4056299672754899,
+   "level": "疑似（建议人工复核包络谱）",
+   "candidates": [
+    [
+     "BPFI",
+     0.5312
+    ],
+    [
+     "BPFO",
+     0.2512
+    ],
+    [
+     "BSF",
+     0.067
+    ],
+    [
+     "FTF",
+     0.0287
+    ]
+   ],
+   "notes": [
+    "判定为 内圈故障（特征频率 84.75 Hz，置信度 0.41），请在包络谱图上人工核对谐波族",
+    "注意：时域峭度 1.82 接近 3（无明显冲击），但包络谱匹配到谐波族；可能为轻度早期故障或干扰峰，建议人工复核"
+   ]
+  },
+  "kimi": {
+   "verdict": "inner",
+   "scores": {
+    "cage": 1016.14,
+    "ball": 1426.72,
+    "inner": 8821.34,
+    "outer": 5762.56
+   },
+   "band": [
+    6300.0,
+    7000.0
+   ],
+   "band_clamped": true,
+   "peak_error": 0.0009907586594643037
+  }
+ },
+ {
+  "file_id": "019",
+  "relpath": "wav/外圈/9-16__外圈10__record_98_1789456290.wav",
+  "class": "外圈",
+  "remark": "外圈10",
+  "batch": "9-16",
+  "session": "afternoon",
+  "clip_ratio": "0.06750",
+  "best_kurtosis": "6.16",
+  "band_low": "6500",
+  "band_high": "7000",
+  "round": "B_fr_est",
+  "rpm_used": "1122.8",
+  "fr_source": "fr_est",
+  "glm": {
+   "verdict": "BPFO",
+   "confidence": 0.24707062237359315,
+   "level": "疑似（建议人工复核包络谱）",
+   "candidates": [
+    [
+     "BPFO",
+     0.3156
+    ],
+    [
+     "BPFI",
+     0.1371
+    ],
+    [
+     "BSF",
+     0.0388
+    ],
+    [
+     "FTF",
+     0.0
+    ]
+   ],
+   "notes": [
+    "判定为 外圈故障（特征频率 48.25 Hz，置信度 0.25），请在包络谱图上人工核对谐波族",
+    "注意：时域峭度 1.82 接近 3（无明显冲击），但包络谱匹配到谐波族；可能为轻度早期故障或干扰峰，建议人工复核"
+   ]
+  },
+  "kimi": {
+   "verdict": "outer",
+   "scores": {
+    "cage": 1090.4,
+    "ball": 1548.0,
+    "inner": 3744.16,
+    "outer": 6902.72
+   },
+   "band": [
+    6300.0,
+    7000.0
+   ],
+   "band_clamped": true,
+   "peak_error": 0.004048549574235056
+  }
+ },
+ {
+  "file_id": "020",
+  "relpath": "wav/外圈/9-16__外圈10__record_98_1789456302.wav",
+  "class": "外圈",
+  "remark": "外圈10",
+  "batch": "9-16",
+  "session": "afternoon",
+  "clip_ratio": "0.06087",
+  "best_kurtosis": "7.34",
+  "band_low": "6500",
+  "band_high": "7000",
+  "round": "A_main_1150",
+  "rpm_used": "1150.0",
+  "fr_source": "fixed_1150",
+  "glm": {
+   "verdict": "BPFI",
+   "confidence": 0.7425268263276916,
+   "level": "明确",
+   "candidates": [
+    [
+     "BPFI",
+     0.7834
+    ],
+    [
+     "FTF",
+     0.0818
+    ],
+    [
+     "BSF",
+     0.0707
+    ],
+    [
+     "BPFO",
+     0.0398
+    ]
+   ],
+   "notes": [
+    "判定为 内圈故障（特征频率 84.75 Hz，置信度 0.74），请在包络谱图上人工核对谐波族",
+    "注意：时域峭度 1.88 接近 3（无明显冲击），但包络谱匹配到谐波族；可能为轻度早期故障或干扰峰，建议人工复核"
+   ]
+  },
+  "kimi": {
+   "verdict": "inner",
+   "scores": {
+    "cage": 1192.71,
+    "ball": 1746.35,
+    "inner": 10328.55,
+    "outer": 1978.85
+   },
+   "band": [
+    6300.0,
+    7000.0
+   ],
+   "band_clamped": true,
+   "peak_error": 0.016723187656953076
+  }
+ },
+ {
+  "file_id": "020",
+  "relpath": "wav/外圈/9-16__外圈10__record_98_1789456302.wav",
+  "class": "外圈",
+  "remark": "外圈10",
+  "batch": "9-16",
+  "session": "afternoon",
+  "clip_ratio": "0.06087",
+  "best_kurtosis": "7.34",
+  "band_low": "6500",
+  "band_high": "7000",
+  "round": "B_fr_est",
+  "rpm_used": "1122.8",
+  "fr_source": "fr_est",
+  "glm": {
+   "verdict": "BPFI",
+   "confidence": 0.466588870722112,
+   "level": "疑似（建议人工复核包络谱）",
+   "candidates": [
+    [
+     "BPFI",
+     0.7599
+    ],
+    [
+     "BPFO",
+     0.5866
+    ],
+    [
+     "BSF",
+     0.1147
+    ],
+    [
+     "FTF",
+     0.0
+    ]
+   ],
+   "notes": [
+    "判定为 内圈故障（特征频率 82.74 Hz，置信度 0.47），请在包络谱图上人工核对谐波族",
+    "注意：时域峭度 1.88 接近 3（无明显冲击），但包络谱匹配到谐波族；可能为轻度早期故障或干扰峰，建议人工复核"
+   ]
+  },
+  "kimi": {
+   "verdict": "inner",
+   "scores": {
+    "cage": 1516.61,
+    "ball": 1390.8,
+    "inner": 11818.32,
+    "outer": 9184.06
+   },
+   "band": [
+    6300.0,
+    7000.0
+   ],
+   "band_clamped": true,
+   "peak_error": 0.0030863222160403127
+  }
+ },
+ {
+  "file_id": "021",
+  "relpath": "wav/正常/9-16__OK1__record_98_1789456446.wav",
+  "class": "正常",
+  "remark": "OK1",
+  "batch": "9-16",
+  "session": "afternoon",
+  "clip_ratio": "0.00000",
+  "best_kurtosis": "2.80",
+  "band_low": "5667",
+  "band_high": "6000",
+  "round": "A_main_1150",
+  "rpm_used": "1150.0",
+  "fr_source": "fixed_1150",
+  "glm": {
+   "verdict": "normal",
+   "confidence": 0.0,
+   "level": "未见故障特征",
+   "candidates": [
+    [
+     "FTF",
+     0.0
+    ],
+    [
+     "BSF",
+     0.0
+    ],
+    [
+     "BPFO",
+     0.0
+    ],
+    [
+     "BPFI",
+     0.0
+    ]
+   ],
+   "notes": [
+    "Kurtogram 最佳频带包络峭度仅 2.80（≈3 为无冲击），信号中瞬态冲击成分弱",
+    "各候选频率谐波得分均低于判据阈值；注意这不能证明轴承健康——早期故障、强噪声或采集时长不足都可能掩盖特征，建议结合峭度与人工读谱"
+   ]
+  },
+  "kimi": {
+   "verdict": "inner",
+   "scores": {
+    "cage": 1114.89,
+    "ball": 1106.7,
+    "inner": 1677.27,
+    "outer": 1231.1
+   },
+   "band": [
+    5400.000000000001,
+    6000.000000000001
+   ],
+   "band_clamped": true,
+   "peak_error": 0.01605690673989666
+  }
+ },
+ {
+  "file_id": "021",
+  "relpath": "wav/正常/9-16__OK1__record_98_1789456446.wav",
+  "class": "正常",
+  "remark": "OK1",
+  "batch": "9-16",
+  "session": "afternoon",
+  "clip_ratio": "0.00000",
+  "best_kurtosis": "2.80",
+  "band_low": "5667",
+  "band_high": "6000",
+  "round": "B_fr_est",
+  "rpm_used": "1197.2",
+  "fr_source": "fr_est",
+  "glm": {
+   "verdict": "normal",
+   "confidence": 0.0,
+   "level": "未见故障特征",
+   "candidates": [
+    [
+     "FTF",
+     0.0
+    ],
+    [
+     "BSF",
+     0.0
+    ],
+    [
+     "BPFO",
+     0.0
+    ],
+    [
+     "BPFI",
+     0.0
+    ]
+   ],
+   "notes": [
+    "Kurtogram 最佳频带包络峭度仅 2.80（≈3 为无冲击），信号中瞬态冲击成分弱",
+    "各候选频率谐波得分均低于判据阈值；注意这不能证明轴承健康——早期故障、强噪声或采集时长不足都可能掩盖特征，建议结合峭度与人工读谱"
+   ]
+  },
+  "kimi": {
+   "verdict": "ball",
+   "scores": {
+    "cage": 1306.65,
+    "ball": 1721.95,
+    "inner": 1637.13,
+    "outer": 1527.59
+   },
+   "band": [
+    5400.000000000001,
+    6000.000000000001
+   ],
+   "band_clamped": true,
+   "peak_error": 0.019475551414349947
+  }
+ },
+ {
+  "file_id": "022",
+  "relpath": "wav/正常/9-16__OK2__record_98_1789456481.wav",
+  "class": "正常",
+  "remark": "OK2",
+  "batch": "9-16",
+  "session": "afternoon",
+  "clip_ratio": "0.00000",
+  "best_kurtosis": "4.94",
+  "band_low": "7667",
+  "band_high": "8000",
+  "round": "A_main_1150",
+  "rpm_used": "1150.0",
+  "fr_source": "fixed_1150",
+  "glm": {
+   "verdict": "normal",
+   "confidence": 0.0,
+   "level": "未见故障特征",
+   "candidates": [
+    [
+     "FTF",
+     0.0
+    ],
+    [
+     "BSF",
+     0.0
+    ],
+    [
+     "BPFO",
+     0.0
+    ],
+    [
+     "BPFI",
+     0.0
+    ]
+   ],
+   "notes": [
+    "各候选频率谐波得分均低于判据阈值；注意这不能证明轴承健康——早期故障、强噪声或采集时长不足都可能掩盖特征，建议结合峭度与人工读谱"
+   ]
+  },
+  "kimi": {
+   "verdict": "outer",
+   "scores": {
+    "cage": 1441.21,
+    "ball": 1249.62,
+    "inner": 1299.32,
+    "outer": 2463.02
+   },
+   "band": [
+    7185.6,
+    7984.0
+   ],
+   "band_clamped": true,
+   "peak_error": 0.0014706992733681723
+  }
+ },
+ {
+  "file_id": "022",
+  "relpath": "wav/正常/9-16__OK2__record_98_1789456481.wav",
+  "class": "正常",
+  "remark": "OK2",
+  "batch": "9-16",
+  "session": "afternoon",
+  "clip_ratio": "0.00000",
+  "best_kurtosis": "4.94",
+  "band_low": "7667",
+  "band_high": "8000",
+  "round": "B_fr_est",
+  "rpm_used": "1157.6",
+  "fr_source": "fr_est",
+  "glm": {
+   "verdict": "normal",
+   "confidence": 0.0,
+   "level": "未见故障特征",
+   "candidates": [
+    [
+     "FTF",
+     0.0
+    ],
+    [
+     "BSF",
+     0.0
+    ],
+    [
+     "BPFO",
+     0.0
+    ],
+    [
+     "BPFI",
+     0.0
+    ]
+   ],
+   "notes": [
+    "各候选频率谐波得分均低于判据阈值；注意这不能证明轴承健康——早期故障、强噪声或采集时长不足都可能掩盖特征，建议结合峭度与人工读谱"
+   ]
+  },
+  "kimi": {
+   "verdict": "outer",
+   "scores": {
+    "cage": 1372.43,
+    "ball": 1508.57,
+    "inner": 1295.47,
+    "outer": 2463.02
+   },
+   "band": [
+    7185.6,
+    7984.0
+   ],
+   "band_clamped": true,
+   "peak_error": 0.005087074617414202
+  }
+ },
+ {
+  "file_id": "023",
+  "relpath": "wav/正常/9-16__OK3__record_98_1789456518.wav",
+  "class": "正常",
+  "remark": "OK3",
+  "batch": "9-16",
+  "session": "afternoon",
+  "clip_ratio": "0.00000",
+  "best_kurtosis": "3.96",
+  "band_low": "5167",
+  "band_high": "5500",
+  "round": "A_main_1150",
+  "rpm_used": "1150.0",
+  "fr_source": "fixed_1150",
+  "glm": {
+   "verdict": "normal",
+   "confidence": 0.0,
+   "level": "未见故障特征",
+   "candidates": [
+    [
+     "FTF",
+     0.0
+    ],
+    [
+     "BSF",
+     0.0
+    ],
+    [
+     "BPFO",
+     0.0
+    ],
+    [
+     "BPFI",
+     0.0
+    ]
+   ],
+   "notes": [
+    "Kurtogram 最佳频带包络峭度仅 3.96（≈3 为无冲击），信号中瞬态冲击成分弱",
+    "各候选频率谐波得分均低于判据阈值；注意这不能证明轴承健康——早期故障、强噪声或采集时长不足都可能掩盖特征，建议结合峭度与人工读谱"
+   ]
+  },
+  "kimi": {
+   "verdict": "ball",
+   "scores": {
+    "cage": 1403.97,
+    "ball": 2201.57,
+    "inner": 1570.44,
+    "outer": 1694.25
+   },
+   "band": [
+    4950.0,
+    5500.0
+   ],
+   "band_clamped": true,
+   "peak_error": 0.008683887659689575
+  }
+ },
+ {
+  "file_id": "023",
+  "relpath": "wav/正常/9-16__OK3__record_98_1789456518.wav",
+  "class": "正常",
+  "remark": "OK3",
+  "batch": "9-16",
+  "session": "afternoon",
+  "clip_ratio": "0.00000",
+  "best_kurtosis": "3.96",
+  "band_low": "5167",
+  "band_high": "5500",
+  "round": "B_fr_est",
+  "rpm_used": "1112.0",
+  "fr_source": "fr_est",
+  "glm": {
+   "verdict": "normal",
+   "confidence": 0.0,
+   "level": "未见故障特征",
+   "candidates": [
+    [
+     "FTF",
+     0.0
+    ],
+    [
+     "BSF",
+     0.0
+    ],
+    [
+     "BPFO",
+     0.0
+    ],
+    [
+     "BPFI",
+     0.0
+    ]
+   ],
+   "notes": [
+    "Kurtogram 最佳频带包络峭度仅 3.96（≈3 为无冲击），信号中瞬态冲击成分弱",
+    "各候选频率谐波得分均低于判据阈值；注意这不能证明轴承健康——早期故障、强噪声或采集时长不足都可能掩盖特征，建议结合峭度与人工读谱"
+   ]
+  },
+  "kimi": {
+   "verdict": "inner",
+   "scores": {
+    "cage": 974.55,
+    "ball": 1475.2,
+    "inner": 1667.58,
+    "outer": 1290.06
+   },
+   "band": [
+    4950.0,
+    5500.0
+   ],
+   "band_clamped": true,
+   "peak_error": 0.01282870272642137
+  }
+ },
+ {
+  "file_id": "024",
+  "relpath": "wav/正常/9-16__OK4__record_98_1789456550.wav",
+  "class": "正常",
+  "remark": "OK4",
+  "batch": "9-16",
+  "session": "afternoon",
+  "clip_ratio": "0.00000",
+  "best_kurtosis": "7.17",
+  "band_low": "7667",
+  "band_high": "8000",
+  "round": "A_main_1150",
+  "rpm_used": "1150.0",
+  "fr_source": "fixed_1150",
+  "glm": {
+   "verdict": "normal",
+   "confidence": 0.0,
+   "level": "未见故障特征",
+   "candidates": [
+    [
+     "FTF",
+     0.0
+    ],
+    [
+     "BSF",
+     0.0
+    ],
+    [
+     "BPFO",
+     0.0
+    ],
+    [
+     "BPFI",
+     0.0
+    ]
+   ],
+   "notes": [
+    "各候选频率谐波得分均低于判据阈值；注意这不能证明轴承健康——早期故障、强噪声或采集时长不足都可能掩盖特征，建议结合峭度与人工读谱"
+   ]
+  },
+  "kimi": {
+   "verdict": "outer",
+   "scores": {
+    "cage": 1282.56,
+    "ball": 1722.22,
+    "inner": 1304.58,
+    "outer": 1901.91
+   },
+   "band": [
+    7185.6,
+    7984.0
+   ],
+   "band_clamped": true,
+   "peak_error": 0.01850520664619996
+  }
+ },
+ {
+  "file_id": "024",
+  "relpath": "wav/正常/9-16__OK4__record_98_1789456550.wav",
+  "class": "正常",
+  "remark": "OK4",
+  "batch": "9-16",
+  "session": "afternoon",
+  "clip_ratio": "0.00000",
+  "best_kurtosis": "7.17",
+  "band_low": "7667",
+  "band_high": "8000",
+  "round": "B_fr_est",
+  "rpm_used": "1151.6",
+  "fr_source": "fr_est",
+  "glm": {
+   "verdict": "normal",
+   "confidence": 0.0,
+   "level": "未见故障特征",
+   "candidates": [
+    [
+     "FTF",
+     0.0
+    ],
+    [
+     "BSF",
+     0.0
+    ],
+    [
+     "BPFO",
+     0.0
+    ],
+    [
+     "BPFI",
+     0.0
+    ]
+   ],
+   "notes": [
+    "各候选频率谐波得分均低于判据阈值；注意这不能证明轴承健康——早期故障、强噪声或采集时长不足都可能掩盖特征，建议结合峭度与人工读谱"
+   ]
+  },
+  "kimi": {
+   "verdict": "outer",
+   "scores": {
+    "cage": 1282.56,
+    "ball": 1722.22,
+    "inner": 1304.58,
+    "outer": 1901.91
+   },
+   "band": [
+    7185.6,
+    7984.0
+   ],
+   "band_clamped": true,
+   "peak_error": 0.017107788988285674
+  }
+ },
+ {
+  "file_id": "025",
+  "relpath": "wav/正常/9-16__OK5__record_98_1789456581.wav",
+  "class": "正常",
+  "remark": "OK5",
+  "batch": "9-16",
+  "session": "afternoon",
+  "clip_ratio": "0.00000",
+  "best_kurtosis": "5.68",
+  "band_low": "6167",
+  "band_high": "6500",
+  "round": "A_main_1150",
+  "rpm_used": "1150.0",
+  "fr_source": "fixed_1150",
+  "glm": {
+   "verdict": "normal",
+   "confidence": 0.0,
+   "level": "未见故障特征",
+   "candidates": [
+    [
+     "FTF",
+     0.0
+    ],
+    [
+     "BSF",
+     0.0
+    ],
+    [
+     "BPFO",
+     0.0
+    ],
+    [
+     "BPFI",
+     0.0
+    ]
+   ],
+   "notes": [
+    "各候选频率谐波得分均低于判据阈值；注意这不能证明轴承健康——早期故障、强噪声或采集时长不足都可能掩盖特征，建议结合峭度与人工读谱"
+   ]
+  },
+  "kimi": {
+   "verdict": "outer",
+   "scores": {
+    "cage": 1530.18,
+    "ball": 1445.2,
+    "inner": 1511.95,
+    "outer": 1591.93
+   },
+   "band": [
+    5850.000000000002,
+    6500.000000000002
+   ],
+   "band_clamped": true,
+   "peak_error": 0.01184759752537554
+  }
+ },
+ {
+  "file_id": "025",
+  "relpath": "wav/正常/9-16__OK5__record_98_1789456581.wav",
+  "class": "正常",
+  "remark": "OK5",
+  "batch": "9-16",
+  "session": "afternoon",
+  "clip_ratio": "0.00000",
+  "best_kurtosis": "5.68",
+  "band_low": "6167",
+  "band_high": "6500",
+  "round": "B_fr_est",
+  "rpm_used": "1187.6",
+  "fr_source": "fr_est",
+  "glm": {
+   "verdict": "normal",
+   "confidence": 0.0,
+   "level": "未见故障特征",
+   "candidates": [
+    [
+     "FTF",
+     0.0
+    ],
+    [
+     "BSF",
+     0.0
+    ],
+    [
+     "BPFO",
+     0.0
+    ],
+    [
+     "BPFI",
+     0.0
+    ]
+   ],
+   "notes": [
+    "各候选频率谐波得分均低于判据阈值；注意这不能证明轴承健康——早期故障、强噪声或采集时长不足都可能掩盖特征，建议结合峭度与人工读谱"
+   ]
+  },
+  "kimi": {
+   "verdict": "inner",
+   "scores": {
+    "cage": 1378.17,
+    "ball": 1474.47,
+    "inner": 1507.13,
+    "outer": 1079.84
+   },
+   "band": [
+    5850.000000000002,
+    6500.000000000002
+   ],
+   "band_clamped": true,
+   "peak_error": 0.005482881919025505
+  }
+ },
+ {
+  "file_id": "026",
+  "relpath": "wav/正常/9-16__OK6__record_98_1789456613.wav",
+  "class": "正常",
+  "remark": "OK6",
+  "batch": "9-16",
+  "session": "afternoon",
+  "clip_ratio": "0.00000",
+  "best_kurtosis": "5.17",
+  "band_low": "1000",
+  "band_high": "1333",
+  "round": "A_main_1150",
+  "rpm_used": "1150.0",
+  "fr_source": "fixed_1150",
+  "glm": {
+   "verdict": "normal",
+   "confidence": 0.0,
+   "level": "未见故障特征",
+   "candidates": [
+    [
+     "FTF",
+     0.0
+    ],
+    [
+     "BSF",
+     0.0
+    ],
+    [
+     "BPFO",
+     0.0
+    ],
+    [
+     "BPFI",
+     0.0
+    ]
+   ],
+   "notes": [
+    "各候选频率谐波得分均低于判据阈值；注意这不能证明轴承健康——早期故障、强噪声或采集时长不足都可能掩盖特征，建议结合峭度与人工读谱"
+   ]
+  },
+  "kimi": {
+   "verdict": "cage",
+   "scores": {
+    "cage": 11316.96,
+    "ball": 6397.97,
+    "inner": 4104.33,
+    "outer": 5901.59
+   },
+   "band": [
+    999.9999999999999,
+    1333.3333333333333
+   ],
+   "band_clamped": false,
+   "peak_error": 0.008475063728533688
+  }
+ },
+ {
+  "file_id": "026",
+  "relpath": "wav/正常/9-16__OK6__record_98_1789456613.wav",
+  "class": "正常",
+  "remark": "OK6",
+  "batch": "9-16",
+  "session": "afternoon",
+  "clip_ratio": "0.00000",
+  "best_kurtosis": "5.17",
+  "band_low": "1000",
+  "band_high": "1333",
+  "round": "B_fr_est",
+  "rpm_used": "1199.6",
+  "fr_source": "fr_est",
+  "glm": {
+   "verdict": "normal",
+   "confidence": 0.0,
+   "level": "未见故障特征",
+   "candidates": [
+    [
+     "FTF",
+     0.0
+    ],
+    [
+     "BSF",
+     0.0
+    ],
+    [
+     "BPFO",
+     0.0
+    ],
+    [
+     "BPFI",
+     0.0
+    ]
+   ],
+   "notes": [
+    "各候选频率谐波得分均低于判据阈值；注意这不能证明轴承健康——早期故障、强噪声或采集时长不足都可能掩盖特征，建议结合峭度与人工读谱"
+   ]
+  },
+  "kimi": {
+   "verdict": "cage",
+   "scores": {
+    "cage": 9520.29,
+    "ball": 5186.07,
+    "inner": 4838.95,
+    "outer": 5388.51
+   },
+   "band": [
+    999.9999999999999,
+    1333.3333333333333
+   ],
+   "band_clamped": false,
+   "peak_error": 0.004191908133398321
+  }
+ },
+ {
+  "file_id": "027",
+  "relpath": "wav/正常/9-16__OK7__record_98_1789456640.wav",
+  "class": "正常",
+  "remark": "OK7",
+  "batch": "9-16",
+  "session": "afternoon",
+  "clip_ratio": "0.00000",
+  "best_kurtosis": "9.49",
+  "band_low": "2500",
+  "band_high": "2833",
+  "round": "A_main_1150",
+  "rpm_used": "1150.0",
+  "fr_source": "fixed_1150",
+  "glm": {
+   "verdict": "normal",
+   "confidence": 0.0,
+   "level": "未见故障特征",
+   "candidates": [
+    [
+     "FTF",
+     0.0
+    ],
+    [
+     "BSF",
+     0.0
+    ],
+    [
+     "BPFO",
+     0.0
+    ],
+    [
+     "BPFI",
+     0.0
+    ]
+   ],
+   "notes": [
+    "各候选频率谐波得分均低于判据阈值；注意这不能证明轴承健康——早期故障、强噪声或采集时长不足都可能掩盖特征，建议结合峭度与人工读谱"
+   ]
+  },
+  "kimi": {
+   "verdict": "cage",
+   "scores": {
+    "cage": 3741.45,
+    "ball": 3251.44,
+    "inner": 2875.03,
+    "outer": 3545.97
+   },
+   "band": [
+    2500.0,
+    2833.3333333333335
+   ],
+   "band_clamped": false,
+   "peak_error": 0.008475063728533688
+  }
+ },
+ {
+  "file_id": "027",
+  "relpath": "wav/正常/9-16__OK7__record_98_1789456640.wav",
+  "class": "正常",
+  "remark": "OK7",
+  "batch": "9-16",
+  "session": "afternoon",
+  "clip_ratio": "0.00000",
+  "best_kurtosis": "9.49",
+  "band_low": "2500",
+  "band_high": "2833",
+  "round": "B_fr_est",
+  "rpm_used": "1178.0",
+  "fr_source": "fr_est",
+  "glm": {
+   "verdict": "normal",
+   "confidence": 0.0,
+   "level": "未见故障特征",
+   "candidates": [
+    [
+     "FTF",
+     0.0
+    ],
+    [
+     "BSF",
+     0.0
+    ],
+    [
+     "BPFO",
+     0.0
+    ],
+    [
+     "BPFI",
+     0.0
+    ]
+   ],
+   "notes": [
+    "各候选频率谐波得分均低于判据阈值；注意这不能证明轴承健康——早期故障、强噪声或采集时长不足都可能掩盖特征，建议结合峭度与人工读谱"
+   ]
+  },
+  "kimi": {
+   "verdict": "outer",
+   "scores": {
+    "cage": 3476.39,
+    "ball": 2442.48,
+    "inner": 3009.36,
+    "outer": 4071.68
+   },
+   "band": [
+    2500.0,
+    2833.3333333333335
+   ],
+   "band_clamped": false,
+   "peak_error": 0.005686864256498314
+  }
+ },
+ {
+  "file_id": "028",
+  "relpath": "wav/正常/9-16__OK8__record_98_1789456668.wav",
+  "class": "正常",
+  "remark": "OK8",
+  "batch": "9-16",
+  "session": "afternoon",
+  "clip_ratio": "0.00000",
+  "best_kurtosis": "2.91",
+  "band_low": "5167",
+  "band_high": "5500",
+  "round": "A_main_1150",
+  "rpm_used": "1150.0",
+  "fr_source": "fixed_1150",
+  "glm": {
+   "verdict": "normal",
+   "confidence": 0.0,
+   "level": "未见故障特征",
+   "candidates": [
+    [
+     "FTF",
+     0.0
+    ],
+    [
+     "BSF",
+     0.0
+    ],
+    [
+     "BPFO",
+     0.0
+    ],
+    [
+     "BPFI",
+     0.0
+    ]
+   ],
+   "notes": [
+    "Kurtogram 最佳频带包络峭度仅 2.91（≈3 为无冲击），信号中瞬态冲击成分弱",
+    "各候选频率谐波得分均低于判据阈值；注意这不能证明轴承健康——早期故障、强噪声或采集时长不足都可能掩盖特征，建议结合峭度与人工读谱"
+   ]
+  },
+  "kimi": {
+   "verdict": "ball",
+   "scores": {
+    "cage": 1535.21,
+    "ball": 1847.12,
+    "inner": 1709.85,
+    "outer": 1319.53
+   },
+   "band": [
+    4950.0,
+    5500.0
+   ],
+   "band_clamped": true,
+   "peak_error": 0.0061496989235412265
+  }
+ },
+ {
+  "file_id": "028",
+  "relpath": "wav/正常/9-16__OK8__record_98_1789456668.wav",
+  "class": "正常",
+  "remark": "OK8",
+  "batch": "9-16",
+  "session": "afternoon",
+  "clip_ratio": "0.00000",
+  "best_kurtosis": "2.91",
+  "band_low": "5167",
+  "band_high": "5500",
+  "round": "B_fr_est",
+  "rpm_used": "1109.6",
+  "fr_source": "fr_est",
+  "glm": {
+   "verdict": "normal",
+   "confidence": 0.0,
+   "level": "未见故障特征",
+   "candidates": [
+    [
+     "FTF",
+     0.0
+    ],
+    [
+     "BSF",
+     0.0
+    ],
+    [
+     "BPFO",
+     0.0
+    ],
+    [
+     "BPFI",
+     0.0
+    ]
+   ],
+   "notes": [
+    "Kurtogram 最佳频带包络峭度仅 2.91（≈3 为无冲击），信号中瞬态冲击成分弱",
+    "各候选频率谐波得分均低于判据阈值；注意这不能证明轴承健康——早期故障、强噪声或采集时长不足都可能掩盖特征，建议结合峭度与人工读谱"
+   ]
+  },
+  "kimi": {
+   "verdict": "inner",
+   "scores": {
+    "cage": 1048.21,
+    "ball": 1691.73,
+    "inner": 1865.2,
+    "outer": 1584.32
+   },
+   "band": [
+    4950.0,
+    5500.0
+   ],
+   "band_clamped": true,
+   "peak_error": 0.006866665030164528
+  }
+ },
+ {
+  "file_id": "029",
+  "relpath": "wav/正常/9-16__OK9__record_98_1789456696.wav",
+  "class": "正常",
+  "remark": "OK9",
+  "batch": "9-16",
+  "session": "afternoon",
+  "clip_ratio": "0.00000",
+  "best_kurtosis": "3.03",
+  "band_low": "4000",
+  "band_high": "4333",
+  "round": "A_main_1150",
+  "rpm_used": "1150.0",
+  "fr_source": "fixed_1150",
+  "glm": {
+   "verdict": "normal",
+   "confidence": 0.0,
+   "level": "未见故障特征",
+   "candidates": [
+    [
+     "FTF",
+     0.0
+    ],
+    [
+     "BSF",
+     0.0
+    ],
+    [
+     "BPFO",
+     0.0
+    ],
+    [
+     "BPFI",
+     0.0
+    ]
+   ],
+   "notes": [
+    "Kurtogram 最佳频带包络峭度仅 3.03（≈3 为无冲击），信号中瞬态冲击成分弱",
+    "各候选频率谐波得分均低于判据阈值；注意这不能证明轴承健康——早期故障、强噪声或采集时长不足都可能掩盖特征，建议结合峭度与人工读谱"
+   ]
+  },
+  "kimi": {
+   "verdict": "ball",
+   "scores": {
+    "cage": 3394.3,
+    "ball": 4471.2,
+    "inner": 3739.3,
+    "outer": 3669.72
+   },
+   "band": [
+    3899.999999999999,
+    4333.333333333332
+   ],
+   "band_clamped": true,
+   "peak_error": 0.0037393587986124994
+  }
+ },
+ {
+  "file_id": "029",
+  "relpath": "wav/正常/9-16__OK9__record_98_1789456696.wav",
+  "class": "正常",
+  "remark": "OK9",
+  "batch": "9-16",
+  "session": "afternoon",
+  "clip_ratio": "0.00000",
+  "best_kurtosis": "3.03",
+  "band_low": "4000",
+  "band_high": "4333",
+  "round": "B_fr_est",
+  "rpm_used": "1162.4",
+  "fr_source": "fr_est",
+  "glm": {
+   "verdict": "normal",
+   "confidence": 0.0,
+   "level": "未见故障特征",
+   "candidates": [
+    [
+     "FTF",
+     0.0
+    ],
+    [
+     "BSF",
+     0.0
+    ],
+    [
+     "BPFO",
+     0.0
+    ],
+    [
+     "BPFI",
+     0.0
+    ]
+   ],
+   "notes": [
+    "Kurtogram 最佳频带包络峭度仅 3.03（≈3 为无冲击），信号中瞬态冲击成分弱",
+    "各候选频率谐波得分均低于判据阈值；注意这不能证明轴承健康——早期故障、强噪声或采集时长不足都可能掩盖特征，建议结合峭度与人工读谱"
+   ]
+  },
+  "kimi": {
+   "verdict": "ball",
+   "scores": {
+    "cage": 3394.3,
+    "ball": 4471.2,
+    "inner": 3851.59,
+    "outer": 3669.72
+   },
+   "band": [
+    3899.999999999999,
+    4333.333333333332
+   ],
+   "band_clamped": true,
+   "peak_error": 0.006951029251703726
+  }
+ },
+ {
+  "file_id": "030",
+  "relpath": "wav/正常/9-16__OK10__record_98_1789456722.wav",
+  "class": "正常",
+  "remark": "OK10",
+  "batch": "9-16",
+  "session": "afternoon",
+  "clip_ratio": "0.00000",
+  "best_kurtosis": "4.23",
+  "band_low": "833",
+  "band_high": "1167",
+  "round": "A_main_1150",
+  "rpm_used": "1150.0",
+  "fr_source": "fixed_1150",
+  "glm": {
+   "verdict": "normal",
+   "confidence": 0.0,
+   "level": "未见故障特征",
+   "candidates": [
+    [
+     "FTF",
+     0.0
+    ],
+    [
+     "BSF",
+     0.0
+    ],
+    [
+     "BPFO",
+     0.0
+    ],
+    [
+     "BPFI",
+     0.0
+    ]
+   ],
+   "notes": [
+    "各候选频率谐波得分均低于判据阈值；注意这不能证明轴承健康——早期故障、强噪声或采集时长不足都可能掩盖特征，建议结合峭度与人工读谱"
+   ]
+  },
+  "kimi": {
+   "verdict": "ball",
+   "scores": {
+    "cage": 7458.03,
+    "ball": 8812.86,
+    "inner": 5885.52,
+    "outer": 7148.65
+   },
+   "band": [
+    833.3333333333333,
+    1166.6666666666665
+   ],
+   "band_clamped": false,
+   "peak_error": 0.008683887659689573
+  }
+ },
+ {
+  "file_id": "030",
+  "relpath": "wav/正常/9-16__OK10__record_98_1789456722.wav",
+  "class": "正常",
+  "remark": "OK10",
+  "batch": "9-16",
+  "session": "afternoon",
+  "clip_ratio": "0.00000",
+  "best_kurtosis": "4.23",
+  "band_low": "833",
+  "band_high": "1167",
+  "round": "B_fr_est",
+  "rpm_used": "1106.0",
+  "fr_source": "fr_est",
+  "glm": {
+   "verdict": "normal",
+   "confidence": 0.0652957805729844,
+   "level": "未见故障特征",
+   "candidates": [
+    [
+     "BPFO",
+     0.0653
+    ],
+    [
+     "BSF",
+     0.0475
+    ],
+    [
+     "FTF",
+     0.0
+    ],
+    [
+     "BPFI",
+     0.0
+    ]
+   ],
+   "notes": [
+    "各候选频率谐波得分均低于判据阈值；注意这不能证明轴承健康——早期故障、强噪声或采集时长不足都可能掩盖特征，建议结合峭度与人工读谱"
+   ]
+  },
+  "kimi": {
+   "verdict": "ball",
+   "scores": {
+    "cage": 5361.04,
+    "ball": 12905.43,
+    "inner": 6322.14,
+    "outer": 11285.92
+   },
+   "band": [
+    833.3333333333333,
+    1166.6666666666665
+   ],
+   "band_clamped": false,
+   "peak_error": 0.009437080249244369
+  }
+ },
+ {
+  "file_id": "031",
+  "relpath": "wav/滚珠/9-17__滚珠不良1__record_98_1789612361.wav",
+  "class": "滚珠",
+  "remark": "滚珠不良1",
+  "batch": "9-17",
+  "session": "morning",
+  "clip_ratio": "0.00000",
+  "best_kurtosis": "7.43",
+  "band_low": "6000",
+  "band_high": "6333",
+  "round": "A_main_1150",
+  "rpm_used": "1150.0",
+  "fr_source": "fixed_1150",
+  "glm": {
+   "verdict": "normal",
+   "confidence": 0.0,
+   "level": "未见故障特征",
+   "candidates": [
+    [
+     "FTF",
+     0.0
+    ],
+    [
+     "BSF",
+     0.0
+    ],
+    [
+     "BPFO",
+     0.0
+    ],
+    [
+     "BPFI",
+     0.0
+    ]
+   ],
+   "notes": [
+    "各候选频率谐波得分均低于判据阈值；注意这不能证明轴承健康——早期故障、强噪声或采集时长不足都可能掩盖特征，建议结合峭度与人工读谱"
+   ]
+  },
+  "kimi": {
+   "verdict": "ball",
+   "scores": {
+    "cage": 1500.38,
+    "ball": 1662.35,
+    "inner": 1485.43,
+    "outer": 1279.7
+   },
+   "band": [
+    5700.000000000002,
+    6333.333333333335
+   ],
+   "band_clamped": true,
+   "peak_error": 0.0185729453818433
+  }
+ },
+ {
+  "file_id": "031",
+  "relpath": "wav/滚珠/9-17__滚珠不良1__record_98_1789612361.wav",
+  "class": "滚珠",
+  "remark": "滚珠不良1",
+  "batch": "9-17",
+  "session": "morning",
+  "clip_ratio": "0.00000",
+  "best_kurtosis": "7.43",
+  "band_low": "6000",
+  "band_high": "6333",
+  "round": "B_fr_est",
+  "rpm_used": "1138.4",
+  "fr_source": "fr_est",
+  "glm": {
+   "verdict": "normal",
+   "confidence": 0.0,
+   "level": "未见故障特征",
+   "candidates": [
+    [
+     "FTF",
+     0.0
+    ],
+    [
+     "BSF",
+     0.0
+    ],
+    [
+     "BPFO",
+     0.0
+    ],
+    [
+     "BPFI",
+     0.0
+    ]
+   ],
+   "notes": [
+    "各候选频率谐波得分均低于判据阈值；注意这不能证明轴承健康——早期故障、强噪声或采集时长不足都可能掩盖特征，建议结合峭度与人工读谱"
+   ]
+  },
+  "kimi": {
+   "verdict": "ball",
+   "scores": {
+    "cage": 1202.94,
+    "ball": 1569.99,
+    "inner": 1551.27,
+    "outer": 1279.7
+   },
+   "band": [
+    5700.000000000002,
+    6333.333333333335
+   ],
+   "band_clamped": true,
+   "peak_error": 0.018980016170912398
+  }
+ },
+ {
+  "file_id": "032",
+  "relpath": "wav/滚珠/9-17__滚珠不良1__record_98_1789612445.wav",
+  "class": "滚珠",
+  "remark": "滚珠不良1",
+  "batch": "9-17",
+  "session": "morning",
+  "clip_ratio": "0.00000",
+  "best_kurtosis": "5.72",
+  "band_low": "833",
+  "band_high": "1167",
+  "round": "A_main_1150",
+  "rpm_used": "1150.0",
+  "fr_source": "fixed_1150",
+  "glm": {
+   "verdict": "normal",
+   "confidence": 0.062444467781582066,
+   "level": "未见故障特征",
+   "candidates": [
+    [
+     "FTF",
+     0.0624
+    ],
+    [
+     "BSF",
+     0.0
+    ],
+    [
+     "BPFO",
+     0.0
+    ],
+    [
+     "BPFI",
+     0.0
+    ]
+   ],
+   "notes": [
+    "各候选频率谐波得分均低于判据阈值；注意这不能证明轴承健康——早期故障、强噪声或采集时长不足都可能掩盖特征，建议结合峭度与人工读谱"
+   ]
+  },
+  "kimi": {
+   "verdict": "cage",
+   "scores": {
+    "cage": 20364.93,
+    "ball": 9381.36,
+    "inner": 9063.0,
+    "outer": 8053.8
+   },
+   "band": [
+    833.3333333333333,
+    1166.6666666666665
+   ],
+   "band_clamped": false,
+   "peak_error": 0.007675151861548358
+  }
+ },
+ {
+  "file_id": "032",
+  "relpath": "wav/滚珠/9-17__滚珠不良1__record_98_1789612445.wav",
+  "class": "滚珠",
+  "remark": "滚珠不良1",
+  "batch": "9-17",
+  "session": "morning",
+  "clip_ratio": "0.00000",
+  "best_kurtosis": "5.72",
+  "band_low": "833",
+  "band_high": "1167",
+  "round": "B_fr_est",
+  "rpm_used": "1138.4",
+  "fr_source": "fr_est",
+  "glm": {
+   "verdict": "normal",
+   "confidence": 0.062444467781582066,
+   "level": "未见故障特征",
+   "candidates": [
+    [
+     "FTF",
+     0.0624
+    ],
+    [
+     "BSF",
+     0.0
+    ],
+    [
+     "BPFO",
+     0.0
+    ],
+    [
+     "BPFI",
+     0.0
+    ]
+   ],
+   "notes": [
+    "各候选频率谐波得分均低于判据阈值；注意这不能证明轴承健康——早期故障、强噪声或采集时长不足都可能掩盖特征，建议结合峭度与人工读谱"
+   ]
+  },
+  "kimi": {
+   "verdict": "cage",
+   "scores": {
+    "cage": 20364.93,
+    "ball": 9260.22,
+    "inner": 9063.0,
+    "outer": 6740.12
+   },
+   "band": [
+    833.3333333333333,
+    1166.6666666666665
+   ],
+   "band_clamped": false,
+   "peak_error": 0.0024539919527921113
+  }
+ },
+ {
+  "file_id": "033",
+  "relpath": "wav/滚珠/9-17__滚珠不良2__record_98_1789612552.wav",
+  "class": "滚珠",
+  "remark": "滚珠不良2",
+  "batch": "9-17",
+  "session": "morning",
+  "clip_ratio": "0.00000",
+  "best_kurtosis": "3.95",
+  "band_low": "7667",
+  "band_high": "8000",
+  "round": "A_main_1150",
+  "rpm_used": "1150.0",
+  "fr_source": "fixed_1150",
+  "glm": {
+   "verdict": "normal",
+   "confidence": 0.0,
+   "level": "未见故障特征",
+   "candidates": [
+    [
+     "FTF",
+     0.0
+    ],
+    [
+     "BSF",
+     0.0
+    ],
+    [
+     "BPFO",
+     0.0
+    ],
+    [
+     "BPFI",
+     0.0
+    ]
+   ],
+   "notes": [
+    "Kurtogram 最佳频带包络峭度仅 3.95（≈3 为无冲击），信号中瞬态冲击成分弱",
+    "各候选频率谐波得分均低于判据阈值；注意这不能证明轴承健康——早期故障、强噪声或采集时长不足都可能掩盖特征，建议结合峭度与人工读谱"
+   ]
+  },
+  "kimi": {
+   "verdict": "outer",
+   "scores": {
+    "cage": 3021.42,
+    "ball": 4196.21,
+    "inner": 3520.17,
+    "outer": 4220.01
+   },
+   "band": [
+    7185.6,
+    7984.0
+   ],
+   "band_clamped": true,
+   "peak_error": 0.01176013905251658
+  }
+ },
+ {
+  "file_id": "033",
+  "relpath": "wav/滚珠/9-17__滚珠不良2__record_98_1789612552.wav",
+  "class": "滚珠",
+  "remark": "滚珠不良2",
+  "batch": "9-17",
+  "session": "morning",
+  "clip_ratio": "0.00000",
+  "best_kurtosis": "3.95",
+  "band_low": "7667",
+  "band_high": "8000",
+  "round": "B_fr_est",
+  "rpm_used": "1161.2",
+  "fr_source": "fr_est",
+  "glm": {
+   "verdict": "normal",
+   "confidence": 0.0,
+   "level": "未见故障特征",
+   "candidates": [
+    [
+     "FTF",
+     0.0
+    ],
+    [
+     "BSF",
+     0.0
+    ],
+    [
+     "BPFO",
+     0.0
+    ],
+    [
+     "BPFI",
+     0.0
+    ]
+   ],
+   "notes": [
+    "Kurtogram 最佳频带包络峭度仅 3.95（≈3 为无冲击），信号中瞬态冲击成分弱",
+    "各候选频率谐波得分均低于判据阈值；注意这不能证明轴承健康——早期故障、强噪声或采集时长不足都可能掩盖特征，建议结合峭度与人工读谱"
+   ]
+  },
+  "kimi": {
+   "verdict": "ball",
+   "scores": {
+    "cage": 3021.42,
+    "ball": 4744.02,
+    "inner": 3416.74,
+    "outer": 4221.24
+   },
+   "band": [
+    7185.6,
+    7984.0
+   ],
+   "band_clamped": true,
+   "peak_error": 0.002236755945505426
+  }
+ },
+ {
+  "file_id": "034",
+  "relpath": "wav/滚珠/9-17__滚珠不良2__record_98_1789612600.wav",
+  "class": "滚珠",
+  "remark": "滚珠不良2",
+  "batch": "9-17",
+  "session": "morning",
+  "clip_ratio": "0.00000",
+  "best_kurtosis": "4.67",
+  "band_low": "1000",
+  "band_high": "1500",
+  "round": "A_main_1150",
+  "rpm_used": "1150.0",
+  "fr_source": "fixed_1150",
+  "glm": {
+   "verdict": "normal",
+   "confidence": 0.059279177224583715,
+   "level": "未见故障特征",
+   "candidates": [
+    [
+     "BPFO",
+     0.0593
+    ],
+    [
+     "BSF",
+     0.0471
+    ],
+    [
+     "FTF",
+     0.0
+    ],
+    [
+     "BPFI",
+     0.0
+    ]
+   ],
+   "notes": [
+    "各候选频率谐波得分均低于判据阈值；注意这不能证明轴承健康——早期故障、强噪声或采集时长不足都可能掩盖特征，建议结合峭度与人工读谱"
+   ]
+  },
+  "kimi": {
+   "verdict": "ball",
+   "scores": {
+    "cage": 3248.39,
+    "ball": 4196.29,
+    "inner": 3918.2,
+    "outer": 4165.2
+   },
+   "band": [
+    1000.0,
+    1500.0
+   ],
+   "band_clamped": false,
+   "peak_error": 0.013628416520766436
+  }
+ },
+ {
+  "file_id": "034",
+  "relpath": "wav/滚珠/9-17__滚珠不良2__record_98_1789612600.wav",
+  "class": "滚珠",
+  "remark": "滚珠不良2",
+  "batch": "9-17",
+  "session": "morning",
+  "clip_ratio": "0.00000",
+  "best_kurtosis": "4.67",
+  "band_low": "1000",
+  "band_high": "1500",
+  "round": "B_fr_est",
+  "rpm_used": "1161.2",
+  "fr_source": "fr_est",
+  "glm": {
+   "verdict": "normal",
+   "confidence": 0.04643206112163714,
+   "level": "未见故障特征",
+   "candidates": [
+    [
+     "BSF",
+     0.0464
+    ],
+    [
+     "FTF",
+     0.0
+    ],
+    [
+     "BPFO",
+     0.0
+    ],
+    [
+     "BPFI",
+     0.0
+    ]
+   ],
+   "notes": [
+    "各候选频率谐波得分均低于判据阈值；注意这不能证明轴承健康——早期故障、强噪声或采集时长不足都可能掩盖特征，建议结合峭度与人工读谱"
+   ]
+  },
+  "kimi": {
+   "verdict": "inner",
+   "scores": {
+    "cage": 3345.63,
+    "ball": 4193.64,
+    "inner": 4699.44,
+    "outer": 3167.58
+   },
+   "band": [
+    1000.0,
+    1500.0
+   ],
+   "band_clamped": false,
+   "peak_error": 0.016657314885773208
+  }
+ },
+ {
+  "file_id": "035",
+  "relpath": "wav/滚珠/9-17__滚珠不良3__record_98_1789612678.wav",
+  "class": "滚珠",
+  "remark": "滚珠不良3",
+  "batch": "9-17",
+  "session": "morning",
+  "clip_ratio": "0.00000",
+  "best_kurtosis": "5.97",
+  "band_low": "833",
+  "band_high": "1167",
+  "round": "A_main_1150",
+  "rpm_used": "1150.0",
+  "fr_source": "fixed_1150",
+  "glm": {
+   "verdict": "normal",
+   "confidence": 0.06025481265147005,
+   "level": "未见故障特征",
+   "candidates": [
+    [
+     "BPFI",
+     0.0603
+    ],
+    [
+     "BSF",
+     0.0239
+    ],
+    [
+     "FTF",
+     0.0
+    ],
+    [
+     "BPFO",
+     0.0
+    ]
+   ],
+   "notes": [
+    "各候选频率谐波得分均低于判据阈值；注意这不能证明轴承健康——早期故障、强噪声或采集时长不足都可能掩盖特征，建议结合峭度与人工读谱"
+   ]
+  },
+  "kimi": {
+   "verdict": "ball",
+   "scores": {
+    "cage": 8799.67,
+    "ball": 11343.75,
+    "inner": 10495.17,
+    "outer": 10756.07
+   },
+   "band": [
+    833.3333333333333,
+    1166.6666666666665
+   ],
+   "band_clamped": false,
+   "peak_error": 0.014446798740104383
+  }
+ },
+ {
+  "file_id": "035",
+  "relpath": "wav/滚珠/9-17__滚珠不良3__record_98_1789612678.wav",
+  "class": "滚珠",
+  "remark": "滚珠不良3",
+  "batch": "9-17",
+  "session": "morning",
+  "clip_ratio": "0.00000",
+  "best_kurtosis": "5.97",
+  "band_low": "833",
+  "band_high": "1167",
+  "round": "B_fr_est",
+  "rpm_used": "1127.6",
+  "fr_source": "fr_est",
+  "glm": {
+   "verdict": "normal",
+   "confidence": 0.059310157760431,
+   "level": "未见故障特征",
+   "candidates": [
+    [
+     "BPFI",
+     0.0593
+    ],
+    [
+     "BSF",
+     0.0321
+    ],
+    [
+     "FTF",
+     0.0
+    ],
+    [
+     "BPFO",
+     0.0
+    ]
+   ],
+   "notes": [
+    "各候选频率谐波得分均低于判据阈值；注意这不能证明轴承健康——早期故障、强噪声或采集时长不足都可能掩盖特征，建议结合峭度与人工读谱"
+   ]
+  },
+  "kimi": {
+   "verdict": "inner",
+   "scores": {
+    "cage": 11418.93,
+    "ball": 11434.33,
+    "inner": 15334.67,
+    "outer": 10202.45
+   },
+   "band": [
+    833.3333333333333,
+    1166.6666666666665
+   ],
+   "band_clamped": false,
+   "peak_error": 0.004651475457170122
+  }
+ },
+ {
+  "file_id": "036",
+  "relpath": "wav/滚珠/9-17__滚珠不良3__record_98_1789612685.wav",
+  "class": "滚珠",
+  "remark": "滚珠不良3",
+  "batch": "9-17",
+  "session": "morning",
+  "clip_ratio": "0.00000",
+  "best_kurtosis": "6.25",
+  "band_low": "833",
+  "band_high": "1167",
+  "round": "A_main_1150",
+  "rpm_used": "1150.0",
+  "fr_source": "fixed_1150",
+  "glm": {
+   "verdict": "normal",
+   "confidence": 0.0,
+   "level": "未见故障特征",
+   "candidates": [
+    [
+     "FTF",
+     0.0
+    ],
+    [
+     "BSF",
+     0.0
+    ],
+    [
+     "BPFO",
+     0.0
+    ],
+    [
+     "BPFI",
+     0.0
+    ]
+   ],
+   "notes": [
+    "各候选频率谐波得分均低于判据阈值；注意这不能证明轴承健康——早期故障、强噪声或采集时长不足都可能掩盖特征，建议结合峭度与人工读谱"
+   ]
+  },
+  "kimi": {
+   "verdict": "outer",
+   "scores": {
+    "cage": 4878.05,
+    "ball": 7290.02,
+    "inner": 5700.27,
+    "outer": 7638.81
+   },
+   "band": [
+    833.3333333333333,
+    1166.6666666666665
+   ],
+   "band_clamped": false,
+   "peak_error": 0.019107465780194215
+  }
+ },
+ {
+  "file_id": "036",
+  "relpath": "wav/滚珠/9-17__滚珠不良3__record_98_1789612685.wav",
+  "class": "滚珠",
+  "remark": "滚珠不良3",
+  "batch": "9-17",
+  "session": "morning",
+  "clip_ratio": "0.00000",
+  "best_kurtosis": "6.25",
+  "band_low": "833",
+  "band_high": "1167",
+  "round": "B_fr_est",
+  "rpm_used": "1127.6",
+  "fr_source": "fr_est",
+  "glm": {
+   "verdict": "normal",
+   "confidence": 0.0,
+   "level": "未见故障特征",
+   "candidates": [
+    [
+     "FTF",
+     0.0
+    ],
+    [
+     "BSF",
+     0.0
+    ],
+    [
+     "BPFO",
+     0.0
+    ],
+    [
+     "BPFI",
+     0.0
+    ]
+   ],
+   "notes": [
+    "各候选频率谐波得分均低于判据阈值；注意这不能证明轴承健康——早期故障、强噪声或采集时长不足都可能掩盖特征，建议结合峭度与人工读谱"
+   ]
+  },
+  "kimi": {
+   "verdict": "ball",
+   "scores": {
+    "cage": 5769.56,
+    "ball": 9507.25,
+    "inner": 7317.52,
+    "outer": 8823.52
+   },
+   "band": [
+    833.3333333333333,
+    1166.6666666666665
+   ],
+   "band_clamped": false,
+   "peak_error": 0.005107383660533965
+  }
+ },
+ {
+  "file_id": "037",
+  "relpath": "wav/滚珠/9-17__滚珠不良4__record_98_1789612774.wav",
+  "class": "滚珠",
+  "remark": "滚珠不良4",
+  "batch": "9-17",
+  "session": "morning",
+  "clip_ratio": "0.00000",
+  "best_kurtosis": "4.77",
+  "band_low": "667",
+  "band_high": "1333",
+  "round": "A_main_1150",
+  "rpm_used": "1150.0",
+  "fr_source": "fixed_1150",
+  "glm": {
+   "verdict": "normal",
+   "confidence": 0.06073843503527736,
+   "level": "未见故障特征",
+   "candidates": [
+    [
+     "BPFO",
+     0.0607
+    ],
+    [
+     "BSF",
+     0.0423
+    ],
+    [
+     "BPFI",
+     0.0384
+    ],
+    [
+     "FTF",
+     0.0
+    ]
+   ],
+   "notes": [
+    "各候选频率谐波得分均低于判据阈值；注意这不能证明轴承健康——早期故障、强噪声或采集时长不足都可能掩盖特征，建议结合峭度与人工读谱"
+   ]
+  },
+  "kimi": {
+   "verdict": "outer",
+   "scores": {
+    "cage": 1066.33,
+    "ball": 1484.7,
+    "inner": 2075.49,
+    "outer": 2319.71
+   },
+   "band": [
+    666.6666666666666,
+    1333.3333333333333
+   ],
+   "band_clamped": false,
+   "peak_error": 0.01522013132221723
+  }
+ },
+ {
+  "file_id": "037",
+  "relpath": "wav/滚珠/9-17__滚珠不良4__record_98_1789612774.wav",
+  "class": "滚珠",
+  "remark": "滚珠不良4",
+  "batch": "9-17",
+  "session": "morning",
+  "clip_ratio": "0.00000",
+  "best_kurtosis": "4.77",
+  "band_low": "667",
+  "band_high": "1333",
+  "round": "B_fr_est",
+  "rpm_used": "1178.0",
+  "fr_source": "fr_est",
+  "glm": {
+   "verdict": "normal",
+   "confidence": 0.08639134050089593,
+   "level": "未见故障特征",
+   "candidates": [
+    [
+     "BPFI",
+     0.0864
+    ],
+    [
+     "BSF",
+     0.0764
+    ],
+    [
+     "BPFO",
+     0.0229
+    ],
+    [
+     "FTF",
+     0.0
+    ]
+   ],
+   "notes": [
+    "各候选频率谐波得分均低于判据阈值；注意这不能证明轴承健康——早期故障、强噪声或采集时长不足都可能掩盖特征，建议结合峭度与人工读谱"
+   ]
+  },
+  "kimi": {
+   "verdict": "inner",
+   "scores": {
+    "cage": 1214.6,
+    "ball": 1557.13,
+    "inner": 2440.97,
+    "outer": 1386.52
+   },
+   "band": [
+    666.6666666666666,
+    1333.3333333333333
+   ],
+   "band_clamped": false,
+   "peak_error": 0.00791758001343768
+  }
+ },
+ {
+  "file_id": "038",
+  "relpath": "wav/滚珠/9-17__滚珠不良4__record_98_1789612779.wav",
+  "class": "滚珠",
+  "remark": "滚珠不良4",
+  "batch": "9-17",
+  "session": "morning",
+  "clip_ratio": "0.00000",
+  "best_kurtosis": "4.69",
+  "band_low": "667",
+  "band_high": "1333",
+  "round": "A_main_1150",
+  "rpm_used": "1150.0",
+  "fr_source": "fixed_1150",
+  "glm": {
+   "verdict": "normal",
+   "confidence": 0.06234925715988986,
+   "level": "未见故障特征",
+   "candidates": [
+    [
+     "BPFO",
+     0.0623
+    ],
+    [
+     "BPFI",
+     0.0513
+    ],
+    [
+     "BSF",
+     0.0415
+    ],
+    [
+     "FTF",
+     0.0
+    ]
+   ],
+   "notes": [
+    "各候选频率谐波得分均低于判据阈值；注意这不能证明轴承健康——早期故障、强噪声或采集时长不足都可能掩盖特征，建议结合峭度与人工读谱"
+   ]
+  },
+  "kimi": {
+   "verdict": "outer",
+   "scores": {
+    "cage": 618.74,
+    "ball": 959.86,
+    "inner": 1699.2,
+    "outer": 1860.9
+   },
+   "band": [
+    666.6666666666666,
+    1333.3333333333333
+   ],
+   "band_clamped": false,
+   "peak_error": 0.01184759752537554
+  }
+ },
+ {
+  "file_id": "038",
+  "relpath": "wav/滚珠/9-17__滚珠不良4__record_98_1789612779.wav",
+  "class": "滚珠",
+  "remark": "滚珠不良4",
+  "batch": "9-17",
+  "session": "morning",
+  "clip_ratio": "0.00000",
+  "best_kurtosis": "4.69",
+  "band_low": "667",
+  "band_high": "1333",
+  "round": "B_fr_est",
+  "rpm_used": "1178.0",
+  "fr_source": "fr_est",
+  "glm": {
+   "verdict": "normal",
+   "confidence": 0.0930521653087946,
+   "level": "未见故障特征",
+   "candidates": [
+    [
+     "BPFI",
+     0.0931
+    ],
+    [
+     "BSF",
+     0.0777
+    ],
+    [
+     "BPFO",
+     0.0302
+    ],
+    [
+     "FTF",
+     0.0
+    ]
+   ],
+   "notes": [
+    "各候选频率谐波得分均低于判据阈值；注意这不能证明轴承健康——早期故障、强噪声或采集时长不足都可能掩盖特征，建议结合峭度与人工读谱"
+   ]
+  },
+  "kimi": {
+   "verdict": "inner",
+   "scores": {
+    "cage": 689.61,
+    "ball": 1257.33,
+    "inner": 1953.61,
+    "outer": 1254.37
+   },
+   "band": [
+    666.6666666666666,
+    1333.3333333333333
+   ],
+   "band_clamped": false,
+   "peak_error": 0.011757266032536455
+  }
+ },
+ {
+  "file_id": "039",
+  "relpath": "wav/滚珠/9-17__滚珠不良5__record_98_1789612850.wav",
+  "class": "滚珠",
+  "remark": "滚珠不良5",
+  "batch": "9-17",
+  "session": "morning",
+  "clip_ratio": "0.00000",
+  "best_kurtosis": "7.12",
+  "band_low": "667",
+  "band_high": "1333",
+  "round": "A_main_1150",
+  "rpm_used": "1150.0",
+  "fr_source": "fixed_1150",
+  "glm": {
+   "verdict": "BPFI",
+   "confidence": 0.14699054465070993,
+   "level": "疑似（建议人工复核包络谱）",
+   "candidates": [
+    [
+     "BPFI",
+     0.1808
+    ],
+    [
+     "BPFO",
+     0.0676
+    ],
+    [
+     "BSF",
+     0.0382
+    ],
+    [
+     "FTF",
+     0.0
+    ]
+   ],
+   "notes": [
+    "判定为 内圈故障（特征频率 84.75 Hz，置信度 0.15），请在包络谱图上人工核对谐波族",
+    "注意：时域峭度 3.24 接近 3（无明显冲击），但包络谱匹配到谐波族；可能为轻度早期故障或干扰峰，建议人工复核"
+   ]
+  },
+  "kimi": {
+   "verdict": "inner",
+   "scores": {
+    "cage": 1451.97,
+    "ball": 1544.2,
+    "inner": 3842.12,
+    "outer": 3614.52
+   },
+   "band": [
+    666.6666666666666,
+    1333.3333333333333
+   ],
+   "band_clamped": false,
+   "peak_error": 0.016723187656953076
+  }
+ },
+ {
+  "file_id": "039",
+  "relpath": "wav/滚珠/9-17__滚珠不良5__record_98_1789612850.wav",
+  "class": "滚珠",
+  "remark": "滚珠不良5",
+  "batch": "9-17",
+  "session": "morning",
+  "clip_ratio": "0.00000",
+  "best_kurtosis": "7.12",
+  "band_low": "667",
+  "band_high": "1333",
+  "round": "B_fr_est",
+  "rpm_used": "1113.2",
+  "fr_source": "fr_est",
+  "glm": {
+   "verdict": "normal",
+   "confidence": 0.13725840655773483,
+   "level": "未见故障特征",
+   "candidates": [
+    [
+     "BPFI",
+     0.1373
+    ],
+    [
+     "BSF",
+     0.0654
+    ],
+    [
+     "FTF",
+     0.0
+    ],
+    [
+     "BPFO",
+     0.0
+    ]
+   ],
+   "notes": [
+    "各候选频率谐波得分均低于判据阈值；注意这不能证明轴承健康——早期故障、强噪声或采集时长不足都可能掩盖特征，建议结合峭度与人工读谱"
+   ]
+  },
+  "kimi": {
+   "verdict": "inner",
+   "scores": {
+    "cage": 861.3,
+    "ball": 1611.17,
+    "inner": 3613.39,
+    "outer": 1558.81
+   },
+   "band": [
+    666.6666666666666,
+    1333.3333333333333
+   ],
+   "band_clamped": false,
+   "peak_error": 0.015800081024186542
+  }
+ },
+ {
+  "file_id": "040",
+  "relpath": "wav/滚珠/9-17__滚珠不良5__record_98_1789612864.wav",
+  "class": "滚珠",
+  "remark": "滚珠不良5",
+  "batch": "9-17",
+  "session": "morning",
+  "clip_ratio": "0.00000",
+  "best_kurtosis": "10.05",
+  "band_low": "833",
+  "band_high": "1167",
+  "round": "A_main_1150",
+  "rpm_used": "1150.0",
+  "fr_source": "fixed_1150",
+  "glm": {
+   "verdict": "normal",
+   "confidence": 0.07117423427013998,
+   "level": "未见故障特征",
+   "candidates": [
+    [
+     "BPFI",
+     0.0712
+    ],
+    [
+     "BPFO",
+     0.0381
+    ],
+    [
+     "BSF",
+     0.0285
+    ],
+    [
+     "FTF",
+     0.0
+    ]
+   ],
+   "notes": [
+    "各候选频率谐波得分均低于判据阈值；注意这不能证明轴承健康——早期故障、强噪声或采集时长不足都可能掩盖特征，建议结合峭度与人工读谱"
+   ]
+  },
+  "kimi": {
+   "verdict": "outer",
+   "scores": {
+    "cage": 5573.15,
+    "ball": 5241.25,
+    "inner": 7527.48,
+    "outer": 8415.95
+   },
+   "band": [
+    833.3333333333333,
+    1166.6666666666665
+   ],
+   "band_clamped": false,
+   "peak_error": 0.0017299961348503244
+  }
+ },
+ {
+  "file_id": "040",
+  "relpath": "wav/滚珠/9-17__滚珠不良5__record_98_1789612864.wav",
+  "class": "滚珠",
+  "remark": "滚珠不良5",
+  "batch": "9-17",
+  "session": "morning",
+  "clip_ratio": "0.00000",
+  "best_kurtosis": "10.05",
+  "band_low": "833",
+  "band_high": "1167",
+  "round": "B_fr_est",
+  "rpm_used": "1113.2",
+  "fr_source": "fr_est",
+  "glm": {
+   "verdict": "normal",
+   "confidence": 0.08082832387157854,
+   "level": "未见故障特征",
+   "candidates": [
+    [
+     "BSF",
+     0.0808
+    ],
+    [
+     "BPFI",
+     0.0722
+    ],
+    [
+     "FTF",
+     0.0
+    ],
+    [
+     "BPFO",
+     0.0
+    ]
+   ],
+   "notes": [
+    "各候选频率谐波得分均低于判据阈值；注意这不能证明轴承健康——早期故障、强噪声或采集时长不足都可能掩盖特征，建议结合峭度与人工读谱"
+   ]
+  },
+  "kimi": {
+   "verdict": "inner",
+   "scores": {
+    "cage": 7039.32,
+    "ball": 5955.47,
+    "inner": 8652.97,
+    "outer": 6638.95
+   },
+   "band": [
+    833.3333333333333,
+    1166.6666666666665
+   ],
+   "band_clamped": false,
+   "peak_error": 0.0137684808621381
+  }
+ },
+ {
+  "file_id": "041",
+  "relpath": "wav/滚珠/9-17__滚珠不良6__record_98_1789612926.wav",
+  "class": "滚珠",
+  "remark": "滚珠不良6",
+  "batch": "9-17",
+  "session": "morning",
+  "clip_ratio": "0.00000",
+  "best_kurtosis": "8.52",
+  "band_low": "667",
+  "band_high": "1333",
+  "round": "A_main_1150",
+  "rpm_used": "1150.0",
+  "fr_source": "fixed_1150",
+  "glm": {
+   "verdict": "BPFI",
+   "confidence": 0.4438182553429292,
+   "level": "疑似（建议人工复核包络谱）",
+   "candidates": [
+    [
+     "BPFI",
+     0.4895
+    ],
+    [
+     "BPFO",
+     0.0914
+    ],
+    [
+     "FTF",
+     0.0888
+    ],
+    [
+     "BSF",
+     0.0389
+    ]
+   ],
+   "notes": [
+    "判定为 内圈故障（特征频率 84.75 Hz，置信度 0.44），请在包络谱图上人工核对谐波族"
+   ]
+  },
+  "kimi": {
+   "verdict": "inner",
+   "scores": {
+    "cage": 6405.81,
+    "ball": 1931.0,
+    "inner": 8556.88,
+    "outer": 4557.5
+   },
+   "band": [
+    666.6666666666666,
+    1333.3333333333333
+   ],
+   "band_clamped": false,
+   "peak_error": 0.008856973158208773
+  }
+ },
+ {
+  "file_id": "041",
+  "relpath": "wav/滚珠/9-17__滚珠不良6__record_98_1789612926.wav",
+  "class": "滚珠",
+  "remark": "滚珠不良6",
+  "batch": "9-17",
+  "session": "morning",
+  "clip_ratio": "0.00000",
+  "best_kurtosis": "8.52",
+  "band_low": "667",
+  "band_high": "1333",
+  "round": "B_fr_est",
+  "rpm_used": "1145.6",
+  "fr_source": "fr_est",
+  "glm": {
+   "verdict": "BPFI",
+   "confidence": 0.41707975698436744,
+   "level": "疑似（建议人工复核包络谱）",
+   "candidates": [
+    [
+     "BPFI",
+     0.4623
+    ],
+    [
+     "BPFO",
+     0.0904
+    ],
+    [
+     "FTF",
+     0.0888
+    ],
+    [
+     "BSF",
+     0.039
+    ]
+   ],
+   "notes": [
+    "判定为 内圈故障（特征频率 84.42 Hz，置信度 0.42），请在包络谱图上人工核对谐波族"
+   ]
+  },
+  "kimi": {
+   "verdict": "inner",
+   "scores": {
+    "cage": 6405.81,
+    "ball": 1921.95,
+    "inner": 8556.88,
+    "outer": 4657.84
+   },
+   "band": [
+    666.6666666666666,
+    1333.3333333333333
+   ],
+   "band_clamped": false,
+   "peak_error": 0.005032838502714768
+  }
+ },
+ {
+  "file_id": "042",
+  "relpath": "wav/滚珠/9-17__滚珠不良6__record_98_1789612940.wav",
+  "class": "滚珠",
+  "remark": "滚珠不良6",
+  "batch": "9-17",
+  "session": "morning",
+  "clip_ratio": "0.00000",
+  "best_kurtosis": "7.91",
+  "band_low": "667",
+  "band_high": "1333",
+  "round": "A_main_1150",
+  "rpm_used": "1150.0",
+  "fr_source": "fixed_1150",
+  "glm": {
+   "verdict": "BPFI",
+   "confidence": 0.38456828692429423,
+   "level": "疑似（建议人工复核包络谱）",
+   "candidates": [
+    [
+     "BPFI",
+     0.4267
+    ],
+    [
+     "BPFO",
+     0.0842
+    ],
+    [
+     "FTF",
+     0.0655
+    ],
+    [
+     "BSF",
+     0.027
+    ]
+   ],
+   "notes": [
+    "判定为 内圈故障（特征频率 84.75 Hz，置信度 0.38），请在包络谱图上人工核对谐波族"
+   ]
+  },
+  "kimi": {
+   "verdict": "inner",
+   "scores": {
+    "cage": 7763.31,
+    "ball": 2047.61,
+    "inner": 10394.58,
+    "outer": 5552.97
+   },
+   "band": [
+    666.6666666666666,
+    1333.3333333333333
+   ],
+   "band_clamped": false,
+   "peak_error": 0.0029423485899078474
+  }
+ },
+ {
+  "file_id": "042",
+  "relpath": "wav/滚珠/9-17__滚珠不良6__record_98_1789612940.wav",
+  "class": "滚珠",
+  "remark": "滚珠不良6",
+  "batch": "9-17",
+  "session": "morning",
+  "clip_ratio": "0.00000",
+  "best_kurtosis": "7.91",
+  "band_low": "667",
+  "band_high": "1333",
+  "round": "B_fr_est",
+  "rpm_used": "1145.6",
+  "fr_source": "fr_est",
+  "glm": {
+   "verdict": "BPFI",
+   "confidence": 0.3831459535661965,
+   "level": "疑似（建议人工复核包络谱）",
+   "candidates": [
+    [
+     "BPFI",
+     0.4255
+    ],
+    [
+     "BPFO",
+     0.0847
+    ],
+    [
+     "FTF",
+     0.0655
+    ],
+    [
+     "BSF",
+     0.027
+    ]
+   ],
+   "notes": [
+    "判定为 内圈故障（特征频率 84.42 Hz，置信度 0.38），请在包络谱图上人工核对谐波族"
+   ]
+  },
+  "kimi": {
+   "verdict": "inner",
+   "scores": {
+    "cage": 7763.31,
+    "ball": 2031.04,
+    "inner": 10394.58,
+    "outer": 5552.97
+   },
+   "band": [
+    666.6666666666666,
+    1333.3333333333333
+   ],
+   "band_clamped": false,
+   "peak_error": 0.0068120086579672575
+  }
+ },
+ {
+  "file_id": "043",
+  "relpath": "wav/滚珠/9-17__滚珠不良7__record_98_1789612988.wav",
+  "class": "滚珠",
+  "remark": "滚珠不良7",
+  "batch": "9-17",
+  "session": "morning",
+  "clip_ratio": "0.00000",
+  "best_kurtosis": "6.48",
+  "band_low": "1667",
+  "band_high": "2333",
+  "round": "A_main_1150",
+  "rpm_used": "1150.0",
+  "fr_source": "fixed_1150",
+  "glm": {
+   "verdict": "normal",
+   "confidence": 0.1144678218106377,
+   "level": "未见故障特征",
+   "candidates": [
+    [
+     "FTF",
+     0.1145
+    ],
+    [
+     "BPFO",
+     0.0727
+    ],
+    [
+     "BSF",
+     0.0
+    ],
+    [
+     "BPFI",
+     0.0
+    ]
+   ],
+   "notes": [
+    "各候选频率谐波得分均低于判据阈值；注意这不能证明轴承健康——早期故障、强噪声或采集时长不足都可能掩盖特征，建议结合峭度与人工读谱"
+   ]
+  },
+  "kimi": {
+   "verdict": "cage",
+   "scores": {
+    "cage": 2768.95,
+    "ball": 848.85,
+    "inner": 1006.01,
+    "outer": 1961.74
+   },
+   "band": [
+    1666.6666666666665,
+    2333.333333333333
+   ],
+   "band_clamped": false,
+   "peak_error": 0.007263427323394327
+  }
+ },
+ {
+  "file_id": "043",
+  "relpath": "wav/滚珠/9-17__滚珠不良7__record_98_1789612988.wav",
+  "class": "滚珠",
+  "remark": "滚珠不良7",
+  "batch": "9-17",
+  "session": "morning",
+  "clip_ratio": "0.00000",
+  "best_kurtosis": "6.48",
+  "band_low": "1667",
+  "band_high": "2333",
+  "round": "B_fr_est",
+  "rpm_used": "1100.0",
+  "fr_source": "fr_est",
+  "glm": {
+   "verdict": "BSF",
+   "confidence": 0.2562819811795893,
+   "level": "疑似（建议人工复核包络谱）",
+   "candidates": [
+    [
+     "BSF",
+     0.2563
+    ],
+    [
+     "FTF",
+     0.0
+    ],
+    [
+     "BPFO",
+     0.0
+    ],
+    [
+     "BPFI",
+     0.0
+    ]
+   ],
+   "notes": [
+    "判定为 滚动体故障（特征频率 32.24 Hz，置信度 0.26），请在包络谱图上人工核对谐波族"
+   ]
+  },
+  "kimi": {
+   "verdict": "ball",
+   "scores": {
+    "cage": 462.41,
+    "ball": 3016.42,
+    "inner": 883.6,
+    "outer": 869.72
+   },
+   "band": [
+    1666.6666666666665,
+    2333.333333333333
+   ],
+   "band_clamped": false,
+   "peak_error": 0.007480160979488861
+  }
+ },
+ {
+  "file_id": "044",
+  "relpath": "wav/滚珠/9-17__滚珠不良7__record_98_1789613009.wav",
+  "class": "滚珠",
+  "remark": "滚珠不良7",
+  "batch": "9-17",
+  "session": "morning",
+  "clip_ratio": "0.00000",
+  "best_kurtosis": "8.74",
+  "band_low": "833",
+  "band_high": "1167",
+  "round": "A_main_1150",
+  "rpm_used": "1150.0",
+  "fr_source": "fixed_1150",
+  "glm": {
+   "verdict": "BPFI",
+   "confidence": 0.31206533158771926,
+   "level": "疑似（建议人工复核包络谱）",
+   "candidates": [
+    [
+     "BPFI",
+     0.365
+    ],
+    [
+     "BPFO",
+     0.106
+    ],
+    [
+     "FTF",
+     0.1003
+    ],
+    [
+     "BSF",
+     0.0467
+    ]
+   ],
+   "notes": [
+    "判定为 内圈故障（特征频率 84.75 Hz，置信度 0.31），请在包络谱图上人工核对谐波族",
+    "注意：时域峭度 3.26 接近 3（无明显冲击），但包络谱匹配到谐波族；可能为轻度早期故障或干扰峰，建议人工复核"
+   ]
+  },
+  "kimi": {
+   "verdict": "cage",
+   "scores": {
+    "cage": 32807.39,
+    "ball": 7470.96,
+    "inner": 25885.22,
+    "outer": 15229.34
+   },
+   "band": [
+    833.3333333333333,
+    1166.6666666666665
+   ],
+   "band_clamped": false,
+   "peak_error": 0.00847506372853373
+  }
+ },
+ {
+  "file_id": "044",
+  "relpath": "wav/滚珠/9-17__滚珠不良7__record_98_1789613009.wav",
+  "class": "滚珠",
+  "remark": "滚珠不良7",
+  "batch": "9-17",
+  "session": "morning",
+  "clip_ratio": "0.00000",
+  "best_kurtosis": "8.74",
+  "band_low": "833",
+  "band_high": "1167",
+  "round": "B_fr_est",
+  "rpm_used": "1100.0",
+  "fr_source": "fr_est",
+  "glm": {
+   "verdict": "BSF",
+   "confidence": 0.30836047292833313,
+   "level": "疑似（建议人工复核包络谱）",
+   "candidates": [
+    [
+     "BSF",
+     0.3294
+    ],
+    [
+     "BPFO",
+     0.0422
+    ],
+    [
+     "FTF",
+     0.0
+    ],
+    [
+     "BPFI",
+     0.0
+    ]
+   ],
+   "notes": [
+    "判定为 滚动体故障（特征频率 32.24 Hz，置信度 0.31），请在包络谱图上人工核对谐波族",
+    "注意：时域峭度 3.26 接近 3（无明显冲击），但包络谱匹配到谐波族；可能为轻度早期故障或干扰峰，建议人工复核"
+   ]
+  },
+  "kimi": {
+   "verdict": "ball",
+   "scores": {
+    "cage": 4972.18,
+    "ball": 41810.58,
+    "inner": 3554.31,
+    "outer": 7041.71
+   },
+   "band": [
+    833.3333333333333,
+    1166.6666666666665
+   ],
+   "band_clamped": false,
+   "peak_error": 0.017818909302619198
+  }
+ },
+ {
+  "file_id": "045",
+  "relpath": "wav/滚珠/9-17__滚珠不良8__record_98_1789613058.wav",
+  "class": "滚珠",
+  "remark": "滚珠不良8",
+  "batch": "9-17",
+  "session": "morning",
+  "clip_ratio": "0.00000",
+  "best_kurtosis": "4.38",
+  "band_low": "5333",
+  "band_high": "5667",
+  "round": "A_main_1150",
+  "rpm_used": "1150.0",
+  "fr_source": "fixed_1150",
+  "glm": {
+   "verdict": "normal",
+   "confidence": 0.0,
+   "level": "未见故障特征",
+   "candidates": [
+    [
+     "FTF",
+     0.0
+    ],
+    [
+     "BSF",
+     0.0
+    ],
+    [
+     "BPFO",
+     0.0
+    ],
+    [
+     "BPFI",
+     0.0
+    ]
+   ],
+   "notes": [
+    "各候选频率谐波得分均低于判据阈值；注意这不能证明轴承健康——早期故障、强噪声或采集时长不足都可能掩盖特征，建议结合峭度与人工读谱"
+   ]
+  },
+  "kimi": {
+   "verdict": "cage",
+   "scores": {
+    "cage": 2132.14,
+    "ball": 1944.42,
+    "inner": 1541.7,
+    "outer": 1358.26
+   },
+   "band": [
+    5100.0,
+    5666.666666666667
+   ],
+   "band_clamped": true,
+   "peak_error": 0.008330087624555612
+  }
+ },
+ {
+  "file_id": "045",
+  "relpath": "wav/滚珠/9-17__滚珠不良8__record_98_1789613058.wav",
+  "class": "滚珠",
+  "remark": "滚珠不良8",
+  "batch": "9-17",
+  "session": "morning",
+  "clip_ratio": "0.00000",
+  "best_kurtosis": "4.38",
+  "band_low": "5333",
+  "band_high": "5667",
+  "round": "B_fr_est",
+  "rpm_used": "1181.6",
+  "fr_source": "fr_est",
+  "glm": {
+   "verdict": "normal",
+   "confidence": 0.0,
+   "level": "未见故障特征",
+   "candidates": [
+    [
+     "FTF",
+     0.0
+    ],
+    [
+     "BSF",
+     0.0
+    ],
+    [
+     "BPFO",
+     0.0
+    ],
+    [
+     "BPFI",
+     0.0
+    ]
+   ],
+   "notes": [
+    "各候选频率谐波得分均低于判据阈值；注意这不能证明轴承健康——早期故障、强噪声或采集时长不足都可能掩盖特征，建议结合峭度与人工读谱"
+   ]
+  },
+  "kimi": {
+   "verdict": "cage",
+   "scores": {
+    "cage": 2255.42,
+    "ball": 1389.99,
+    "inner": 1625.27,
+    "outer": 1656.42
+   },
+   "band": [
+    5100.0,
+    5666.666666666667
+   ],
+   "band_clamped": true,
+   "peak_error": 0.018619474967214337
+  }
+ },
+ {
+  "file_id": "046",
+  "relpath": "wav/滚珠/9-17__滚珠不良8__record_98_1789613071.wav",
+  "class": "滚珠",
+  "remark": "滚珠不良8",
+  "batch": "9-17",
+  "session": "morning",
+  "clip_ratio": "0.00000",
+  "best_kurtosis": "2.81",
+  "band_low": "5500",
+  "band_high": "5833",
+  "round": "A_main_1150",
+  "rpm_used": "1150.0",
+  "fr_source": "fixed_1150",
+  "glm": {
+   "verdict": "normal",
+   "confidence": 0.0,
+   "level": "未见故障特征",
+   "candidates": [
+    [
+     "FTF",
+     0.0
+    ],
+    [
+     "BSF",
+     0.0
+    ],
+    [
+     "BPFO",
+     0.0
+    ],
+    [
+     "BPFI",
+     0.0
+    ]
+   ],
+   "notes": [
+    "Kurtogram 最佳频带包络峭度仅 2.81（≈3 为无冲击），信号中瞬态冲击成分弱",
+    "各候选频率谐波得分均低于判据阈值；注意这不能证明轴承健康——早期故障、强噪声或采集时长不足都可能掩盖特征，建议结合峭度与人工读谱"
+   ]
+  },
+  "kimi": {
+   "verdict": "ball",
+   "scores": {
+    "cage": 1228.71,
+    "ball": 2154.03,
+    "inner": 1664.82,
+    "outer": 1627.72
+   },
+   "band": [
+    5250.000000000001,
+    5833.333333333334
+   ],
+   "band_clamped": true,
+   "peak_error": 0.0012051700624643635
+  }
+ },
+ {
+  "file_id": "046",
+  "relpath": "wav/滚珠/9-17__滚珠不良8__record_98_1789613071.wav",
+  "class": "滚珠",
+  "remark": "滚珠不良8",
+  "batch": "9-17",
+  "session": "morning",
+  "clip_ratio": "0.00000",
+  "best_kurtosis": "2.81",
+  "band_low": "5500",
+  "band_high": "5833",
+  "round": "B_fr_est",
+  "rpm_used": "1181.6",
+  "fr_source": "fr_est",
+  "glm": {
+   "verdict": "normal",
+   "confidence": 0.0,
+   "level": "未见故障特征",
+   "candidates": [
+    [
+     "FTF",
+     0.0
+    ],
+    [
+     "BSF",
+     0.0
+    ],
+    [
+     "BPFO",
+     0.0
+    ],
+    [
+     "BPFI",
+     0.0
+    ]
+   ],
+   "notes": [
+    "Kurtogram 最佳频带包络峭度仅 2.81（≈3 为无冲击），信号中瞬态冲击成分弱",
+    "各候选频率谐波得分均低于判据阈值；注意这不能证明轴承健康——早期故障、强噪声或采集时长不足都可能掩盖特征，建议结合峭度与人工读谱"
+   ]
+  },
+  "kimi": {
+   "verdict": "ball",
+   "scores": {
+    "cage": 1297.83,
+    "ball": 2034.32,
+    "inner": 1762.51,
+    "outer": 1865.54
+   },
+   "band": [
+    5250.000000000001,
+    5833.333333333334
+   ],
+   "band_clamped": true,
+   "peak_error": 0.0038380004914112457
+  }
+ },
+ {
+  "file_id": "047",
+  "relpath": "wav/滚珠/9-17__滚珠不良9__record_98_1789613150.wav",
+  "class": "滚珠",
+  "remark": "滚珠不良9",
+  "batch": "9-17",
+  "session": "morning",
+  "clip_ratio": "0.00000",
+  "best_kurtosis": "3.92",
+  "band_low": "1500",
+  "band_high": "2000",
+  "round": "A_main_1150",
+  "rpm_used": "1150.0",
+  "fr_source": "fixed_1150",
+  "glm": {
+   "verdict": "normal",
+   "confidence": 0.06327270158111489,
+   "level": "未见故障特征",
+   "candidates": [
+    [
+     "BPFO",
+     0.0633
+    ],
+    [
+     "FTF",
+     0.0
+    ],
+    [
+     "BSF",
+     0.0
+    ],
+    [
+     "BPFI",
+     0.0
+    ]
+   ],
+   "notes": [
+    "Kurtogram 最佳频带包络峭度仅 3.92（≈3 为无冲击），信号中瞬态冲击成分弱",
+    "各候选频率谐波得分均低于判据阈值；注意这不能证明轴承健康——早期故障、强噪声或采集时长不足都可能掩盖特征，建议结合峭度与人工读谱"
+   ]
+  },
+  "kimi": {
+   "verdict": "outer",
+   "scores": {
+    "cage": 2949.32,
+    "ball": 4611.45,
+    "inner": 2785.44,
+    "outer": 5356.02
+   },
+   "band": [
+    1500.0,
+    2000.0
+   ],
+   "band_clamped": false,
+   "peak_error": 0.01971684305133953
+  }
+ },
+ {
+  "file_id": "047",
+  "relpath": "wav/滚珠/9-17__滚珠不良9__record_98_1789613150.wav",
+  "class": "滚珠",
+  "remark": "滚珠不良9",
+  "batch": "9-17",
+  "session": "morning",
+  "clip_ratio": "0.00000",
+  "best_kurtosis": "3.92",
+  "band_low": "1500",
+  "band_high": "2000",
+  "round": "B_fr_est",
+  "rpm_used": "1196.0",
+  "fr_source": "fr_est",
+  "glm": {
+   "verdict": "normal",
+   "confidence": 0.028875300227923627,
+   "level": "未见故障特征",
+   "candidates": [
+    [
+     "BPFO",
+     0.0289
+    ],
+    [
+     "FTF",
+     0.0
+    ],
+    [
+     "BSF",
+     0.0
+    ],
+    [
+     "BPFI",
+     0.0
+    ]
+   ],
+   "notes": [
+    "Kurtogram 最佳频带包络峭度仅 3.92（≈3 为无冲击），信号中瞬态冲击成分弱",
+    "各候选频率谐波得分均低于判据阈值；注意这不能证明轴承健康——早期故障、强噪声或采集时长不足都可能掩盖特征，建议结合峭度与人工读谱"
+   ]
+  },
+  "kimi": {
+   "verdict": "outer",
+   "scores": {
+    "cage": 1785.19,
+    "ball": 4283.61,
+    "inner": 3045.61,
+    "outer": 4503.08
+   },
+   "band": [
+    1500.0,
+    2000.0
+   ],
+   "band_clamped": false,
+   "peak_error": 0.002048432839768107
+  }
+ },
+ {
+  "file_id": "048",
+  "relpath": "wav/滚珠/9-17__滚珠不良9__record_98_1789613163.wav",
+  "class": "滚珠",
+  "remark": "滚珠不良9",
+  "batch": "9-17",
+  "session": "morning",
+  "clip_ratio": "0.00000",
+  "best_kurtosis": "4.82",
+  "band_low": "5833",
+  "band_high": "6167",
+  "round": "A_main_1150",
+  "rpm_used": "1150.0",
+  "fr_source": "fixed_1150",
+  "glm": {
+   "verdict": "normal",
+   "confidence": 0.0,
+   "level": "未见故障特征",
+   "candidates": [
+    [
+     "FTF",
+     0.0
+    ],
+    [
+     "BSF",
+     0.0
+    ],
+    [
+     "BPFO",
+     0.0
+    ],
+    [
+     "BPFI",
+     0.0
+    ]
+   ],
+   "notes": [
+    "各候选频率谐波得分均低于判据阈值；注意这不能证明轴承健康——早期故障、强噪声或采集时长不足都可能掩盖特征，建议结合峭度与人工读谱"
+   ]
+  },
+  "kimi": {
+   "verdict": "outer",
+   "scores": {
+    "cage": 1015.76,
+    "ball": 1294.21,
+    "inner": 1432.06,
+    "outer": 1447.3
+   },
+   "band": [
+    5550.000000000001,
+    6166.666666666668
+   ],
+   "band_clamped": true,
+   "peak_error": 0.0017299961348503244
+  }
+ },
+ {
+  "file_id": "048",
+  "relpath": "wav/滚珠/9-17__滚珠不良9__record_98_1789613163.wav",
+  "class": "滚珠",
+  "remark": "滚珠不良9",
+  "batch": "9-17",
+  "session": "morning",
+  "clip_ratio": "0.00000",
+  "best_kurtosis": "4.82",
+  "band_low": "5833",
+  "band_high": "6167",
+  "round": "B_fr_est",
+  "rpm_used": "1196.0",
+  "fr_source": "fr_est",
+  "glm": {
+   "verdict": "normal",
+   "confidence": 0.0,
+   "level": "未见故障特征",
+   "candidates": [
+    [
+     "FTF",
+     0.0
+    ],
+    [
+     "BSF",
+     0.0
+    ],
+    [
+     "BPFO",
+     0.0
+    ],
+    [
+     "BPFI",
+     0.0
+    ]
+   ],
+   "notes": [
+    "各候选频率谐波得分均低于判据阈值；注意这不能证明轴承健康——早期故障、强噪声或采集时长不足都可能掩盖特征，建议结合峭度与人工读谱"
+   ]
+  },
+  "kimi": {
+   "verdict": "inner",
+   "scores": {
+    "cage": 921.69,
+    "ball": 1115.16,
+    "inner": 1565.18,
+    "outer": 1454.82
+   },
+   "band": [
+    5550.000000000001,
+    6166.666666666668
+   ],
+   "band_clamped": true,
+   "peak_error": 0.010403582732503155
+  }
+ },
+ {
+  "file_id": "049",
+  "relpath": "wav/滚珠/9-17__滚珠不良10__record_98_1789613197.wav",
+  "class": "滚珠",
+  "remark": "滚珠不良10",
+  "batch": "9-17",
+  "session": "morning",
+  "clip_ratio": "0.00000",
+  "best_kurtosis": "3.89",
+  "band_low": "5333",
+  "band_high": "5667",
+  "round": "A_main_1150",
+  "rpm_used": "1150.0",
+  "fr_source": "fixed_1150",
+  "glm": {
+   "verdict": "normal",
+   "confidence": 0.0,
+   "level": "未见故障特征",
+   "candidates": [
+    [
+     "FTF",
+     0.0
+    ],
+    [
+     "BSF",
+     0.0
+    ],
+    [
+     "BPFO",
+     0.0
+    ],
+    [
+     "BPFI",
+     0.0
+    ]
+   ],
+   "notes": [
+    "Kurtogram 最佳频带包络峭度仅 3.89（≈3 为无冲击），信号中瞬态冲击成分弱",
+    "各候选频率谐波得分均低于判据阈值；注意这不能证明轴承健康——早期故障、强噪声或采集时长不足都可能掩盖特征，建议结合峭度与人工读谱"
+   ]
+  },
+  "kimi": {
+   "verdict": "outer",
+   "scores": {
+    "cage": 1084.9,
+    "ball": 1061.71,
+    "inner": 1574.36,
+    "outer": 1669.81
+   },
+   "band": [
+    5100.0,
+    5666.666666666667
+   ],
+   "band_clamped": true,
+   "peak_error": 0.00622670786397277
+  }
+ },
+ {
+  "file_id": "049",
+  "relpath": "wav/滚珠/9-17__滚珠不良10__record_98_1789613197.wav",
+  "class": "滚珠",
+  "remark": "滚珠不良10",
+  "batch": "9-17",
+  "session": "morning",
+  "clip_ratio": "0.00000",
+  "best_kurtosis": "3.89",
+  "band_low": "5333",
+  "band_high": "5667",
+  "round": "B_fr_est",
+  "rpm_used": "1184.0",
+  "fr_source": "fr_est",
+  "glm": {
+   "verdict": "normal",
+   "confidence": 0.0,
+   "level": "未见故障特征",
+   "candidates": [
+    [
+     "FTF",
+     0.0
+    ],
+    [
+     "BSF",
+     0.0
+    ],
+    [
+     "BPFO",
+     0.0
+    ],
+    [
+     "BPFI",
+     0.0
+    ]
+   ],
+   "notes": [
+    "Kurtogram 最佳频带包络峭度仅 3.89（≈3 为无冲击），信号中瞬态冲击成分弱",
+    "各候选频率谐波得分均低于判据阈值；注意这不能证明轴承健康——早期故障、强噪声或采集时长不足都可能掩盖特征，建议结合峭度与人工读谱"
+   ]
+  },
+  "kimi": {
+   "verdict": "inner",
+   "scores": {
+    "cage": 1394.83,
+    "ball": 1295.94,
+    "inner": 1865.13,
+    "outer": 1757.12
+   },
+   "band": [
+    5100.0,
+    5666.666666666667
+   ],
+   "band_clamped": true,
+   "peak_error": 0.004193947712965781
+  }
+ },
+ {
+  "file_id": "050",
+  "relpath": "wav/滚珠/9-17__滚珠不良10__record_98_1789613208.wav",
+  "class": "滚珠",
+  "remark": "滚珠不良10",
+  "batch": "9-17",
+  "session": "morning",
+  "clip_ratio": "0.00000",
+  "best_kurtosis": "2.88",
+  "band_low": "5667",
+  "band_high": "6000",
+  "round": "A_main_1150",
+  "rpm_used": "1150.0",
+  "fr_source": "fixed_1150",
+  "glm": {
+   "verdict": "normal",
+   "confidence": 0.0,
+   "level": "未见故障特征",
+   "candidates": [
+    [
+     "FTF",
+     0.0
+    ],
+    [
+     "BSF",
+     0.0
+    ],
+    [
+     "BPFO",
+     0.0
+    ],
+    [
+     "BPFI",
+     0.0
+    ]
+   ],
+   "notes": [
+    "Kurtogram 最佳频带包络峭度仅 2.88（≈3 为无冲击），信号中瞬态冲击成分弱",
+    "各候选频率谐波得分均低于判据阈值；注意这不能证明轴承健康——早期故障、强噪声或采集时长不足都可能掩盖特征，建议结合峭度与人工读谱"
+   ]
+  },
+  "kimi": {
+   "verdict": "outer",
+   "scores": {
+    "cage": 1376.21,
+    "ball": 2058.27,
+    "inner": 1999.77,
+    "outer": 2204.62
+   },
+   "band": [
+    5400.000000000001,
+    6000.000000000001
+   ],
+   "band_clamped": true,
+   "peak_error": 0.010723419593095022
+  }
+ },
+ {
+  "file_id": "050",
+  "relpath": "wav/滚珠/9-17__滚珠不良10__record_98_1789613208.wav",
+  "class": "滚珠",
+  "remark": "滚珠不良10",
+  "batch": "9-17",
+  "session": "morning",
+  "clip_ratio": "0.00000",
+  "best_kurtosis": "2.88",
+  "band_low": "5667",
+  "band_high": "6000",
+  "round": "B_fr_est",
+  "rpm_used": "1184.0",
+  "fr_source": "fr_est",
+  "glm": {
+   "verdict": "normal",
+   "confidence": 0.0,
+   "level": "未见故障特征",
+   "candidates": [
+    [
+     "FTF",
+     0.0
+    ],
+    [
+     "BSF",
+     0.0
+    ],
+    [
+     "BPFO",
+     0.0
+    ],
+    [
+     "BPFI",
+     0.0
+    ]
+   ],
+   "notes": [
+    "Kurtogram 最佳频带包络峭度仅 2.88（≈3 为无冲击），信号中瞬态冲击成分弱",
+    "各候选频率谐波得分均低于判据阈值；注意这不能证明轴承健康——早期故障、强噪声或采集时长不足都可能掩盖特征，建议结合峭度与人工读谱"
+   ]
+  },
+  "kimi": {
+   "verdict": "outer",
+   "scores": {
+    "cage": 1468.93,
+    "ball": 1837.8,
+    "inner": 2077.73,
+    "outer": 2280.19
+   },
+   "band": [
+    5400.000000000001,
+    6000.000000000001
+   ],
+   "band_clamped": true,
+   "peak_error": 0.00019344403145039781
+  }
+ },
+ {
+  "file_id": "051",
+  "relpath": "wav/滚珠/9-17__滚珠不良2__record_98_1789613765.wav",
+  "class": "滚珠",
+  "remark": "滚珠不良2",
+  "batch": "9-17",
+  "session": "morning",
+  "clip_ratio": "0.00000",
+  "best_kurtosis": "9.40",
+  "band_low": "833",
+  "band_high": "1167",
+  "round": "A_main_1150",
+  "rpm_used": "1150.0",
+  "fr_source": "fixed_1150",
+  "glm": {
+   "verdict": "normal",
+   "confidence": 0.0,
+   "level": "未见故障特征",
+   "candidates": [
+    [
+     "FTF",
+     0.0
+    ],
+    [
+     "BSF",
+     0.0
+    ],
+    [
+     "BPFO",
+     0.0
+    ],
+    [
+     "BPFI",
+     0.0
+    ]
+   ],
+   "notes": [
+    "各候选频率谐波得分均低于判据阈值；注意这不能证明轴承健康——早期故障、强噪声或采集时长不足都可能掩盖特征，建议结合峭度与人工读谱"
+   ]
+  },
+  "kimi": {
+   "verdict": "cage",
+   "scores": {
+    "cage": 7143.2,
+    "ball": 4952.23,
+    "inner": 4438.32,
+    "outer": 4535.07
+   },
+   "band": [
+    833.3333333333333,
+    1166.6666666666665
+   ],
+   "band_clamped": false,
+   "peak_error": 0.008475063728533688
+  }
+ },
+ {
+  "file_id": "051",
+  "relpath": "wav/滚珠/9-17__滚珠不良2__record_98_1789613765.wav",
+  "class": "滚珠",
+  "remark": "滚珠不良2",
+  "batch": "9-17",
+  "session": "morning",
+  "clip_ratio": "0.00000",
+  "best_kurtosis": "9.40",
+  "band_low": "833",
+  "band_high": "1167",
+  "round": "B_fr_est",
+  "rpm_used": "1161.2",
+  "fr_source": "fr_est",
+  "glm": {
+   "verdict": "normal",
+   "confidence": 0.0,
+   "level": "未见故障特征",
+   "candidates": [
+    [
+     "FTF",
+     0.0
+    ],
+    [
+     "BSF",
+     0.0
+    ],
+    [
+     "BPFO",
+     0.0
+    ],
+    [
+     "BPFI",
+     0.0
+    ]
+   ],
+   "notes": [
+    "各候选频率谐波得分均低于判据阈值；注意这不能证明轴承健康——早期故障、强噪声或采集时长不足都可能掩盖特征，建议结合峭度与人工读谱"
+   ]
+  },
+  "kimi": {
+   "verdict": "cage",
+   "scores": {
+    "cage": 7143.2,
+    "ball": 5100.02,
+    "inner": 4958.36,
+    "outer": 5050.42
+   },
+   "band": [
+    833.3333333333333,
+    1166.6666666666665
+   ],
+   "band_clamped": false,
+   "peak_error": 0.01802160154998689
+  }
+ },
+ {
+  "file_id": "052",
+  "relpath": "wav/滚珠/9-17__滚珠不良2__record_98_1789613777.wav",
+  "class": "滚珠",
+  "remark": "滚珠不良2",
+  "batch": "9-17",
+  "session": "morning",
+  "clip_ratio": "0.00000",
+  "best_kurtosis": "6.40",
+  "band_low": "1000",
+  "band_high": "1333",
+  "round": "A_main_1150",
+  "rpm_used": "1150.0",
+  "fr_source": "fixed_1150",
+  "glm": {
+   "verdict": "normal",
+   "confidence": 0.0,
+   "level": "未见故障特征",
+   "candidates": [
+    [
+     "FTF",
+     0.0
+    ],
+    [
+     "BSF",
+     0.0
+    ],
+    [
+     "BPFO",
+     0.0
+    ],
+    [
+     "BPFI",
+     0.0
+    ]
+   ],
+   "notes": [
+    "各候选频率谐波得分均低于判据阈值；注意这不能证明轴承健康——早期故障、强噪声或采集时长不足都可能掩盖特征，建议结合峭度与人工读谱"
+   ]
+  },
+  "kimi": {
+   "verdict": "outer",
+   "scores": {
+    "cage": 8736.87,
+    "ball": 8078.4,
+    "inner": 4888.44,
+    "outer": 9175.32
+   },
+   "band": [
+    999.9999999999999,
+    1333.3333333333333
+   ],
+   "band_clamped": false,
+   "peak_error": 0.01522013132221723
+  }
+ },
+ {
+  "file_id": "052",
+  "relpath": "wav/滚珠/9-17__滚珠不良2__record_98_1789613777.wav",
+  "class": "滚珠",
+  "remark": "滚珠不良2",
+  "batch": "9-17",
+  "session": "morning",
+  "clip_ratio": "0.00000",
+  "best_kurtosis": "6.40",
+  "band_low": "1000",
+  "band_high": "1333",
+  "round": "B_fr_est",
+  "rpm_used": "1161.2",
+  "fr_source": "fr_est",
+  "glm": {
+   "verdict": "normal",
+   "confidence": 0.0,
+   "level": "未见故障特征",
+   "candidates": [
+    [
+     "FTF",
+     0.0
+    ],
+    [
+     "BSF",
+     0.0
+    ],
+    [
+     "BPFO",
+     0.0
+    ],
+    [
+     "BPFI",
+     0.0
+    ]
+   ],
+   "notes": [
+    "各候选频率谐波得分均低于判据阈值；注意这不能证明轴承健康——早期故障、强噪声或采集时长不足都可能掩盖特征，建议结合峭度与人工读谱"
+   ]
+  },
+  "kimi": {
+   "verdict": "cage",
+   "scores": {
+    "cage": 10080.31,
+    "ball": 8094.55,
+    "inner": 4790.44,
+    "outer": 8175.03
+   },
+   "band": [
+    999.9999999999999,
+    1333.3333333333333
+   ],
+   "band_clamped": false,
+   "peak_error": 0.01802160154998689
+  }
+ },
+ {
+  "file_id": "053",
+  "relpath": "wav/内圈/9-18__内圈4__record_98_1788836582.wav",
+  "class": "内圈",
+  "remark": "内圈4",
+  "batch": "9-18",
+  "session": "morning",
+  "clip_ratio": "0.00000",
+  "best_kurtosis": "8.80",
+  "band_low": "6667",
+  "band_high": "8000",
+  "round": "A_main_1150",
+  "rpm_used": "1150.0",
+  "fr_source": "fixed_1150",
+  "glm": {
+   "verdict": "normal",
+   "confidence": 0.0,
+   "level": "未见故障特征",
+   "candidates": [
+    [
+     "FTF",
+     0.0
+    ],
+    [
+     "BSF",
+     0.0
+    ],
+    [
+     "BPFO",
+     0.0
+    ],
+    [
+     "BPFI",
+     0.0
+    ]
+   ],
+   "notes": [
+    "各候选频率谐波得分均低于判据阈值；注意这不能证明轴承健康——早期故障、强噪声或采集时长不足都可能掩盖特征，建议结合峭度与人工读谱"
+   ]
+  },
+  "kimi": {
+   "verdict": "inner",
+   "scores": {
+    "cage": 837.39,
+    "ball": 633.92,
+    "inner": 1208.89,
+    "outer": 1086.06
+   },
+   "band": [
+    6666.666666666667,
+    7984.0
+   ],
+   "band_clamped": true,
+   "peak_error": 0.015412151907162303
+  }
+ },
+ {
+  "file_id": "053",
+  "relpath": "wav/内圈/9-18__内圈4__record_98_1788836582.wav",
+  "class": "内圈",
+  "remark": "内圈4",
+  "batch": "9-18",
+  "session": "morning",
+  "clip_ratio": "0.00000",
+  "best_kurtosis": "8.80",
+  "band_low": "6667",
+  "band_high": "8000",
+  "round": "B_fr_est",
+  "rpm_used": "1150.0",
+  "fr_source": "fallback_1150",
+  "glm": {
+   "verdict": "normal",
+   "confidence": 0.0,
+   "level": "未见故障特征",
+   "candidates": [
+    [
+     "FTF",
+     0.0
+    ],
+    [
+     "BSF",
+     0.0
+    ],
+    [
+     "BPFO",
+     0.0
+    ],
+    [
+     "BPFI",
+     0.0
+    ]
+   ],
+   "notes": [
+    "各候选频率谐波得分均低于判据阈值；注意这不能证明轴承健康——早期故障、强噪声或采集时长不足都可能掩盖特征，建议结合峭度与人工读谱"
+   ]
+  },
+  "kimi": {
+   "verdict": "inner",
+   "scores": {
+    "cage": 837.39,
+    "ball": 633.92,
+    "inner": 1208.89,
+    "outer": 1086.06
+   },
+   "band": [
+    6666.666666666667,
+    7984.0
+   ],
+   "band_clamped": true,
+   "peak_error": 0.015412151907162303
+  }
+ },
+ {
+  "file_id": "054",
+  "relpath": "wav/内圈/9-18__内圈4__record_98_1788836593.wav",
+  "class": "内圈",
+  "remark": "内圈4",
+  "batch": "9-18",
+  "session": "morning",
+  "clip_ratio": "0.00000",
+  "best_kurtosis": "10.85",
+  "band_low": "6000",
+  "band_high": "7333",
+  "round": "A_main_1150",
+  "rpm_used": "1150.0",
+  "fr_source": "fixed_1150",
+  "glm": {
+   "verdict": "normal",
+   "confidence": 0.03816981789991231,
+   "level": "未见故障特征",
+   "candidates": [
+    [
+     "BPFI",
+     0.0382
+    ],
+    [
+     "BPFO",
+     0.0228
+    ],
+    [
+     "FTF",
+     0.0
+    ],
+    [
+     "BSF",
+     0.0
+    ]
+   ],
+   "notes": [
+    "各候选频率谐波得分均低于判据阈值；注意这不能证明轴承健康——早期故障、强噪声或采集时长不足都可能掩盖特征，建议结合峭度与人工读谱"
+   ]
+  },
+  "kimi": {
+   "verdict": "inner",
+   "scores": {
+    "cage": 270.66,
+    "ball": 351.29,
+    "inner": 804.37,
+    "outer": 417.71
+   },
+   "band": [
+    6000.0,
+    7333.333333333333
+   ],
+   "band_clamped": false,
+   "peak_error": 0.011479044657790207
+  }
+ },
+ {
+  "file_id": "054",
+  "relpath": "wav/内圈/9-18__内圈4__record_98_1788836593.wav",
+  "class": "内圈",
+  "remark": "内圈4",
+  "batch": "9-18",
+  "session": "morning",
+  "clip_ratio": "0.00000",
+  "best_kurtosis": "10.85",
+  "band_low": "6000",
+  "band_high": "7333",
+  "round": "B_fr_est",
+  "rpm_used": "1150.0",
+  "fr_source": "fallback_1150",
+  "glm": {
+   "verdict": "normal",
+   "confidence": 0.03816981789991231,
+   "level": "未见故障特征",
+   "candidates": [
+    [
+     "BPFI",
+     0.0382
+    ],
+    [
+     "BPFO",
+     0.0228
+    ],
+    [
+     "FTF",
+     0.0
+    ],
+    [
+     "BSF",
+     0.0
+    ]
+   ],
+   "notes": [
+    "各候选频率谐波得分均低于判据阈值；注意这不能证明轴承健康——早期故障、强噪声或采集时长不足都可能掩盖特征，建议结合峭度与人工读谱"
+   ]
+  },
+  "kimi": {
+   "verdict": "inner",
+   "scores": {
+    "cage": 270.66,
+    "ball": 351.29,
+    "inner": 804.37,
+    "outer": 417.71
+   },
+   "band": [
+    6000.0,
+    7333.333333333333
+   ],
+   "band_clamped": false,
+   "peak_error": 0.011479044657790207
+  }
+ },
+ {
+  "file_id": "055",
+  "relpath": "wav/内圈/9-18__内圈5__record_98_1788836619.wav",
+  "class": "内圈",
+  "remark": "内圈5",
+  "batch": "9-18",
+  "session": "morning",
+  "clip_ratio": "0.00000",
+  "best_kurtosis": "3.08",
+  "band_low": "2000",
+  "band_high": "3333",
+  "round": "A_main_1150",
+  "rpm_used": "1150.0",
+  "fr_source": "fixed_1150",
+  "glm": {
+   "verdict": "normal",
+   "confidence": 0.08929712962307766,
+   "level": "未见故障特征",
+   "candidates": [
+    [
+     "BPFO",
+     0.0893
+    ],
+    [
+     "BPFI",
+     0.0656
+    ],
+    [
+     "BSF",
+     0.0255
+    ],
+    [
+     "FTF",
+     0.0
+    ]
+   ],
+   "notes": [
+    "Kurtogram 最佳频带包络峭度仅 3.08（≈3 为无冲击），信号中瞬态冲击成分弱",
+    "各候选频率谐波得分均低于判据阈值；注意这不能证明轴承健康——早期故障、强噪声或采集时长不足都可能掩盖特征，建议结合峭度与人工读谱"
+   ]
+  },
+  "kimi": {
+   "verdict": "outer",
+   "scores": {
+    "cage": 185.76,
+    "ball": 335.41,
+    "inner": 435.6,
+    "outer": 458.61
+   },
+   "band": [
+    2000.0,
+    3333.333333333333
+   ],
+   "band_clamped": false,
+   "peak_error": 0.014008494917077658
+  }
+ },
+ {
+  "file_id": "055",
+  "relpath": "wav/内圈/9-18__内圈5__record_98_1788836619.wav",
+  "class": "内圈",
+  "remark": "内圈5",
+  "batch": "9-18",
+  "session": "morning",
+  "clip_ratio": "0.00000",
+  "best_kurtosis": "3.08",
+  "band_low": "2000",
+  "band_high": "3333",
+  "round": "B_fr_est",
+  "rpm_used": "1150.0",
+  "fr_source": "fallback_1150",
+  "glm": {
+   "verdict": "normal",
+   "confidence": 0.08929712962307766,
+   "level": "未见故障特征",
+   "candidates": [
+    [
+     "BPFO",
+     0.0893
+    ],
+    [
+     "BPFI",
+     0.0656
+    ],
+    [
+     "BSF",
+     0.0255
+    ],
+    [
+     "FTF",
+     0.0
+    ]
+   ],
+   "notes": [
+    "Kurtogram 最佳频带包络峭度仅 3.08（≈3 为无冲击），信号中瞬态冲击成分弱",
+    "各候选频率谐波得分均低于判据阈值；注意这不能证明轴承健康——早期故障、强噪声或采集时长不足都可能掩盖特征，建议结合峭度与人工读谱"
+   ]
+  },
+  "kimi": {
+   "verdict": "outer",
+   "scores": {
+    "cage": 185.76,
+    "ball": 335.41,
+    "inner": 435.6,
+    "outer": 458.61
+   },
+   "band": [
+    2000.0,
+    3333.333333333333
+   ],
+   "band_clamped": false,
+   "peak_error": 0.014008494917077658
+  }
+ },
+ {
+  "file_id": "056",
+  "relpath": "wav/内圈/9-18__内圈5__record_98_1788836633.wav",
+  "class": "内圈",
+  "remark": "内圈5",
+  "batch": "9-18",
+  "session": "morning",
+  "clip_ratio": "0.00000",
+  "best_kurtosis": "5.24",
+  "band_low": "6000",
+  "band_high": "8000",
+  "round": "A_main_1150",
+  "rpm_used": "1150.0",
+  "fr_source": "fixed_1150",
+  "glm": {
+   "verdict": "normal",
+   "confidence": 0.11554599499408204,
+   "level": "未见故障特征",
+   "candidates": [
+    [
+     "BSF",
+     0.1155
+    ],
+    [
+     "BPFO",
+     0.0536
+    ],
+    [
+     "FTF",
+     0.0
+    ],
+    [
+     "BPFI",
+     0.0
+    ]
+   ],
+   "notes": [
+    "各候选频率谐波得分均低于判据阈值；注意这不能证明轴承健康——早期故障、强噪声或采集时长不足都可能掩盖特征，建议结合峭度与人工读谱"
+   ]
+  },
+  "kimi": {
+   "verdict": "ball",
+   "scores": {
+    "cage": 94.03,
+    "ball": 192.98,
+    "inner": 129.36,
+    "outer": 138.8
+   },
+   "band": [
+    6000.0,
+    7984.0
+   ],
+   "band_clamped": true,
+   "peak_error": 0.0061496989235412265
+  }
+ },
+ {
+  "file_id": "056",
+  "relpath": "wav/内圈/9-18__内圈5__record_98_1788836633.wav",
+  "class": "内圈",
+  "remark": "内圈5",
+  "batch": "9-18",
+  "session": "morning",
+  "clip_ratio": "0.00000",
+  "best_kurtosis": "5.24",
+  "band_low": "6000",
+  "band_high": "8000",
+  "round": "B_fr_est",
+  "rpm_used": "1150.0",
+  "fr_source": "fallback_1150",
+  "glm": {
+   "verdict": "normal",
+   "confidence": 0.11554599499408204,
+   "level": "未见故障特征",
+   "candidates": [
+    [
+     "BSF",
+     0.1155
+    ],
+    [
+     "BPFO",
+     0.0536
+    ],
+    [
+     "FTF",
+     0.0
+    ],
+    [
+     "BPFI",
+     0.0
+    ]
+   ],
+   "notes": [
+    "各候选频率谐波得分均低于判据阈值；注意这不能证明轴承健康——早期故障、强噪声或采集时长不足都可能掩盖特征，建议结合峭度与人工读谱"
+   ]
+  },
+  "kimi": {
+   "verdict": "ball",
+   "scores": {
+    "cage": 94.03,
+    "ball": 192.98,
+    "inner": 129.36,
+    "outer": 138.8
+   },
+   "band": [
+    6000.0,
+    7984.0
+   ],
+   "band_clamped": true,
+   "peak_error": 0.0061496989235412265
+  }
+ },
+ {
+  "file_id": "057",
+  "relpath": "wav/内圈/9-18__内圈5__record_98_1788836645.wav",
+  "class": "内圈",
+  "remark": "内圈5",
+  "batch": "9-18",
+  "session": "morning",
+  "clip_ratio": "0.00000",
+  "best_kurtosis": "5.09",
+  "band_low": "6000",
+  "band_high": "8000",
+  "round": "A_main_1150",
+  "rpm_used": "1150.0",
+  "fr_source": "fixed_1150",
+  "glm": {
+   "verdict": "BPFO",
+   "confidence": 0.12796838138965258,
+   "level": "疑似（建议人工复核包络谱）",
+   "candidates": [
+    [
+     "BPFO",
+     0.1745
+    ],
+    [
+     "BSF",
+     0.0931
+    ],
+    [
+     "BPFI",
+     0.0637
+    ],
+    [
+     "FTF",
+     0.0
+    ]
+   ],
+   "notes": [
+    "判定为 外圈故障（特征频率 49.42 Hz，置信度 0.13），请在包络谱图上人工核对谐波族",
+    "注意：时域峭度 3.31 接近 3（无明显冲击），但包络谱匹配到谐波族；可能为轻度早期故障或干扰峰，建议人工复核"
+   ]
+  },
+  "kimi": {
+   "verdict": "outer",
+   "scores": {
+    "cage": 56.68,
+    "ball": 177.72,
+    "inner": 173.17,
+    "outer": 400.56
+   },
+   "band": [
+    6000.0,
+    7984.0
+   ],
+   "band_clamped": true,
+   "peak_error": 0.01625685078163869
+  }
+ },
+ {
+  "file_id": "057",
+  "relpath": "wav/内圈/9-18__内圈5__record_98_1788836645.wav",
+  "class": "内圈",
+  "remark": "内圈5",
+  "batch": "9-18",
+  "session": "morning",
+  "clip_ratio": "0.00000",
+  "best_kurtosis": "5.09",
+  "band_low": "6000",
+  "band_high": "8000",
+  "round": "B_fr_est",
+  "rpm_used": "1150.0",
+  "fr_source": "fallback_1150",
+  "glm": {
+   "verdict": "BPFO",
+   "confidence": 0.12796838138965258,
+   "level": "疑似（建议人工复核包络谱）",
+   "candidates": [
+    [
+     "BPFO",
+     0.1745
+    ],
+    [
+     "BSF",
+     0.0931
+    ],
+    [
+     "BPFI",
+     0.0637
+    ],
+    [
+     "FTF",
+     0.0
+    ]
+   ],
+   "notes": [
+    "判定为 外圈故障（特征频率 49.42 Hz，置信度 0.13），请在包络谱图上人工核对谐波族",
+    "注意：时域峭度 3.31 接近 3（无明显冲击），但包络谱匹配到谐波族；可能为轻度早期故障或干扰峰，建议人工复核"
+   ]
+  },
+  "kimi": {
+   "verdict": "outer",
+   "scores": {
+    "cage": 56.68,
+    "ball": 177.72,
+    "inner": 173.17,
+    "outer": 400.56
+   },
+   "band": [
+    6000.0,
+    7984.0
+   ],
+   "band_clamped": true,
+   "peak_error": 0.01625685078163869
+  }
+ },
+ {
+  "file_id": "058",
+  "relpath": "wav/内圈/9-18__内圈1__record_98_1789703220.wav",
+  "class": "内圈",
+  "remark": "内圈1",
+  "batch": "9-18",
+  "session": "morning",
+  "clip_ratio": "0.00000",
+  "best_kurtosis": "3.49",
+  "band_low": "833",
+  "band_high": "1167",
+  "round": "A_main_1150",
+  "rpm_used": "1150.0",
+  "fr_source": "fixed_1150",
+  "glm": {
+   "verdict": "normal",
+   "confidence": 0.049429274001401007,
+   "level": "未见故障特征",
+   "candidates": [
+    [
+     "BSF",
+     0.0494
+    ],
+    [
+     "FTF",
+     0.0
+    ],
+    [
+     "BPFO",
+     0.0
+    ],
+    [
+     "BPFI",
+     0.0
+    ]
+   ],
+   "notes": [
+    "Kurtogram 最佳频带包络峭度仅 3.49（≈3 为无冲击），信号中瞬态冲击成分弱",
+    "各候选频率谐波得分均低于判据阈值；注意这不能证明轴承健康——早期故障、强噪声或采集时长不足都可能掩盖特征，建议结合峭度与人工读谱"
+   ]
+  },
+  "kimi": {
+   "verdict": "ball",
+   "scores": {
+    "cage": 4157.49,
+    "ball": 13656.51,
+    "inner": 4974.1,
+    "outer": 9762.96
+   },
+   "band": [
+    833.3333333333333,
+    1166.6666666666665
+   ],
+   "band_clamped": false,
+   "peak_error": 0.0012051700624642935
+  }
+ },
+ {
+  "file_id": "058",
+  "relpath": "wav/内圈/9-18__内圈1__record_98_1789703220.wav",
+  "class": "内圈",
+  "remark": "内圈1",
+  "batch": "9-18",
+  "session": "morning",
+  "clip_ratio": "0.00000",
+  "best_kurtosis": "3.49",
+  "band_low": "833",
+  "band_high": "1167",
+  "round": "B_fr_est",
+  "rpm_used": "1150.0",
+  "fr_source": "fallback_1150",
+  "glm": {
+   "verdict": "normal",
+   "confidence": 0.049429274001401007,
+   "level": "未见故障特征",
+   "candidates": [
+    [
+     "BSF",
+     0.0494
+    ],
+    [
+     "FTF",
+     0.0
+    ],
+    [
+     "BPFO",
+     0.0
+    ],
+    [
+     "BPFI",
+     0.0
+    ]
+   ],
+   "notes": [
+    "Kurtogram 最佳频带包络峭度仅 3.49（≈3 为无冲击），信号中瞬态冲击成分弱",
+    "各候选频率谐波得分均低于判据阈值；注意这不能证明轴承健康——早期故障、强噪声或采集时长不足都可能掩盖特征，建议结合峭度与人工读谱"
+   ]
+  },
+  "kimi": {
+   "verdict": "ball",
+   "scores": {
+    "cage": 4157.49,
+    "ball": 13656.51,
+    "inner": 4974.1,
+    "outer": 9762.96
+   },
+   "band": [
+    833.3333333333333,
+    1166.6666666666665
+   ],
+   "band_clamped": false,
+   "peak_error": 0.0012051700624642935
+  }
+ },
+ {
+  "file_id": "059",
+  "relpath": "wav/内圈/9-18__内圈1__record_98_1789703246.wav",
+  "class": "内圈",
+  "remark": "内圈1",
+  "batch": "9-18",
+  "session": "morning",
+  "clip_ratio": "0.00000",
+  "best_kurtosis": "9.41",
+  "band_low": "1167",
+  "band_high": "1500",
+  "round": "A_main_1150",
+  "rpm_used": "1150.0",
+  "fr_source": "fixed_1150",
+  "glm": {
+   "verdict": "normal",
+   "confidence": 0.028944882591725778,
+   "level": "未见故障特征",
+   "candidates": [
+    [
+     "BPFO",
+     0.0289
+    ],
+    [
+     "FTF",
+     0.0
+    ],
+    [
+     "BSF",
+     0.0
+    ],
+    [
+     "BPFI",
+     0.0
+    ]
+   ],
+   "notes": [
+    "各候选频率谐波得分均低于判据阈值；注意这不能证明轴承健康——早期故障、强噪声或采集时长不足都可能掩盖特征，建议结合峭度与人工读谱"
+   ]
+  },
+  "kimi": {
+   "verdict": "cage",
+   "scores": {
+    "cage": 5794.57,
+    "ball": 4420.63,
+    "inner": 3739.32,
+    "outer": 4014.9
+   },
+   "band": [
+    1166.6666666666665,
+    1499.9999999999998
+   ],
+   "band_clamped": false,
+   "peak_error": 0.00847506372853373
+  }
+ },
+ {
+  "file_id": "059",
+  "relpath": "wav/内圈/9-18__内圈1__record_98_1789703246.wav",
+  "class": "内圈",
+  "remark": "内圈1",
+  "batch": "9-18",
+  "session": "morning",
+  "clip_ratio": "0.00000",
+  "best_kurtosis": "9.41",
+  "band_low": "1167",
+  "band_high": "1500",
+  "round": "B_fr_est",
+  "rpm_used": "1150.0",
+  "fr_source": "fallback_1150",
+  "glm": {
+   "verdict": "normal",
+   "confidence": 0.028944882591725778,
+   "level": "未见故障特征",
+   "candidates": [
+    [
+     "BPFO",
+     0.0289
+    ],
+    [
+     "FTF",
+     0.0
+    ],
+    [
+     "BSF",
+     0.0
+    ],
+    [
+     "BPFI",
+     0.0
+    ]
+   ],
+   "notes": [
+    "各候选频率谐波得分均低于判据阈值；注意这不能证明轴承健康——早期故障、强噪声或采集时长不足都可能掩盖特征，建议结合峭度与人工读谱"
+   ]
+  },
+  "kimi": {
+   "verdict": "cage",
+   "scores": {
+    "cage": 5794.57,
+    "ball": 4420.63,
+    "inner": 3739.32,
+    "outer": 4014.9
+   },
+   "band": [
+    1166.6666666666665,
+    1499.9999999999998
+   ],
+   "band_clamped": false,
+   "peak_error": 0.00847506372853373
+  }
+ },
+ {
+  "file_id": "060",
+  "relpath": "wav/内圈/9-18__内圈2__record_98_1789703282.wav",
+  "class": "内圈",
+  "remark": "内圈2",
+  "batch": "9-18",
+  "session": "morning",
+  "clip_ratio": "0.00000",
+  "best_kurtosis": "6.10",
+  "band_low": "1000",
+  "band_high": "1500",
+  "round": "A_main_1150",
+  "rpm_used": "1150.0",
+  "fr_source": "fixed_1150",
+  "glm": {
+   "verdict": "BPFI",
+   "confidence": 0.4225760179372932,
+   "level": "疑似（建议人工复核包络谱）",
+   "candidates": [
+    [
+     "BPFI",
+     0.4808
+    ],
+    [
+     "BPFO",
+     0.1164
+    ],
+    [
+     "FTF",
+     0.0301
+    ],
+    [
+     "BSF",
+     0.0
+    ]
+   ],
+   "notes": [
+    "判定为 内圈故障（特征频率 84.75 Hz，置信度 0.42），请在包络谱图上人工核对谐波族",
+    "注意：时域峭度 3.18 接近 3（无明显冲击），但包络谱匹配到谐波族；可能为轻度早期故障或干扰峰，建议人工复核"
+   ]
+  },
+  "kimi": {
+   "verdict": "inner",
+   "scores": {
+    "cage": 3485.23,
+    "ball": 2122.82,
+    "inner": 10359.0,
+    "outer": 3934.18
+   },
+   "band": [
+    1000.0,
+    1500.0
+   ],
+   "band_clamped": false,
+   "peak_error": 0.018674777587396618
+  }
+ },
+ {
+  "file_id": "060",
+  "relpath": "wav/内圈/9-18__内圈2__record_98_1789703282.wav",
+  "class": "内圈",
+  "remark": "内圈2",
+  "batch": "9-18",
+  "session": "morning",
+  "clip_ratio": "0.00000",
+  "best_kurtosis": "6.10",
+  "band_low": "1000",
+  "band_high": "1500",
+  "round": "B_fr_est",
+  "rpm_used": "1150.0",
+  "fr_source": "fallback_1150",
+  "glm": {
+   "verdict": "BPFI",
+   "confidence": 0.4225760179372932,
+   "level": "疑似（建议人工复核包络谱）",
+   "candidates": [
+    [
+     "BPFI",
+     0.4808
+    ],
+    [
+     "BPFO",
+     0.1164
+    ],
+    [
+     "FTF",
+     0.0301
+    ],
+    [
+     "BSF",
+     0.0
+    ]
+   ],
+   "notes": [
+    "判定为 内圈故障（特征频率 84.75 Hz，置信度 0.42），请在包络谱图上人工核对谐波族",
+    "注意：时域峭度 3.18 接近 3（无明显冲击），但包络谱匹配到谐波族；可能为轻度早期故障或干扰峰，建议人工复核"
+   ]
+  },
+  "kimi": {
+   "verdict": "inner",
+   "scores": {
+    "cage": 3485.23,
+    "ball": 2122.82,
+    "inner": 10359.0,
+    "outer": 3934.18
+   },
+   "band": [
+    1000.0,
+    1500.0
+   ],
+   "band_clamped": false,
+   "peak_error": 0.018674777587396618
+  }
+ },
+ {
+  "file_id": "061",
+  "relpath": "wav/内圈/9-18__内圈2__record_98_1789703292.wav",
+  "class": "内圈",
+  "remark": "内圈2",
+  "batch": "9-18",
+  "session": "morning",
+  "clip_ratio": "0.00000",
+  "best_kurtosis": "5.87",
+  "band_low": "1000",
+  "band_high": "1500",
+  "round": "A_main_1150",
+  "rpm_used": "1150.0",
+  "fr_source": "fixed_1150",
+  "glm": {
+   "verdict": "BPFI",
+   "confidence": 0.5570577356654053,
+   "level": "明确",
+   "candidates": [
+    [
+     "BPFI",
+     0.5909
+    ],
+    [
+     "BPFO",
+     0.0677
+    ],
+    [
+     "FTF",
+     0.0387
+    ],
+    [
+     "BSF",
+     0.0248
+    ]
+   ],
+   "notes": [
+    "判定为 内圈故障（特征频率 84.75 Hz，置信度 0.56），请在包络谱图上人工核对谐波族",
+    "注意：时域峭度 3.03 接近 3（无明显冲击），但包络谱匹配到谐波族；可能为轻度早期故障或干扰峰，建议人工复核"
+   ]
+  },
+  "kimi": {
+   "verdict": "inner",
+   "scores": {
+    "cage": 3509.34,
+    "ball": 2607.42,
+    "inner": 12641.41,
+    "outer": 3184.88
+   },
+   "band": [
+    1000.0,
+    1500.0
+   ],
+   "band_clamped": false,
+   "peak_error": 0.0147416703380243
+  }
+ },
+ {
+  "file_id": "061",
+  "relpath": "wav/内圈/9-18__内圈2__record_98_1789703292.wav",
+  "class": "内圈",
+  "remark": "内圈2",
+  "batch": "9-18",
+  "session": "morning",
+  "clip_ratio": "0.00000",
+  "best_kurtosis": "5.87",
+  "band_low": "1000",
+  "band_high": "1500",
+  "round": "B_fr_est",
+  "rpm_used": "1150.0",
+  "fr_source": "fallback_1150",
+  "glm": {
+   "verdict": "BPFI",
+   "confidence": 0.5570577356654053,
+   "level": "明确",
+   "candidates": [
+    [
+     "BPFI",
+     0.5909
+    ],
+    [
+     "BPFO",
+     0.0677
+    ],
+    [
+     "FTF",
+     0.0387
+    ],
+    [
+     "BSF",
+     0.0248
+    ]
+   ],
+   "notes": [
+    "判定为 内圈故障（特征频率 84.75 Hz，置信度 0.56），请在包络谱图上人工核对谐波族",
+    "注意：时域峭度 3.03 接近 3（无明显冲击），但包络谱匹配到谐波族；可能为轻度早期故障或干扰峰，建议人工复核"
+   ]
+  },
+  "kimi": {
+   "verdict": "inner",
+   "scores": {
+    "cage": 3509.34,
+    "ball": 2607.42,
+    "inner": 12641.41,
+    "outer": 3184.88
+   },
+   "band": [
+    1000.0,
+    1500.0
+   ],
+   "band_clamped": false,
+   "peak_error": 0.0147416703380243
+  }
+ },
+ {
+  "file_id": "062",
+  "relpath": "wav/内圈/9-18__内圈1__record_98_1789708993.wav",
+  "class": "内圈",
+  "remark": "内圈1",
+  "batch": "9-18",
+  "session": "afternoon",
+  "clip_ratio": "0.00000",
+  "best_kurtosis": "3.13",
+  "band_low": "5333",
+  "band_high": "5667",
+  "round": "A_main_1150",
+  "rpm_used": "1150.0",
+  "fr_source": "fixed_1150",
+  "glm": {
+   "verdict": "normal",
+   "confidence": 0.0,
+   "level": "未见故障特征",
+   "candidates": [
+    [
+     "FTF",
+     0.0
+    ],
+    [
+     "BSF",
+     0.0
+    ],
+    [
+     "BPFO",
+     0.0
+    ],
+    [
+     "BPFI",
+     0.0
+    ]
+   ],
+   "notes": [
+    "Kurtogram 最佳频带包络峭度仅 3.13（≈3 为无冲击），信号中瞬态冲击成分弱",
+    "各候选频率谐波得分均低于判据阈值；注意这不能证明轴承健康——早期故障、强噪声或采集时长不足都可能掩盖特征，建议结合峭度与人工读谱"
+   ]
+  },
+  "kimi": {
+   "verdict": "cage",
+   "scores": {
+    "cage": 2057.73,
+    "ball": 1935.3,
+    "inner": 1962.69,
+    "outer": 1606.17
+   },
+   "band": [
+    5100.0,
+    5666.666666666667
+   ],
+   "band_clamped": true,
+   "peak_error": 0.015132672849358271
+  }
+ },
+ {
+  "file_id": "062",
+  "relpath": "wav/内圈/9-18__内圈1__record_98_1789708993.wav",
+  "class": "内圈",
+  "remark": "内圈1",
+  "batch": "9-18",
+  "session": "afternoon",
+  "clip_ratio": "0.00000",
+  "best_kurtosis": "3.13",
+  "band_low": "5333",
+  "band_high": "5667",
+  "round": "B_fr_est",
+  "rpm_used": "1136.0",
+  "fr_source": "fr_est",
+  "glm": {
+   "verdict": "normal",
+   "confidence": 0.0,
+   "level": "未见故障特征",
+   "candidates": [
+    [
+     "FTF",
+     0.0
+    ],
+    [
+     "BSF",
+     0.0
+    ],
+    [
+     "BPFO",
+     0.0
+    ],
+    [
+     "BPFI",
+     0.0
+    ]
+   ],
+   "notes": [
+    "Kurtogram 最佳频带包络峭度仅 3.13（≈3 为无冲击），信号中瞬态冲击成分弱",
+    "各候选频率谐波得分均低于判据阈值；注意这不能证明轴承健康——早期故障、强噪声或采集时长不足都可能掩盖特征，建议结合峭度与人工读谱"
+   ]
+  },
+  "kimi": {
+   "verdict": "inner",
+   "scores": {
+    "cage": 1823.59,
+    "ball": 1935.3,
+    "inner": 1962.69,
+    "outer": 1713.6
+   },
+   "band": [
+    5100.0,
+    5666.666666666667
+   ],
+   "band_clamped": true,
+   "peak_error": 0.011338780208820601
+  }
+ },
+ {
+  "file_id": "063",
+  "relpath": "wav/内圈/9-18__内圈1__record_98_1789709006.wav",
+  "class": "内圈",
+  "remark": "内圈1",
+  "batch": "9-18",
+  "session": "afternoon",
+  "clip_ratio": "0.00000",
+  "best_kurtosis": "7.17",
+  "band_low": "1000",
+  "band_high": "1333",
+  "round": "A_main_1150",
+  "rpm_used": "1150.0",
+  "fr_source": "fixed_1150",
+  "glm": {
+   "verdict": "normal",
+   "confidence": 0.0,
+   "level": "未见故障特征",
+   "candidates": [
+    [
+     "FTF",
+     0.0
+    ],
+    [
+     "BSF",
+     0.0
+    ],
+    [
+     "BPFO",
+     0.0
+    ],
+    [
+     "BPFI",
+     0.0
+    ]
+   ],
+   "notes": [
+    "各候选频率谐波得分均低于判据阈值；注意这不能证明轴承健康——早期故障、强噪声或采集时长不足都可能掩盖特征，建议结合峭度与人工读谱"
+   ]
+  },
+  "kimi": {
+   "verdict": "ball",
+   "scores": {
+    "cage": 6507.78,
+    "ball": 8484.29,
+    "inner": 5912.68,
+    "outer": 7610.55
+   },
+   "band": [
+    999.9999999999999,
+    1333.3333333333333
+   ],
+   "band_clamped": false,
+   "peak_error": 0.009418466080615041
+  }
+ },
+ {
+  "file_id": "063",
+  "relpath": "wav/内圈/9-18__内圈1__record_98_1789709006.wav",
+  "class": "内圈",
+  "remark": "内圈1",
+  "batch": "9-18",
+  "session": "afternoon",
+  "clip_ratio": "0.00000",
+  "best_kurtosis": "7.17",
+  "band_low": "1000",
+  "band_high": "1333",
+  "round": "B_fr_est",
+  "rpm_used": "1136.0",
+  "fr_source": "fr_est",
+  "glm": {
+   "verdict": "normal",
+   "confidence": 0.0,
+   "level": "未见故障特征",
+   "candidates": [
+    [
+     "FTF",
+     0.0
+    ],
+    [
+     "BSF",
+     0.0
+    ],
+    [
+     "BPFO",
+     0.0
+    ],
+    [
+     "BPFI",
+     0.0
+    ]
+   ],
+   "notes": [
+    "各候选频率谐波得分均低于判据阈值；注意这不能证明轴承健康——早期故障、强噪声或采集时长不足都可能掩盖特征，建议结合峭度与人工读谱"
+   ]
+  },
+  "kimi": {
+   "verdict": "ball",
+   "scores": {
+    "cage": 6176.23,
+    "ball": 8484.29,
+    "inner": 5443.61,
+    "outer": 7175.95
+   },
+   "band": [
+    999.9999999999999,
+    1333.3333333333333
+   ],
+   "band_clamped": false,
+   "peak_error": 0.002807059989870306
+  }
+ },
+ {
+  "file_id": "064",
+  "relpath": "wav/内圈/9-18__内圈2__record_98_1789709066.wav",
+  "class": "内圈",
+  "remark": "内圈2",
+  "batch": "9-18",
+  "session": "afternoon",
+  "clip_ratio": "0.00000",
+  "best_kurtosis": "8.57",
+  "band_low": "6833",
+  "band_high": "7167",
+  "round": "A_main_1150",
+  "rpm_used": "1150.0",
+  "fr_source": "fixed_1150",
+  "glm": {
+   "verdict": "normal",
+   "confidence": 0.0,
+   "level": "未见故障特征",
+   "candidates": [
+    [
+     "FTF",
+     0.0
+    ],
+    [
+     "BSF",
+     0.0
+    ],
+    [
+     "BPFO",
+     0.0
+    ],
+    [
+     "BPFI",
+     0.0
+    ]
+   ],
+   "notes": [
+    "各候选频率谐波得分均低于判据阈值；注意这不能证明轴承健康——早期故障、强噪声或采集时长不足都可能掩盖特征，建议结合峭度与人工读谱"
+   ]
+  },
+  "kimi": {
+   "verdict": "cage",
+   "scores": {
+    "cage": 1596.9,
+    "ball": 915.56,
+    "inner": 854.11,
+    "outer": 986.42
+   },
+   "band": [
+    6450.000000000003,
+    7166.66666666667
+   ],
+   "band_clamped": true,
+   "peak_error": 0.008330087624555695
+  }
+ },
+ {
+  "file_id": "064",
+  "relpath": "wav/内圈/9-18__内圈2__record_98_1789709066.wav",
+  "class": "内圈",
+  "remark": "内圈2",
+  "batch": "9-18",
+  "session": "afternoon",
+  "clip_ratio": "0.00000",
+  "best_kurtosis": "8.57",
+  "band_low": "6833",
+  "band_high": "7167",
+  "round": "B_fr_est",
+  "rpm_used": "1106.0",
+  "fr_source": "fr_est",
+  "glm": {
+   "verdict": "normal",
+   "confidence": 0.0,
+   "level": "未见故障特征",
+   "candidates": [
+    [
+     "FTF",
+     0.0
+    ],
+    [
+     "BSF",
+     0.0
+    ],
+    [
+     "BPFO",
+     0.0
+    ],
+    [
+     "BPFI",
+     0.0
+    ]
+   ],
+   "notes": [
+    "各候选频率谐波得分均低于判据阈值；注意这不能证明轴承健康——早期故障、强噪声或采集时长不足都可能掩盖特征，建议结合峭度与人工读谱"
+   ]
+  },
+  "kimi": {
+   "verdict": "cage",
+   "scores": {
+    "cage": 1185.55,
+    "ball": 897.84,
+    "inner": 1037.96,
+    "outer": 943.97
+   },
+   "band": [
+    6450.000000000003,
+    7166.66666666667
+   ],
+   "band_clamped": true,
+   "peak_error": 0.018105662731550037
+  }
+ },
+ {
+  "file_id": "065",
+  "relpath": "wav/内圈/9-18__内圈2__record_98_1789709076.wav",
+  "class": "内圈",
+  "remark": "内圈2",
+  "batch": "9-18",
+  "session": "afternoon",
+  "clip_ratio": "0.00000",
+  "best_kurtosis": "4.89",
+  "band_low": "1667",
+  "band_high": "2333",
+  "round": "A_main_1150",
+  "rpm_used": "1150.0",
+  "fr_source": "fixed_1150",
+  "glm": {
+   "verdict": "normal",
+   "confidence": 0.050069864597113954,
+   "level": "未见故障特征",
+   "candidates": [
+    [
+     "BPFO",
+     0.0501
+    ],
+    [
+     "BPFI",
+     0.041
+    ],
+    [
+     "FTF",
+     0.0
+    ],
+    [
+     "BSF",
+     0.0
+    ]
+   ],
+   "notes": [
+    "各候选频率谐波得分均低于判据阈值；注意这不能证明轴承健康——早期故障、强噪声或采集时长不足都可能掩盖特征，建议结合峭度与人工读谱"
+   ]
+  },
+  "kimi": {
+   "verdict": "inner",
+   "scores": {
+    "cage": 854.39,
+    "ball": 1688.02,
+    "inner": 2342.78,
+    "outer": 2175.16
+   },
+   "band": [
+    1666.6666666666665,
+    2333.333333333333
+   ],
+   "band_clamped": false,
+   "peak_error": 0.004923865908836454
+  }
+ },
+ {
+  "file_id": "065",
+  "relpath": "wav/内圈/9-18__内圈2__record_98_1789709076.wav",
+  "class": "内圈",
+  "remark": "内圈2",
+  "batch": "9-18",
+  "session": "afternoon",
+  "clip_ratio": "0.00000",
+  "best_kurtosis": "4.89",
+  "band_low": "1667",
+  "band_high": "2333",
+  "round": "B_fr_est",
+  "rpm_used": "1106.0",
+  "fr_source": "fr_est",
+  "glm": {
+   "verdict": "normal",
+   "confidence": 0.06261619903436591,
+   "level": "未见故障特征",
+   "candidates": [
+    [
+     "BPFI",
+     0.0626
+    ],
+    [
+     "BPFO",
+     0.0407
+    ],
+    [
+     "FTF",
+     0.0
+    ],
+    [
+     "BSF",
+     0.0
+    ]
+   ],
+   "notes": [
+    "各候选频率谐波得分均低于判据阈值；注意这不能证明轴承健康——早期故障、强噪声或采集时长不足都可能掩盖特征，建议结合峭度与人工读谱"
+   ]
+  },
+  "kimi": {
+   "verdict": "inner",
+   "scores": {
+    "cage": 628.66,
+    "ball": 1513.61,
+    "inner": 1670.6,
+    "outer": 1591.54
+   },
+   "band": [
+    1666.6666666666665,
+    2333.333333333333
+   ],
+   "band_clamped": false,
+   "peak_error": 0.004009569955155431
+  }
+ },
+ {
+  "file_id": "066",
+  "relpath": "wav/内圈/9-18__内圈3__record_98_1789709109.wav",
+  "class": "内圈",
+  "remark": "内圈3",
+  "batch": "9-18",
+  "session": "afternoon",
+  "clip_ratio": "0.00000",
+  "best_kurtosis": "8.22",
+  "band_low": "833",
+  "band_high": "1167",
+  "round": "A_main_1150",
+  "rpm_used": "1150.0",
+  "fr_source": "fixed_1150",
+  "glm": {
+   "verdict": "normal",
+   "confidence": 0.06656547114850435,
+   "level": "未见故障特征",
+   "candidates": [
+    [
+     "BPFO",
+     0.0666
+    ],
+    [
+     "BSF",
+     0.0406
+    ],
+    [
+     "FTF",
+     0.0
+    ],
+    [
+     "BPFI",
+     0.0
+    ]
+   ],
+   "notes": [
+    "各候选频率谐波得分均低于判据阈值；注意这不能证明轴承健康——早期故障、强噪声或采集时长不足都可能掩盖特征，建议结合峭度与人工读谱"
+   ]
+  },
+  "kimi": {
+   "verdict": "outer",
+   "scores": {
+    "cage": 6857.56,
+    "ball": 11388.43,
+    "inner": 8521.41,
+    "outer": 17977.99
+   },
+   "band": [
+    833.3333333333333,
+    1166.6666666666665
+   ],
+   "band_clamped": false,
+   "peak_error": 0.01184759752537554
+  }
+ },
+ {
+  "file_id": "066",
+  "relpath": "wav/内圈/9-18__内圈3__record_98_1789709109.wav",
+  "class": "内圈",
+  "remark": "内圈3",
+  "batch": "9-18",
+  "session": "afternoon",
+  "clip_ratio": "0.00000",
+  "best_kurtosis": "8.22",
+  "band_low": "833",
+  "band_high": "1167",
+  "round": "B_fr_est",
+  "rpm_used": "1176.8",
+  "fr_source": "fr_est",
+  "glm": {
+   "verdict": "normal",
+   "confidence": 0.042073842344023116,
+   "level": "未见故障特征",
+   "candidates": [
+    [
+     "BSF",
+     0.0421
+    ],
+    [
+     "FTF",
+     0.0
+    ],
+    [
+     "BPFO",
+     0.0
+    ],
+    [
+     "BPFI",
+     0.0
+    ]
+   ],
+   "notes": [
+    "各候选频率谐波得分均低于判据阈值；注意这不能证明轴承健康——早期故障、强噪声或采集时长不足都可能掩盖特征，建议结合峭度与人工读谱"
+   ]
+  },
+  "kimi": {
+   "verdict": "ball",
+   "scores": {
+    "cage": 9027.68,
+    "ball": 12901.73,
+    "inner": 7806.08,
+    "outer": 12838.23
+   },
+   "band": [
+    833.3333333333333,
+    1166.6666666666665
+   ],
+   "band_clamped": false,
+   "peak_error": 0.004606734318122332
+  }
+ },
+ {
+  "file_id": "067",
+  "relpath": "wav/内圈/9-18__内圈3__record_98_1789709120.wav",
+  "class": "内圈",
+  "remark": "内圈3",
+  "batch": "9-18",
+  "session": "afternoon",
+  "clip_ratio": "0.00000",
+  "best_kurtosis": "12.81",
+  "band_low": "833",
+  "band_high": "1167",
+  "round": "A_main_1150",
+  "rpm_used": "1150.0",
+  "fr_source": "fixed_1150",
+  "glm": {
+   "verdict": "normal",
+   "confidence": 0.07202055155380441,
+   "level": "未见故障特征",
+   "candidates": [
+    [
+     "BPFO",
+     0.072
+    ],
+    [
+     "FTF",
+     0.0
+    ],
+    [
+     "BSF",
+     0.0
+    ],
+    [
+     "BPFI",
+     0.0
+    ]
+   ],
+   "notes": [
+    "各候选频率谐波得分均低于判据阈值；注意这不能证明轴承健康——早期故障、强噪声或采集时长不足都可能掩盖特征，建议结合峭度与人工读谱"
+   ]
+  },
+  "kimi": {
+   "verdict": "outer",
+   "scores": {
+    "cage": 6927.47,
+    "ball": 9715.94,
+    "inner": 5184.07,
+    "outer": 17112.97
+   },
+   "band": [
+    833.3333333333333,
+    1166.6666666666665
+   ],
+   "band_clamped": false,
+   "peak_error": 0.01522013132221723
+  }
+ },
+ {
+  "file_id": "067",
+  "relpath": "wav/内圈/9-18__内圈3__record_98_1789709120.wav",
+  "class": "内圈",
+  "remark": "内圈3",
+  "batch": "9-18",
+  "session": "afternoon",
+  "clip_ratio": "0.00000",
+  "best_kurtosis": "12.81",
+  "band_low": "833",
+  "band_high": "1167",
+  "round": "B_fr_est",
+  "rpm_used": "1176.8",
+  "fr_source": "fr_est",
+  "glm": {
+   "verdict": "normal",
+   "confidence": 0.027952035873352706,
+   "level": "未见故障特征",
+   "candidates": [
+    [
+     "BSF",
+     0.028
+    ],
+    [
+     "FTF",
+     0.0
+    ],
+    [
+     "BPFO",
+     0.0
+    ],
+    [
+     "BPFI",
+     0.0
+    ]
+   ],
+   "notes": [
+    "各候选频率谐波得分均低于判据阈值；注意这不能证明轴承健康——早期故障、强噪声或采集时长不足都可能掩盖特征，建议结合峭度与人工读谱"
+   ]
+  },
+  "kimi": {
+   "verdict": "outer",
+   "scores": {
+    "cage": 5950.92,
+    "ball": 8126.01,
+    "inner": 5262.5,
+    "outer": 12544.44
+   },
+   "band": [
+    833.3333333333333,
+    1166.6666666666665
+   ],
+   "band_clamped": false,
+   "peak_error": 0.004672931522349059
+  }
+ },
+ {
+  "file_id": "068",
+  "relpath": "wav/内圈/9-18__内圈4__record_98_1789709183.wav",
+  "class": "内圈",
+  "remark": "内圈4",
+  "batch": "9-18",
+  "session": "afternoon",
+  "clip_ratio": "0.00000",
+  "best_kurtosis": "8.01",
+  "band_low": "1000",
+  "band_high": "1333",
+  "round": "A_main_1150",
+  "rpm_used": "1150.0",
+  "fr_source": "fixed_1150",
+  "glm": {
+   "verdict": "normal",
+   "confidence": 0.05518438889786934,
+   "level": "未见故障特征",
+   "candidates": [
+    [
+     "BPFO",
+     0.0552
+    ],
+    [
+     "FTF",
+     0.0331
+    ],
+    [
+     "BSF",
+     0.0
+    ],
+    [
+     "BPFI",
+     0.0
+    ]
+   ],
+   "notes": [
+    "各候选频率谐波得分均低于判据阈值；注意这不能证明轴承健康——早期故障、强噪声或采集时长不足都可能掩盖特征，建议结合峭度与人工读谱"
+   ]
+  },
+  "kimi": {
+   "verdict": "ball",
+   "scores": {
+    "cage": 5881.54,
+    "ball": 8042.58,
+    "inner": 5787.65,
+    "outer": 6697.23
+   },
+   "band": [
+    999.9999999999999,
+    1333.3333333333333
+   ],
+   "band_clamped": false,
+   "peak_error": 0.007797875210566778
+  }
+ },
+ {
+  "file_id": "068",
+  "relpath": "wav/内圈/9-18__内圈4__record_98_1789709183.wav",
+  "class": "内圈",
+  "remark": "内圈4",
+  "batch": "9-18",
+  "session": "afternoon",
+  "clip_ratio": "0.00000",
+  "best_kurtosis": "8.01",
+  "band_low": "1000",
+  "band_high": "1333",
+  "round": "B_fr_est",
+  "rpm_used": "1199.6",
+  "fr_source": "fr_est",
+  "glm": {
+   "verdict": "BSF",
+   "confidence": 0.21476148226436753,
+   "level": "疑似（建议人工复核包络谱）",
+   "candidates": [
+    [
+     "BSF",
+     0.2969
+    ],
+    [
+     "BPFI",
+     0.1642
+    ],
+    [
+     "FTF",
+     0.0
+    ],
+    [
+     "BPFO",
+     0.0
+    ]
+   ],
+   "notes": [
+    "判定为 滚动体故障（特征频率 35.16 Hz，置信度 0.21），请在包络谱图上人工核对谐波族",
+    "注意：时域峭度 3.00 接近 3（无明显冲击），但包络谱匹配到谐波族；可能为轻度早期故障或干扰峰，建议人工复核"
+   ]
+  },
+  "kimi": {
+   "verdict": "ball",
+   "scores": {
+    "cage": 5033.34,
+    "ball": 28178.58,
+    "inner": 13492.49,
+    "outer": 6783.51
+   },
+   "band": [
+    999.9999999999999,
+    1333.3333333333333
+   ],
+   "band_clamped": false,
+   "peak_error": 0.004915167250663211
+  }
+ },
+ {
+  "file_id": "069",
+  "relpath": "wav/内圈/9-18__内圈4__record_98_1789709194.wav",
+  "class": "内圈",
+  "remark": "内圈4",
+  "batch": "9-18",
+  "session": "afternoon",
+  "clip_ratio": "0.00000",
+  "best_kurtosis": "10.54",
+  "band_low": "1000",
+  "band_high": "1333",
+  "round": "A_main_1150",
+  "rpm_used": "1150.0",
+  "fr_source": "fixed_1150",
+  "glm": {
+   "verdict": "normal",
+   "confidence": 0.07513209011344825,
+   "level": "未见故障特征",
+   "candidates": [
+    [
+     "BPFO",
+     0.0751
+    ],
+    [
+     "FTF",
+     0.0355
+    ],
+    [
+     "BSF",
+     0.0
+    ],
+    [
+     "BPFI",
+     0.0
+    ]
+   ],
+   "notes": [
+    "各候选频率谐波得分均低于判据阈值；注意这不能证明轴承健康——早期故障、强噪声或采集时长不足都可能掩盖特征，建议结合峭度与人工读谱"
+   ]
+  },
+  "kimi": {
+   "verdict": "outer",
+   "scores": {
+    "cage": 3291.86,
+    "ball": 6354.21,
+    "inner": 5165.78,
+    "outer": 8134.04
+   },
+   "band": [
+    999.9999999999999,
+    1333.3333333333333
+   ],
+   "band_clamped": false,
+   "peak_error": 0.005015071458833056
+  }
+ },
+ {
+  "file_id": "069",
+  "relpath": "wav/内圈/9-18__内圈4__record_98_1789709194.wav",
+  "class": "内圈",
+  "remark": "内圈4",
+  "batch": "9-18",
+  "session": "afternoon",
+  "clip_ratio": "0.00000",
+  "best_kurtosis": "10.54",
+  "band_low": "1000",
+  "band_high": "1333",
+  "round": "B_fr_est",
+  "rpm_used": "1199.6",
+  "fr_source": "fr_est",
+  "glm": {
+   "verdict": "BSF",
+   "confidence": 0.2376265676825008,
+   "level": "疑似（建议人工复核包络谱）",
+   "candidates": [
+    [
+     "BSF",
+     0.3252
+    ],
+    [
+     "BPFI",
+     0.1751
+    ],
+    [
+     "FTF",
+     0.0
+    ],
+    [
+     "BPFO",
+     0.0
+    ]
+   ],
+   "notes": [
+    "判定为 滚动体故障（特征频率 35.16 Hz，置信度 0.24），请在包络谱图上人工核对谐波族",
+    "注意：时域峭度 3.03 接近 3（无明显冲击），但包络谱匹配到谐波族；可能为轻度早期故障或干扰峰，建议人工复核"
+   ]
+  },
+  "kimi": {
+   "verdict": "ball",
+   "scores": {
+    "cage": 5376.7,
+    "ball": 25525.46,
+    "inner": 15678.36,
+    "outer": 6873.32
+   },
+   "band": [
+    999.9999999999999,
+    1333.3333333333333
+   ],
+   "band_clamped": false,
+   "peak_error": 0.004915167250663211
+  }
+ },
+ {
+  "file_id": "070",
+  "relpath": "wav/内圈/9-18__内圈5__record_98_1789709220.wav",
+  "class": "内圈",
+  "remark": "内圈5",
+  "batch": "9-18",
+  "session": "afternoon",
+  "clip_ratio": "0.00000",
+  "best_kurtosis": "7.59",
+  "band_low": "1000",
+  "band_high": "1333",
+  "round": "A_main_1150",
+  "rpm_used": "1150.0",
+  "fr_source": "fixed_1150",
+  "glm": {
+   "verdict": "normal",
+   "confidence": 0.07084507298956398,
+   "level": "未见故障特征",
+   "candidates": [
+    [
+     "BPFO",
+     0.0708
+    ],
+    [
+     "BSF",
+     0.048
+    ],
+    [
+     "FTF",
+     0.0
+    ],
+    [
+     "BPFI",
+     0.0
+    ]
+   ],
+   "notes": [
+    "各候选频率谐波得分均低于判据阈值；注意这不能证明轴承健康——早期故障、强噪声或采集时长不足都可能掩盖特征，建议结合峭度与人工读谱"
+   ]
+  },
+  "kimi": {
+   "verdict": "outer",
+   "scores": {
+    "cage": 3207.97,
+    "ball": 7913.01,
+    "inner": 5604.65,
+    "outer": 8604.87
+   },
+   "band": [
+    999.9999999999999,
+    1333.3333333333333
+   ],
+   "band_clamped": false,
+   "peak_error": 0.008330087624555588
+  }
+ },
+ {
+  "file_id": "070",
+  "relpath": "wav/内圈/9-18__内圈5__record_98_1789709220.wav",
+  "class": "内圈",
+  "remark": "内圈5",
+  "batch": "9-18",
+  "session": "afternoon",
+  "clip_ratio": "0.00000",
+  "best_kurtosis": "7.59",
+  "band_low": "1000",
+  "band_high": "1333",
+  "round": "B_fr_est",
+  "rpm_used": "1160.0",
+  "fr_source": "fr_est",
+  "glm": {
+   "verdict": "normal",
+   "confidence": 0.07205999017211383,
+   "level": "未见故障特征",
+   "candidates": [
+    [
+     "BPFO",
+     0.0721
+    ],
+    [
+     "FTF",
+     0.0
+    ],
+    [
+     "BSF",
+     0.0
+    ],
+    [
+     "BPFI",
+     0.0
+    ]
+   ],
+   "notes": [
+    "各候选频率谐波得分均低于判据阈值；注意这不能证明轴承健康——早期故障、强噪声或采集时长不足都可能掩盖特征，建议结合峭度与人工读谱"
+   ]
+  },
+  "kimi": {
+   "verdict": "outer",
+   "scores": {
+    "cage": 3207.97,
+    "ball": 4757.28,
+    "inner": 4529.05,
+    "outer": 8604.87
+   },
+   "band": [
+    999.9999999999999,
+    1333.3333333333333
+   ],
+   "band_clamped": false,
+   "peak_error": 0.0003451777028578504
+  }
+ },
+ {
+  "file_id": "071",
+  "relpath": "wav/内圈/9-18__内圈5__record_98_1789709242.wav",
+  "class": "内圈",
+  "remark": "内圈5",
+  "batch": "9-18",
+  "session": "afternoon",
+  "clip_ratio": "0.00000",
+  "best_kurtosis": "7.25",
+  "band_low": "1000",
+  "band_high": "1333",
+  "round": "A_main_1150",
+  "rpm_used": "1150.0",
+  "fr_source": "fixed_1150",
+  "glm": {
+   "verdict": "normal",
+   "confidence": 0.0,
+   "level": "未见故障特征",
+   "candidates": [
+    [
+     "FTF",
+     0.0
+    ],
+    [
+     "BSF",
+     0.0
+    ],
+    [
+     "BPFO",
+     0.0
+    ],
+    [
+     "BPFI",
+     0.0
+    ]
+   ],
+   "notes": [
+    "各候选频率谐波得分均低于判据阈值；注意这不能证明轴承健康——早期故障、强噪声或采集时长不足都可能掩盖特征，建议结合峭度与人工读谱"
+   ]
+  },
+  "kimi": {
+   "verdict": "outer",
+   "scores": {
+    "cage": 6800.44,
+    "ball": 6974.82,
+    "inner": 5043.32,
+    "outer": 8718.23
+   },
+   "band": [
+    999.9999999999999,
+    1333.3333333333333
+   ],
+   "band_clamped": false,
+   "peak_error": 0.001642537661991366
+  }
+ },
+ {
+  "file_id": "071",
+  "relpath": "wav/内圈/9-18__内圈5__record_98_1789709242.wav",
+  "class": "内圈",
+  "remark": "内圈5",
+  "batch": "9-18",
+  "session": "afternoon",
+  "clip_ratio": "0.00000",
+  "best_kurtosis": "7.25",
+  "band_low": "1000",
+  "band_high": "1333",
+  "round": "B_fr_est",
+  "rpm_used": "1160.0",
+  "fr_source": "fr_est",
+  "glm": {
+   "verdict": "normal",
+   "confidence": 0.0,
+   "level": "未见故障特征",
+   "candidates": [
+    [
+     "FTF",
+     0.0
+    ],
+    [
+     "BSF",
+     0.0
+    ],
+    [
+     "BPFO",
+     0.0
+    ],
+    [
+     "BPFI",
+     0.0
+    ]
+   ],
+   "notes": [
+    "各候选频率谐波得分均低于判据阈值；注意这不能证明轴承健康——早期故障、强噪声或采集时长不足都可能掩盖特征，建议结合峭度与人工读谱"
+   ]
+  },
+  "kimi": {
+   "verdict": "outer",
+   "scores": {
+    "cage": 6800.44,
+    "ball": 5812.17,
+    "inner": 5043.32,
+    "outer": 8718.23
+   },
+   "band": [
+    999.9999999999999,
+    1333.3333333333333
+   ],
+   "band_clamped": false,
+   "peak_error": 0.006975190683209973
+  }
+ },
+ {
+  "file_id": "072",
+  "relpath": "wav/内圈/9-18__内圈6__record_98_1789709317.wav",
+  "class": "内圈",
+  "remark": "内圈6",
+  "batch": "9-18",
+  "session": "afternoon",
+  "clip_ratio": "0.00000",
+  "best_kurtosis": "9.63",
+  "band_low": "5667",
+  "band_high": "6000",
+  "round": "A_main_1150",
+  "rpm_used": "1150.0",
+  "fr_source": "fixed_1150",
+  "glm": {
+   "verdict": "normal",
+   "confidence": 0.0,
+   "level": "未见故障特征",
+   "candidates": [
+    [
+     "FTF",
+     0.0
+    ],
+    [
+     "BSF",
+     0.0
+    ],
+    [
+     "BPFO",
+     0.0
+    ],
+    [
+     "BPFI",
+     0.0
+    ]
+   ],
+   "notes": [
+    "各候选频率谐波得分均低于判据阈值；注意这不能证明轴承健康——早期故障、强噪声或采集时长不足都可能掩盖特征，建议结合峭度与人工读谱"
+   ]
+  },
+  "kimi": {
+   "verdict": "cage",
+   "scores": {
+    "cage": 3347.47,
+    "ball": 2470.78,
+    "inner": 1550.45,
+    "outer": 2522.3
+   },
+   "band": [
+    5400.000000000001,
+    6000.000000000001
+   ],
+   "band_clamped": true,
+   "peak_error": 0.008475063728533688
+  }
+ },
+ {
+  "file_id": "072",
+  "relpath": "wav/内圈/9-18__内圈6__record_98_1789709317.wav",
+  "class": "内圈",
+  "remark": "内圈6",
+  "batch": "9-18",
+  "session": "afternoon",
+  "clip_ratio": "0.00000",
+  "best_kurtosis": "9.63",
+  "band_low": "5667",
+  "band_high": "6000",
+  "round": "B_fr_est",
+  "rpm_used": "1110.8",
+  "fr_source": "fr_est",
+  "glm": {
+   "verdict": "normal",
+   "confidence": 0.0,
+   "level": "未见故障特征",
+   "candidates": [
+    [
+     "FTF",
+     0.0
+    ],
+    [
+     "BSF",
+     0.0
+    ],
+    [
+     "BPFO",
+     0.0
+    ],
+    [
+     "BPFI",
+     0.0
+    ]
+   ],
+   "notes": [
+    "各候选频率谐波得分均低于判据阈值；注意这不能证明轴承健康——早期故障、强噪声或采集时长不足都可能掩盖特征，建议结合峭度与人工读谱"
+   ]
+  },
+  "kimi": {
+   "verdict": "outer",
+   "scores": {
+    "cage": 1286.99,
+    "ball": 2365.97,
+    "inner": 1835.32,
+    "outer": 2448.27
+   },
+   "band": [
+    5400.000000000001,
+    6000.000000000001
+   ],
+   "band_clamped": true,
+   "peak_error": 0.01955099027660755
+  }
+ },
+ {
+  "file_id": "073",
+  "relpath": "wav/内圈/9-18__内圈6__record_98_1789709332.wav",
+  "class": "内圈",
+  "remark": "内圈6",
+  "batch": "9-18",
+  "session": "afternoon",
+  "clip_ratio": "0.00000",
+  "best_kurtosis": "5.33",
+  "band_low": "5167",
+  "band_high": "5500",
+  "round": "A_main_1150",
+  "rpm_used": "1150.0",
+  "fr_source": "fixed_1150",
+  "glm": {
+   "verdict": "normal",
+   "confidence": 0.0,
+   "level": "未见故障特征",
+   "candidates": [
+    [
+     "FTF",
+     0.0
+    ],
+    [
+     "BSF",
+     0.0
+    ],
+    [
+     "BPFO",
+     0.0
+    ],
+    [
+     "BPFI",
+     0.0
+    ]
+   ],
+   "notes": [
+    "各候选频率谐波得分均低于判据阈值；注意这不能证明轴承健康——早期故障、强噪声或采集时长不足都可能掩盖特征，建议结合峭度与人工读谱"
+   ]
+  },
+  "kimi": {
+   "verdict": "ball",
+   "scores": {
+    "cage": 3401.22,
+    "ball": 4201.58,
+    "inner": 3597.7,
+    "outer": 3950.31
+   },
+   "band": [
+    4950.0,
+    5500.0
+   ],
+   "band_clamped": true,
+   "peak_error": 0.007742355194118665
+  }
+ },
+ {
+  "file_id": "073",
+  "relpath": "wav/内圈/9-18__内圈6__record_98_1789709332.wav",
+  "class": "内圈",
+  "remark": "内圈6",
+  "batch": "9-18",
+  "session": "afternoon",
+  "clip_ratio": "0.00000",
+  "best_kurtosis": "5.33",
+  "band_low": "5167",
+  "band_high": "5500",
+  "round": "B_fr_est",
+  "rpm_used": "1110.8",
+  "fr_source": "fr_est",
+  "glm": {
+   "verdict": "normal",
+   "confidence": 0.0,
+   "level": "未见故障特征",
+   "candidates": [
+    [
+     "FTF",
+     0.0
+    ],
+    [
+     "BSF",
+     0.0
+    ],
+    [
+     "BPFO",
+     0.0
+    ],
+    [
+     "BPFI",
+     0.0
+    ]
+   ],
+   "notes": [
+    "各候选频率谐波得分均低于判据阈值；注意这不能证明轴承健康——早期故障、强噪声或采集时长不足都可能掩盖特征，建议结合峭度与人工读谱"
+   ]
+  },
+  "kimi": {
+   "verdict": "cage",
+   "scores": {
+    "cage": 5671.93,
+    "ball": 3077.32,
+    "inner": 3608.3,
+    "outer": 3593.37
+   },
+   "band": [
+    4950.0,
+    5500.0
+   ],
+   "band_clamped": true,
+   "peak_error": 0.005778349861196766
+  }
+ },
+ {
+  "file_id": "074",
+  "relpath": "wav/内圈/9-18__内圈7__record_98_1789709413.wav",
+  "class": "内圈",
+  "remark": "内圈7",
+  "batch": "9-18",
+  "session": "afternoon",
+  "clip_ratio": "0.00000",
+  "best_kurtosis": "3.10",
+  "band_low": "3667",
+  "band_high": "4000",
+  "round": "A_main_1150",
+  "rpm_used": "1150.0",
+  "fr_source": "fixed_1150",
+  "glm": {
+   "verdict": "normal",
+   "confidence": 0.0,
+   "level": "未见故障特征",
+   "candidates": [
+    [
+     "FTF",
+     0.0
+    ],
+    [
+     "BSF",
+     0.0
+    ],
+    [
+     "BPFO",
+     0.0
+    ],
+    [
+     "BPFI",
+     0.0
+    ]
+   ],
+   "notes": [
+    "Kurtogram 最佳频带包络峭度仅 3.10（≈3 为无冲击），信号中瞬态冲击成分弱",
+    "各候选频率谐波得分均低于判据阈值；注意这不能证明轴承健康——早期故障、强噪声或采集时长不足都可能掩盖特征，建议结合峭度与人工读谱"
+   ]
+  },
+  "kimi": {
+   "verdict": "outer",
+   "scores": {
+    "cage": 2004.78,
+    "ball": 2986.19,
+    "inner": 3816.7,
+    "outer": 4994.2
+   },
+   "band": [
+    3599.999999999999,
+    3999.999999999999
+   ],
+   "band_clamped": true,
+   "peak_error": 0.008330087624555588
+  }
+ },
+ {
+  "file_id": "074",
+  "relpath": "wav/内圈/9-18__内圈7__record_98_1789709413.wav",
+  "class": "内圈",
+  "remark": "内圈7",
+  "batch": "9-18",
+  "session": "afternoon",
+  "clip_ratio": "0.00000",
+  "best_kurtosis": "3.10",
+  "band_low": "3667",
+  "band_high": "4000",
+  "round": "B_fr_est",
+  "rpm_used": "1144.4",
+  "fr_source": "fr_est",
+  "glm": {
+   "verdict": "normal",
+   "confidence": 0.0,
+   "level": "未见故障特征",
+   "candidates": [
+    [
+     "FTF",
+     0.0
+    ],
+    [
+     "BSF",
+     0.0
+    ],
+    [
+     "BPFO",
+     0.0
+    ],
+    [
+     "BPFI",
+     0.0
+    ]
+   ],
+   "notes": [
+    "Kurtogram 最佳频带包络峭度仅 3.10（≈3 为无冲击），信号中瞬态冲击成分弱",
+    "各候选频率谐波得分均低于判据阈值；注意这不能证明轴承健康——早期故障、强噪声或采集时长不足都可能掩盖特征，建议结合峭度与人工读谱"
+   ]
+  },
+  "kimi": {
+   "verdict": "outer",
+   "scores": {
+    "cage": 2004.78,
+    "ball": 3001.72,
+    "inner": 4015.18,
+    "outer": 4997.26
+   },
+   "band": [
+    3599.999999999999,
+    3999.999999999999
+   ],
+   "band_clamped": true,
+   "peak_error": 0.013281952470542185
+  }
+ },
+ {
+  "file_id": "075",
+  "relpath": "wav/内圈/9-18__内圈7__record_98_1789709421.wav",
+  "class": "内圈",
+  "remark": "内圈7",
+  "batch": "9-18",
+  "session": "afternoon",
+  "clip_ratio": "0.00000",
+  "best_kurtosis": "4.47",
+  "band_low": "5500",
+  "band_high": "5833",
+  "round": "A_main_1150",
+  "rpm_used": "1150.0",
+  "fr_source": "fixed_1150",
+  "glm": {
+   "verdict": "normal",
+   "confidence": 0.0,
+   "level": "未见故障特征",
+   "candidates": [
+    [
+     "FTF",
+     0.0
+    ],
+    [
+     "BSF",
+     0.0
+    ],
+    [
+     "BPFO",
+     0.0
+    ],
+    [
+     "BPFI",
+     0.0
+    ]
+   ],
+   "notes": [
+    "各候选频率谐波得分均低于判据阈值；注意这不能证明轴承健康——早期故障、强噪声或采集时长不足都可能掩盖特征，建议结合峭度与人工读谱"
+   ]
+  },
+  "kimi": {
+   "verdict": "inner",
+   "scores": {
+    "cage": 1852.39,
+    "ball": 1814.46,
+    "inner": 1861.3,
+    "outer": 1810.33
+   },
+   "band": [
+    5250.000000000001,
+    5833.333333333334
+   ],
+   "band_clamped": true,
+   "peak_error": 0.01080856308865215
+  }
+ },
+ {
+  "file_id": "075",
+  "relpath": "wav/内圈/9-18__内圈7__record_98_1789709421.wav",
+  "class": "内圈",
+  "remark": "内圈7",
+  "batch": "9-18",
+  "session": "afternoon",
+  "clip_ratio": "0.00000",
+  "best_kurtosis": "4.47",
+  "band_low": "5500",
+  "band_high": "5833",
+  "round": "B_fr_est",
+  "rpm_used": "1144.4",
+  "fr_source": "fr_est",
+  "glm": {
+   "verdict": "normal",
+   "confidence": 0.0,
+   "level": "未见故障特征",
+   "candidates": [
+    [
+     "FTF",
+     0.0
+    ],
+    [
+     "BSF",
+     0.0
+    ],
+    [
+     "BPFO",
+     0.0
+    ],
+    [
+     "BPFI",
+     0.0
+    ]
+   ],
+   "notes": [
+    "各候选频率谐波得分均低于判据阈值；注意这不能证明轴承健康——早期故障、强噪声或采集时长不足都可能掩盖特征，建议结合峭度与人工读谱"
+   ]
+  },
+  "kimi": {
+   "verdict": "inner",
+   "scores": {
+    "cage": 1689.35,
+    "ball": 1742.64,
+    "inner": 1861.3,
+    "outer": 1810.33
+   },
+   "band": [
+    5250.000000000001,
+    5833.333333333334
+   ],
+   "band_clamped": true,
+   "peak_error": 0.01577259961896402
+  }
+ },
+ {
+  "file_id": "076",
+  "relpath": "wav/内圈/9-18__内圈8__record_98_1789709478.wav",
+  "class": "内圈",
+  "remark": "内圈8",
+  "batch": "9-18",
+  "session": "afternoon",
+  "clip_ratio": "0.00000",
+  "best_kurtosis": "6.30",
+  "band_low": "2000",
+  "band_high": "2333",
+  "round": "A_main_1150",
+  "rpm_used": "1150.0",
+  "fr_source": "fixed_1150",
+  "glm": {
+   "verdict": "normal",
+   "confidence": 0.0639508795637962,
+   "level": "未见故障特征",
+   "candidates": [
+    [
+     "BPFO",
+     0.064
+    ],
+    [
+     "FTF",
+     0.0
+    ],
+    [
+     "BSF",
+     0.0
+    ],
+    [
+     "BPFI",
+     0.0
+    ]
+   ],
+   "notes": [
+    "各候选频率谐波得分均低于判据阈值；注意这不能证明轴承健康——早期故障、强噪声或采集时长不足都可能掩盖特征，建议结合峭度与人工读谱"
+   ]
+  },
+  "kimi": {
+   "verdict": "outer",
+   "scores": {
+    "cage": 5319.81,
+    "ball": 8514.48,
+    "inner": 6985.91,
+    "outer": 17407.32
+   },
+   "band": [
+    2000.0000000000002,
+    2333.3333333333335
+   ],
+   "band_clamped": false,
+   "peak_error": 0.005388689077819243
+  }
+ },
+ {
+  "file_id": "076",
+  "relpath": "wav/内圈/9-18__内圈8__record_98_1789709478.wav",
+  "class": "内圈",
+  "remark": "内圈8",
+  "batch": "9-18",
+  "session": "afternoon",
+  "clip_ratio": "0.00000",
+  "best_kurtosis": "6.30",
+  "band_low": "2000",
+  "band_high": "2333",
+  "round": "B_fr_est",
+  "rpm_used": "1174.4",
+  "fr_source": "fr_est",
+  "glm": {
+   "verdict": "normal",
+   "confidence": 0.03914789120317419,
+   "level": "未见故障特征",
+   "candidates": [
+    [
+     "BSF",
+     0.0391
+    ],
+    [
+     "FTF",
+     0.0
+    ],
+    [
+     "BPFO",
+     0.0
+    ],
+    [
+     "BPFI",
+     0.0
+    ]
+   ],
+   "notes": [
+    "各候选频率谐波得分均低于判据阈值；注意这不能证明轴承健康——早期故障、强噪声或采集时长不足都可能掩盖特征，建议结合峭度与人工读谱"
+   ]
+  },
+  "kimi": {
+   "verdict": "outer",
+   "scores": {
+    "cage": 6625.83,
+    "ball": 11442.23,
+    "inner": 6279.25,
+    "outer": 13873.85
+   },
+   "band": [
+    2000.0000000000002,
+    2333.3333333333335
+   ],
+   "band_clamped": false,
+   "peak_error": 0.019319722607355715
+  }
+ },
+ {
+  "file_id": "077",
+  "relpath": "wav/内圈/9-18__内圈8__record_98_1789709489.wav",
+  "class": "内圈",
+  "remark": "内圈8",
+  "batch": "9-18",
+  "session": "afternoon",
+  "clip_ratio": "0.00000",
+  "best_kurtosis": "6.94",
+  "band_low": "2000",
+  "band_high": "2333",
+  "round": "A_main_1150",
+  "rpm_used": "1150.0",
+  "fr_source": "fixed_1150",
+  "glm": {
+   "verdict": "normal",
+   "confidence": 0.08016076803506338,
+   "level": "未见故障特征",
+   "candidates": [
+    [
+     "BPFO",
+     0.0802
+    ],
+    [
+     "BSF",
+     0.0462
+    ],
+    [
+     "FTF",
+     0.0
+    ],
+    [
+     "BPFI",
+     0.0
+    ]
+   ],
+   "notes": [
+    "各候选频率谐波得分均低于判据阈值；注意这不能证明轴承健康——早期故障、强噪声或采集时长不足都可能掩盖特征，建议结合峭度与人工读谱"
+   ]
+  },
+  "kimi": {
+   "verdict": "outer",
+   "scores": {
+    "cage": 7050.25,
+    "ball": 9071.35,
+    "inner": 6580.84,
+    "outer": 14757.65
+   },
+   "band": [
+    2000.0000000000002,
+    2333.3333333333335
+   ],
+   "band_clamped": false,
+   "peak_error": 0.012248077429006802
+  }
+ },
+ {
+  "file_id": "077",
+  "relpath": "wav/内圈/9-18__内圈8__record_98_1789709489.wav",
+  "class": "内圈",
+  "remark": "内圈8",
+  "batch": "9-18",
+  "session": "afternoon",
+  "clip_ratio": "0.00000",
+  "best_kurtosis": "6.94",
+  "band_low": "2000",
+  "band_high": "2333",
+  "round": "B_fr_est",
+  "rpm_used": "1174.4",
+  "fr_source": "fr_est",
+  "glm": {
+   "verdict": "normal",
+   "confidence": 0.04887388495271207,
+   "level": "未见故障特征",
+   "candidates": [
+    [
+     "BSF",
+     0.0489
+    ],
+    [
+     "FTF",
+     0.0
+    ],
+    [
+     "BPFO",
+     0.0
+    ],
+    [
+     "BPFI",
+     0.0
+    ]
+   ],
+   "notes": [
+    "各候选频率谐波得分均低于判据阈值；注意这不能证明轴承健康——早期故障、强噪声或采集时长不足都可能掩盖特征，建议结合峭度与人工读谱"
+   ]
+  },
+  "kimi": {
+   "verdict": "ball",
+   "scores": {
+    "cage": 5188.81,
+    "ball": 7521.4,
+    "inner": 6901.11,
+    "outer": 7291.63
+   },
+   "band": [
+    2000.0000000000002,
+    2333.3333333333335
+   ],
+   "band_clamped": false,
+   "peak_error": 0.00043915993309783804
+  }
+ },
+ {
+  "file_id": "078",
+  "relpath": "wav/内圈/9-18__内圈9__record_98_1789709524.wav",
+  "class": "内圈",
+  "remark": "内圈9",
+  "batch": "9-18",
+  "session": "afternoon",
+  "clip_ratio": "0.00000",
+  "best_kurtosis": "6.14",
+  "band_low": "833",
+  "band_high": "1167",
+  "round": "A_main_1150",
+  "rpm_used": "1150.0",
+  "fr_source": "fixed_1150",
+  "glm": {
+   "verdict": "normal",
+   "confidence": 0.0,
+   "level": "未见故障特征",
+   "candidates": [
+    [
+     "FTF",
+     0.0
+    ],
+    [
+     "BSF",
+     0.0
+    ],
+    [
+     "BPFO",
+     0.0
+    ],
+    [
+     "BPFI",
+     0.0
+    ]
+   ],
+   "notes": [
+    "各候选频率谐波得分均低于判据阈值；注意这不能证明轴承健康——早期故障、强噪声或采集时长不足都可能掩盖特征，建议结合峭度与人工读谱"
+   ]
+  },
+  "kimi": {
+   "verdict": "outer",
+   "scores": {
+    "cage": 4575.24,
+    "ball": 7769.36,
+    "inner": 6051.34,
+    "outer": 7874.87
+   },
+   "band": [
+    833.3333333333333,
+    1166.6666666666665
+   ],
+   "band_clamped": false,
+   "peak_error": 0.008818383253413022
+  }
+ },
+ {
+  "file_id": "078",
+  "relpath": "wav/内圈/9-18__内圈9__record_98_1789709524.wav",
+  "class": "内圈",
+  "remark": "内圈9",
+  "batch": "9-18",
+  "session": "afternoon",
+  "clip_ratio": "0.00000",
+  "best_kurtosis": "6.14",
+  "band_low": "833",
+  "band_high": "1167",
+  "round": "B_fr_est",
+  "rpm_used": "1168.4",
+  "fr_source": "fr_est",
+  "glm": {
+   "verdict": "normal",
+   "confidence": 0.0,
+   "level": "未见故障特征",
+   "candidates": [
+    [
+     "FTF",
+     0.0
+    ],
+    [
+     "BSF",
+     0.0
+    ],
+    [
+     "BPFO",
+     0.0
+    ],
+    [
+     "BPFI",
+     0.0
+    ]
+   ],
+   "notes": [
+    "各候选频率谐波得分均低于判据阈值；注意这不能证明轴承健康——早期故障、强噪声或采集时长不足都可能掩盖特征，建议结合峭度与人工读谱"
+   ]
+  },
+  "kimi": {
+   "verdict": "ball",
+   "scores": {
+    "cage": 4081.03,
+    "ball": 8552.88,
+    "inner": 6726.52,
+    "outer": 7387.39
+   },
+   "band": [
+    833.3333333333333,
+    1166.6666666666665
+   ],
+   "band_clamped": false,
+   "peak_error": 0.010153792702262212
+  }
+ },
+ {
+  "file_id": "079",
+  "relpath": "wav/内圈/9-18__内圈9__record_98_1789709548.wav",
+  "class": "内圈",
+  "remark": "内圈9",
+  "batch": "9-18",
+  "session": "afternoon",
+  "clip_ratio": "0.00000",
+  "best_kurtosis": "4.85",
+  "band_low": "667",
+  "band_high": "1333",
+  "round": "A_main_1150",
+  "rpm_used": "1150.0",
+  "fr_source": "fixed_1150",
+  "glm": {
+   "verdict": "normal",
+   "confidence": 0.10669195170043154,
+   "level": "未见故障特征",
+   "candidates": [
+    [
+     "BPFO",
+     0.1067
+    ],
+    [
+     "FTF",
+     0.0
+    ],
+    [
+     "BSF",
+     0.0
+    ],
+    [
+     "BPFI",
+     0.0
+    ]
+   ],
+   "notes": [
+    "各候选频率谐波得分均低于判据阈值；注意这不能证明轴承健康——早期故障、强噪声或采集时长不足都可能掩盖特征，建议结合峭度与人工读谱"
+   ]
+  },
+  "kimi": {
+   "verdict": "outer",
+   "scores": {
+    "cage": 536.97,
+    "ball": 1584.51,
+    "inner": 1033.6,
+    "outer": 2861.34
+   },
+   "band": [
+    666.6666666666666,
+    1333.3333333333333
+   ],
+   "band_clamped": false,
+   "peak_error": 0.012248077429006753
+  }
+ },
+ {
+  "file_id": "079",
+  "relpath": "wav/内圈/9-18__内圈9__record_98_1789709548.wav",
+  "class": "内圈",
+  "remark": "内圈9",
+  "batch": "9-18",
+  "session": "afternoon",
+  "clip_ratio": "0.00000",
+  "best_kurtosis": "4.85",
+  "band_low": "667",
+  "band_high": "1333",
+  "round": "B_fr_est",
+  "rpm_used": "1168.4",
+  "fr_source": "fr_est",
+  "glm": {
+   "verdict": "normal",
+   "confidence": 0.03156414250544012,
+   "level": "未见故障特征",
+   "candidates": [
+    [
+     "BPFO",
+     0.0316
+    ],
+    [
+     "FTF",
+     0.031
+    ],
+    [
+     "BPFI",
+     0.0285
+    ],
+    [
+     "BSF",
+     0.0
+    ]
+   ],
+   "notes": [
+    "各候选频率谐波得分均低于判据阈值；注意这不能证明轴承健康——早期故障、强噪声或采集时长不足都可能掩盖特征，建议结合峭度与人工读谱"
+   ]
+  },
+  "kimi": {
+   "verdict": "outer",
+   "scores": {
+    "cage": 313.54,
+    "ball": 891.61,
+    "inner": 1164.75,
+    "outer": 1365.15
+   },
+   "band": [
+    666.6666666666666,
+    1333.3333333333333
+   ],
+   "band_clamped": false,
+   "peak_error": 0.0007806558036728012
+  }
+ },
+ {
+  "file_id": "080",
+  "relpath": "wav/内圈/9-18__内圈10__record_98_1789709581.wav",
+  "class": "内圈",
+  "remark": "内圈10",
+  "batch": "9-18",
+  "session": "afternoon",
+  "clip_ratio": "0.00000",
+  "best_kurtosis": "14.59",
+  "band_low": "1000",
+  "band_high": "1333",
+  "round": "A_main_1150",
+  "rpm_used": "1150.0",
+  "fr_source": "fixed_1150",
+  "glm": {
+   "verdict": "normal",
+   "confidence": 0.02866520297492619,
+   "level": "未见故障特征",
+   "candidates": [
+    [
+     "FTF",
+     0.0287
+    ],
+    [
+     "BSF",
+     0.0
+    ],
+    [
+     "BPFO",
+     0.0
+    ],
+    [
+     "BPFI",
+     0.0
+    ]
+   ],
+   "notes": [
+    "各候选频率谐波得分均低于判据阈值；注意这不能证明轴承健康——早期故障、强噪声或采集时长不足都可能掩盖特征，建议结合峭度与人工读谱"
+   ]
+  },
+  "kimi": {
+   "verdict": "ball",
+   "scores": {
+    "cage": 4006.59,
+    "ball": 7991.56,
+    "inner": 3794.58,
+    "outer": 4461.22
+   },
+   "band": [
+    999.9999999999999,
+    1333.3333333333333
+   ],
+   "band_clamped": false,
+   "peak_error": 0.013628416520766436
+  }
+ },
+ {
+  "file_id": "080",
+  "relpath": "wav/内圈/9-18__内圈10__record_98_1789709581.wav",
+  "class": "内圈",
+  "remark": "内圈10",
+  "batch": "9-18",
+  "session": "afternoon",
+  "clip_ratio": "0.00000",
+  "best_kurtosis": "14.59",
+  "band_low": "1000",
+  "band_high": "1333",
+  "round": "B_fr_est",
+  "rpm_used": "1194.8",
+  "fr_source": "fr_est",
+  "glm": {
+   "verdict": "BSF",
+   "confidence": 0.3224188336033337,
+   "level": "疑似（建议人工复核包络谱）",
+   "candidates": [
+    [
+     "BSF",
+     0.3733
+    ],
+    [
+     "BPFI",
+     0.1018
+    ],
+    [
+     "BPFO",
+     0.0623
+    ],
+    [
+     "FTF",
+     0.0
+    ]
+   ],
+   "notes": [
+    "判定为 滚动体故障（特征频率 35.02 Hz，置信度 0.32），请在包络谱图上人工核对谐波族",
+    "注意：时域峭度 3.07 接近 3（无明显冲击），但包络谱匹配到谐波族；可能为轻度早期故障或干扰峰，建议人工复核"
+   ]
+  },
+  "kimi": {
+   "verdict": "ball",
+   "scores": {
+    "cage": 5433.64,
+    "ball": 33892.56,
+    "inner": 8989.16,
+    "outer": 10824.58
+   },
+   "band": [
+    999.9999999999999,
+    1333.3333333333333
+   ],
+   "band_clamped": false,
+   "peak_error": 0.0005660289341352518
+  }
+ },
+ {
+  "file_id": "081",
+  "relpath": "wav/内圈/9-18__内圈10__record_98_1789709591.wav",
+  "class": "内圈",
+  "remark": "内圈10",
+  "batch": "9-18",
+  "session": "afternoon",
+  "clip_ratio": "0.00000",
+  "best_kurtosis": "15.43",
+  "band_low": "1000",
+  "band_high": "1333",
+  "round": "A_main_1150",
+  "rpm_used": "1150.0",
+  "fr_source": "fixed_1150",
+  "glm": {
+   "verdict": "normal",
+   "confidence": 0.022602138084890463,
+   "level": "未见故障特征",
+   "candidates": [
+    [
+     "FTF",
+     0.0226
+    ],
+    [
+     "BSF",
+     0.0
+    ],
+    [
+     "BPFO",
+     0.0
+    ],
+    [
+     "BPFI",
+     0.0
+    ]
+   ],
+   "notes": [
+    "各候选频率谐波得分均低于判据阈值；注意这不能证明轴承健康——早期故障、强噪声或采集时长不足都可能掩盖特征，建议结合峭度与人工读谱"
+   ]
+  },
+  "kimi": {
+   "verdict": "ball",
+   "scores": {
+    "cage": 7942.66,
+    "ball": 11402.55,
+    "inner": 6568.45,
+    "outer": 9697.09
+   },
+   "band": [
+    999.9999999999999,
+    1333.3333333333333
+   ],
+   "band_clamped": false,
+   "peak_error": 0.00566653189785277
+  }
+ },
+ {
+  "file_id": "081",
+  "relpath": "wav/内圈/9-18__内圈10__record_98_1789709591.wav",
+  "class": "内圈",
+  "remark": "内圈10",
+  "batch": "9-18",
+  "session": "afternoon",
+  "clip_ratio": "0.00000",
+  "best_kurtosis": "15.43",
+  "band_low": "1000",
+  "band_high": "1333",
+  "round": "B_fr_est",
+  "rpm_used": "1194.8",
+  "fr_source": "fr_est",
+  "glm": {
+   "verdict": "BSF",
+   "confidence": 0.2316425059216479,
+   "level": "疑似（建议人工复核包络谱）",
+   "candidates": [
+    [
+     "BSF",
+     0.2316
+    ],
+    [
+     "FTF",
+     0.0
+    ],
+    [
+     "BPFO",
+     0.0
+    ],
+    [
+     "BPFI",
+     0.0
+    ]
+   ],
+   "notes": [
+    "判定为 滚动体故障（特征频率 35.02 Hz，置信度 0.23），请在包络谱图上人工核对谐波族",
+    "注意：时域峭度 3.25 接近 3（无明显冲击），但包络谱匹配到谐波族；可能为轻度早期故障或干扰峰，建议人工复核"
+   ]
+  },
+  "kimi": {
+   "verdict": "ball",
+   "scores": {
+    "cage": 6993.07,
+    "ball": 39172.84,
+    "inner": 11368.01,
+    "outer": 14625.98
+   },
+   "band": [
+    999.9999999999999,
+    1333.3333333333333
+   ],
+   "band_clamped": false,
+   "peak_error": 0.0029863179556012948
+  }
+ }
+]

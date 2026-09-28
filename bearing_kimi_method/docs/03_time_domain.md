@@ -207,9 +207,7 @@ $$ x_{\mathrm{rms}}^2 = \frac{1}{T}\int_0^T A^2\sin^2(2\pi f_0 t)\,dt = \frac{A^
 
 $$ \overline{|x|} = \frac{2}{\pi}\int_0^{\pi/2} A\sin\theta\,d\theta = \frac{2A}{\pi}. \tag{3-15} $$
 
-**峭度**。$\sin^4$ 的周期平均为 $3/8$（由
-$\sin^4\theta = \frac{3}{8} - \frac{1}{2}\cos 2\theta +
-\frac{1}{8}\cos 4\theta$ 取平均），故
+**峭度**。$\sin^4$ 的周期平均为 $3/8$（由 $\sin^4\theta = \frac{3}{8} - \frac{1}{2}\cos 2\theta + \frac{1}{8}\cos 4\theta$ 取平均），故
 
 $$ K = \frac{3A^4/8}{(A^2/2)^2} = \frac{3}{2}. \tag{3-16} $$
 
@@ -224,9 +222,7 @@ $$ CF = \frac{A}{A/\sqrt{2}} = \sqrt{2} \approx 1.414, \qquad IF = \frac{A}{2A/\
 
 $$ \frac{1}{2\pi}\int_0^{2\pi}\sqrt{A|\sin\theta|}\,d\theta = \sqrt{A}\cdot\frac{2}{\pi}\int_0^{\pi/2}\sqrt{\sin\theta}\,d\theta = \sqrt{A}\cdot\frac{1}{\pi}B\!\left(\tfrac{3}{4},\tfrac{1}{2}\right) \approx 0.7628\sqrt{A}, \tag{3-18} $$
 
-其中用到 Beta 函数
-$\int_0^{\pi/2}\sin^{1/2}\theta\,d\theta
-= \frac{1}{2}B(\frac{3}{4},\frac{1}{2}) \approx 1.1981$。于是
+其中用到 Beta 函数 $\int_0^{\pi/2}\sin^{1/2}\theta\,d\theta = \frac{1}{2}B(\frac{3}{4},\frac{1}{2}) \approx 1.1981$。于是
 
 $$ CLF = \frac{A}{(0.7628\sqrt{A})^2} \approx 1.719. \tag{3-19} $$
 
@@ -252,16 +248,19 @@ $$ CLF = \frac{A}{(0.7628\sqrt{A})^2} \approx 1.719. \tag{3-19} $$
 （`simulator.py` 的 `_make_noise`），因此高斯分布的解析值就是**健康
 基线**。设 $x \sim N(0,\sigma^2)$：
 
-- **峭度** $K=3$、**偏度** $S=0$（3.4 节已述）；
-- **波形因子**：半正态均值 $E|x| = \sigma\sqrt{2/\pi}$，故
-  $$ SF = \frac{\sigma}{\sigma\sqrt{2/\pi}} = \sqrt{\frac{\pi}{2}} \approx 1.2533; \tag{3-20} $$
-- **峰值类指标**：分子 $x_{\mathrm{peak}}$ 是随机变量，其期望可用极值
-  近似 $E[\max|x|] \approx \sigma\sqrt{2\ln N}$ 估计。取
-  $N = f_s T = 12000\times 5 = 60000$：
-  $$ E[CF] \approx \sqrt{2\ln 60000} \approx 4.69; \tag{3-21} $$
-- **裕度因子**：由 $E|x|^{1/2} = \sqrt{\sigma}\cdot
-  2^{1/4}\Gamma(3/4)/\sqrt{\pi} \approx 0.8222\sqrt{\sigma}$，得
-  $$ CLF = \frac{x_{\mathrm{peak}}}{\sigma\cdot 0.8222^2} \approx 1.479\,CF \approx 6.9. \tag{3-22} $$
+**峭度** $K=3$、**偏度** $S=0$（3.4 节已述）。
+
+**波形因子**：半正态均值 $E|x| = \sigma\sqrt{2/\pi}$，故
+
+$$ SF = \frac{\sigma}{\sigma\sqrt{2/\pi}} = \sqrt{\frac{\pi}{2}} \approx 1.2533; \tag{3-20} $$
+
+**峰值类指标**：分子 $x_{\mathrm{peak}}$ 是随机变量，其期望可用极值近似 $E[\max|x|] \approx \sigma\sqrt{2\ln N}$ 估计。取 $N = f_s T = 12000\times 5 = 60000$：
+
+$$ E[CF] \approx \sqrt{2\ln 60000} \approx 4.69; \tag{3-21} $$
+
+**裕度因子**：由 $E|x|^{1/2} = \sqrt{\sigma}\cdot 2^{1/4}\Gamma(3/4)/\sqrt{\pi} \approx 0.8222\sqrt{\sigma}$，得
+
+$$ CLF = \frac{x_{\mathrm{peak}}}{\sigma\cdot 0.8222^2} \approx 1.479\,CF \approx 6.9. \tag{3-22} $$
 
 代码实测（`BearingSimulator(fs=12000, duration=5.0, rpm=1797, seed=0)`
 生成 healthy、$SNR=-6$ dB，健康信号与信噪比无关）：

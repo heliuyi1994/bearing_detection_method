@@ -182,14 +182,14 @@ BSF 的 1~5 次谐波，2×BSF 自然被 k=2 谐波覆盖。
 | 指标 | 定义式 | 物理意义 |
 |---|---|---|
 | 均方根 RMS | $\sqrt{\frac{1}{N}\sum x_i^2}$ | 振动总体能量，反映磨损等渐变劣化 |
-| 峰值 Peak | $\max\|x_i\|$ | 最大瞬时幅度 |
+| 峰值 Peak | $\max\lVert x_i\rVert$ | 最大瞬时幅度 |
 | 峰峰值 P2P | $\max x_i - \min x_i$ | 摆动范围 |
 | 峭度 Kurtosis | $\frac{E[x^4]}{E[x^2]^2}$ | 分布尖锐程度：正态=3，冲击型信号>3，正弦=1.5 |
 | 偏度 Skewness | $\frac{E[x^3]}{E[x^2]^{3/2}}$ | 分布不对称性，对单侧冲击敏感 |
 | 峰值因子 Crest | $\frac{\text{Peak}}{\text{RMS}}$ | 冲击性（正弦=√2≈1.41，冲击>2） |
-| 脉冲因子 Impulse | $\frac{\text{Peak}}{\frac{1}{N}\sum\|x_i\|}$ | 比峰值因子对冲击更敏感 |
-| 波形因子 Shape | $\frac{\text{RMS}}{\frac{1}{N}\sum\|x_i\|}$ | 波形形状（正弦≈1.11） |
-| 裕度因子 Clearance | $\frac{\text{Peak}}{\left(\frac{1}{N}\sum\sqrt{\|x_i\|}\right)^2}$ | 对早期点蚀冲击最敏感的指标族 |
+| 脉冲因子 Impulse | $\frac{\text{Peak}}{\frac{1}{N}\sum\lVert x_i\rVert}$ | 比峰值因子对冲击更敏感 |
+| 波形因子 Shape | $\frac{\text{RMS}}{\frac{1}{N}\sum\lVert x_i\rVert}$ | 波形形状（正弦≈1.11） |
+| 裕度因子 Clearance | $\frac{\text{Peak}}{\left(\frac{1}{N}\sum\sqrt{\lVert x_i\rVert}\right)^2}$ | 对早期点蚀冲击最敏感的指标族 |
 
 其中分母含均值的三个因子（脉冲/波形/裕度）依赖"信号均值的绝对量"，峭度、
 峰值因子等无量纲指标则不随载荷/增益整体缩放而变，适合做趋势监测。
