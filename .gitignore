@@ -36,3 +36,6 @@ demo_output/
 
 # 数据集（由 audio-assets CSV 整理生成，可按 manifest 重建，不入库）
 datasets/
+
+# 音频资产库导出清单（时间戳命名，本地工作文件，不入库）
+audio_assets_*.csv

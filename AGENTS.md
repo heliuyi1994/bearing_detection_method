@@ -73,7 +73,7 @@ bearing-unified predict data.csv --fs 16000 --model models/model.joblib --compar
 
 ## 真实数据评测工作区 `analysis/`
 
-历史背景：评测所用真实数据集 `labeled_dataset_4class/`（81 条四类台架 WAV）与音频资产库（仓库外 `../audio-labeling/`）已完成验收使命；数据集本体已从仓库移除（commit acd38bf），历史评测报告全部保留于 `analysis/reports/`（含 `统一包验收报告.md`）。
+历史背景：评测所用真实数据集 `labeled_dataset_4class/`（81 条四类台架 WAV）与音频资产库（仓库外 `../audio-labeling/`）已完成验收使命；数据集本体与历史评测图片（`analysis/reports/figures/`）及引用它们的过期报告已清出仓库并从 git 历史中重写清除（2026-09 仓库瘦身），文本结论报告保留于 `analysis/reports/`（含 `统一包验收报告.md`）。
 
 保留脚本（从 `analysis/` 目录下运行，直接 `python <脚本>.py`）：
 
@@ -84,7 +84,7 @@ bearing-unified predict data.csv --fs 16000 --model models/model.joblib --compar
 | `run_eval_unified_4class.py` | 统一包 81 条四类台架复测（正常 0 误报门槛） | `unified_4class/`（results.csv、eval_detail.json） |
 | `make_acceptance_report.py` | 汇总两批复测产物生成统一包验收报告（纯标准库） | `unified_acceptance/统一包验收报告.md` |
 
-注意：完整复测需要原始数据（四类数据集需从 git 历史 commit bd48beb 恢复 `labeled_dataset_4class/`；音频资产库在仓库外），`--aggregate-only` 模式仅由已有 results.csv 重出聚合与图。
+注意：完整复测需要原始数据（四类数据集已从仓库及 git 历史清除，如需复测须由仓库外音频资产库 `../audio-labeling/` 重新整理；音频资产库在仓库外），`--aggregate-only` 模式仅由已有 results.csv 重出聚合与图。
 
 ## 代码与开发约定
 
