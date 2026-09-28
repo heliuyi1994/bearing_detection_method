@@ -1,6 +1,6 @@
-# 统一依赖清单：bearing_glm_method 与 bearing_kimi_method 两个项目共用。
-# 版本以本文件为单一来源（固定版本，保证两项目行为一致）；
-# 各项目 pyproject.toml 仅保留兼容范围，供独立 pip 安装场景使用。
+# 统一依赖清单：bearing_unified_method 使用。
+# 版本以本文件为单一来源（固定版本）；
+# 项目 pyproject.toml 仅保留兼容范围，供独立 pip 安装场景使用。
 numpy==2.5.3
 scipy==1.18.1
 matplotlib==3.11.2

@@ -8,8 +8,8 @@
 ## 需求与定位
 
 - 交付物：统一 Python 包 `bearing_unified`（传统信号处理 + 经典 ML 的轴承
-  故障诊断全流程）+ 原理文档 + notebook 示例；**自包含**，不 import 两个
-  姊妹包（glm `bearing_diag` / kimi `bearing_fault`，保留为对照与回归基准）；
+  故障诊断全流程）+ 原理文档 + notebook 示例；**自包含**，不依赖任何外部
+  诊断包（两个姊妹项目已从仓库删除，历史见 git 仓库）；
 - 方法范围（合并决议 Q6/Q9/Q10）：恒速场景；v2 盲梳检判别规则（先盲检
   存在性、再用理论定位）；ML 以 glm 两阶段监督式为骨架、kimi 新奇检测为
   Stage1 可选后端；评估协议统一 GroupKFold + LOSO + 阈值工作点 + 与

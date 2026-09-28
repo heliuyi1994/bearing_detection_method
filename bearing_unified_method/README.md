@@ -1,10 +1,10 @@
 # bearing-unified：统一轴承故障诊断（v2 盲梳检规则）
 
-统一合并方案的正式实现（阶段一：DSP 主干）。以 glm（`bearing_glm_method/`）
-代码为迁移起点，吸收 kimi（`bearing_kimi_method/`）的零相位预处理与马氏
-距离健康基线，并内生化评审裁定的 **v2 判别规则**（蓝本：
-`merged_proposal/unified_prototype.py`）。本包**自包含**：不 import
-`bearing_diag` / `bearing_fault`，两个姊妹包保留为对照与回归基准。
+统一合并方案的正式实现（阶段一：DSP 主干）。以 glm 方案代码为迁移起点，
+吸收 kimi 方案的零相位预处理与马氏距离健康基线，并内生化评审裁定的
+**v2 判别规则**（蓝本：合并原型 unified_prototype.py）。本包**自包含**：
+不依赖任何外部诊断包。两个姊妹项目与合并原型已从仓库删除，其代码与文档
+历史见 git 仓库。
 
 ## v2 流水线
 

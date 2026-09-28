@@ -2,8 +2,8 @@
 #   conda env create -f environment.yml     # 创建环境 bearing-detection 并安装
 #   conda activate bearing-detection
 #   conda env update -f environment.yml     # 依赖变更后更新
-# 一个环境同时覆盖两个项目：依赖版本以 requirements.txt 为单一来源，
-# 两个项目均以可编辑（editable）方式装入同一环境，两套 CLI 同时可用。
+# 依赖版本以 requirements.txt 为单一来源，
+# 统一包以可编辑（editable）方式装入环境，CLI `bearing-unified` 可用。
 name: bearing-detection
 channels:
   - conda-forge
@@ -12,5 +12,4 @@ dependencies:
   - pip
   - pip:
       - -r requirements.txt
-      - -e ./bearing_glm_method
-      - -e ./bearing_kimi_method
+      - -e ./bearing_unified_method
